@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://aptlantis.local/schemas/drs/release-note-metadata.schema.json",
+  "title": "DRS Release Note Metadata",
+  "type": "object",
+  "required": ["schema", "project", "release", "artifact"],
+  "properties": {
+    "schema": { "type": "string", "const": "drs.release-note.metadata.v1" },
+    "project": {
+      "type": "object",
+      "required": ["id", "title"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9_-]*$" },
+        "title": { "type": "string", "minLength": 1 }
+      },
+      "additionalProperties": true
+    },
+    "release": {
+      "type": "object",
+      "required": ["version", "name", "date", "status"],
+      "properties": {
+        "version": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$" },
+        "name": { "type": "string", "minLength": 1 },
+        "date": { "type": "string", "format": "date" },
+        "status": { "type": "string", "enum": ["draft", "candidate", "local-verified", "published", "superseded", "withdrawn"] }
+      },
+      "additionalProperties": true
+    },
+    "artifact": {
+      "type": "object",
+      "required": ["path", "runtime", "sha256", "signing"],
+      "properties": {
+        "path": { "type": "string", "minLength": 1 },
+        "runtime": { "type": "string", "enum": ["win-x64", "win-arm64", "win-x86"] },
+        "sha256": { "type": "string", "pattern": "^[A-Fa-f0-9]{64}$" },
+        "blake3": { "type": "string" },
+        "signing": { "type": "string", "minLength": 1 },
+        "size_bytes": { "type": "integer", "minimum": 0 }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DRS Release Folder Verifier</title>
+  <style>
+    body { font-family: "Segoe UI", Arial, sans-serif; margin: 28px; background: #f8f8f6; color: #202124; }
+    main { max-width: 820px; margin: 0 auto; }
+    h1 { font-size: 26px; margin-bottom: 6px; letter-spacing: 0; }
+    p { color: #555b60; }
+    textarea { width: 100%; min-height: 220px; box-sizing: border-box; font: 13px Consolas, monospace; }
+    button { margin-top: 10px; padding: 8px 12px; border: 1px solid #8b9298; background: #fff; border-radius: 6px; cursor: pointer; }
+    .result { margin-top: 14px; padding: 12px; background: #fff; border: 1px solid #d9dcd6; border-radius: 8px; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Release Folder Verifier</h1>
+  <p>Paste a directory listing to check for the minimum DRS release evidence files.</p>
+  <textarea id="listing">ExampleApp.manifest.toml
+docs/ExampleApp v1.0.0.md
+docs/ExampleApp - Release Checklist.md
+artifacts/installer/ExampleApp-1.0.0.0-win-x64.msi</textarea>
+  <button id="check">Check</button>
+  <div class="result" id="result"></div>
+</main>
+<script>
+const required = [
+  {label: "manifest", pattern: /\.manifest\.toml$/i},
+  {label: "release note", pattern: /docs\/.+v\d+\.\d+\.\d+\.md$/i},
+  {label: "release checklist", pattern: /docs\/.+release checklist\.md$/i},
+  {label: "installer artifact", pattern: /artifacts\/installer\/.+\.(msi|exe|msix)$/i}
+];
+document.getElementById("check").addEventListener("click", () => {
+  const lines = document.getElementById("listing").value.split(/\r?\n/).map(line => line.trim().replace(/\\/g, "/"));
+  const rows = required.map(item => {
+    const ok = lines.some(line => item.pattern.test(line));
+    return `<li>${ok ? "PASS" : "MISSING"} - ${item.label}</li>`;
+  });
+  document.getElementById("result").innerHTML = `<ul>${rows.join("")}</ul>`;
+});
+document.getElementById("check").click();
+</script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "lds": "https://aptlantis.local/vocab/lds#",
+    "schema": "https://schema.org/",
+    "library_name": "schema:name",
+    "public_api_surface": "lds:publicApiSurface",
+    "stability_level": "lds:stabilityLevel",
+    "versioning_policy": "lds:versioningPolicy",
+    "extension_contracts": "lds:extensionContracts",
+    "known_consumers": "lds:knownConsumers",
+    "companion_crates": "lds:companionCrates",
+    "known_gaps": "lds:knownGaps"
+  }
+}

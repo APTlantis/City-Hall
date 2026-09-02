@@ -1,0 +1,103 @@
+# LangThemeGenerator Project Manifest
+# Version: 1.0
+# Last Updated: 2026-05-12
+
+[project]
+id = "lang-theme-generator"
+title = "LangThemeGenerator"
+type = "generator"
+stage = "active"
+version = "0.1.0"
+description = "Converts 16-color ecosystem palette data from AptlantisLogos into VSCode, Notepad++, JetBrains, and terminal theme files. One palette → 5 IDE themes."
+tags = ["themes", "palette", "vscode", "notepad++", "jetbrains", "terminal", "xml", "json", "python"]
+family = "semantic-ui"
+canonical_manifest = true
+
+[metadata]
+created = "2026-04-09"
+last_updated = "2026-05-12"
+last_reviewed = "2026-05-12"
+maintainer = "Herb"
+license = "MIT"
+language_primary = "Python"
+languages_used = ["Python", "XML", "JSON"]
+
+[state]
+completion_percent = 85
+stability = "mostly-stable"
+active_development = true
+technical_debt = "low"
+maintenance_burden = "low"
+
+[runtime]
+platform = "cli"
+environment = "Python 3.9+"
+services = []
+storage = ["File system"]
+
+[capabilities]
+palette_to_themes = true
+multi_ide_support = true
+vscode_themes = true
+jetbrains_themes = true
+notepadpp_themes = true
+terminal_themes = true
+
+[relationships]
+depends_on_projects = ["AptlantisLogos"]
+used_by_projects = []
+supersedes = []
+superseded_by = []
+external_dependencies = ["Python 3.9+"]
+related_projects = ["AptlantisLogos"]
+
+[artifacts]
+produces = ["vscode-theme", "jetbrains-theme", "notepadpp-theme", "terminal-theme"]
+consumes = ["16-color-palette-json"]
+
+[generation]
+manifest_is_canonical = true
+generates_readme = true
+generates_jsonld = true
+generates_visualizations = true
+
+[documentation]
+readme = "README.md"
+generated_sections = true
+
+[semantic]
+domain = "design-systems"
+primary_concepts = ["theme-generation", "color-palette", "ide-theming", "design-automation"]
+related_domains = ["Design Systems", "IDE Tools"]
+cognitive_tags = ["palette-driven-themes", "multi-ide-support"]
+complexity = "medium"
+
+[visual]
+theme = "NeonInk-v0.1.1"
+primary_color = "#ff00ff"
+semantic_role = "generator"
+contains_svg_assets = true
+
+[distribution]
+packaged = true
+package_formats = ["wheel", "pip"]
+portable = true
+offline_capable = true
+requires_installation = false
+
+[links]
+homepage = "https://aptlantis.net/language-atlas"
+
+[structure]
+repo_path = "E:/LangThemeGenerator"
+docs_path = "E:/LangThemeGenerator/docs"
+
+[automation]
+build = "python -m pip install -e ."
+tasks = ["generate-themes", "validate", "publish"]
+
+[notes]
+purpose = "Generate consistent IDE themes from ecosystem color palettes"
+source = "Takes 16-color palettes from AptlantisLogos"
+output = "Themes for VSCode, JetBrains IDEs, Notepad++, and terminal emulators"
+distribution_url = "https://aptlantis.net/language-atlas"

@@ -1,0 +1,10 @@
+{
+  "status": "ok",
+  "profile": "sesm-safe",
+  "file": "SESM/fixtures/valid/basic-safe.svg",
+  "errors": [],
+  "warnings": [],
+  "metadata_version": "0.3.0",
+  "schema": "SESM/svg_asset.schema.json",
+  "safe_profile_checked": true
+}

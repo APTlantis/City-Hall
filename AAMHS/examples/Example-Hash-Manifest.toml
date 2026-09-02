@@ -1,0 +1,26 @@
+[archive]
+id = "aamhs-example-archive"
+title = "AAMHS Example Archive"
+created = "2026-07-30"
+maintainer = "Aptlantis"
+update_cadence = "example only"
+
+[hash_suite]
+version = "aamhs.hash-suite.v1"
+primary = "sha256"
+additional = []
+allowed_algorithms = ["sha256", "blake3", "kangarootwelve"]
+generated_at = "2026-07-30T00:00:00Z"
+tool = "python hashlib.sha256"
+
+[[files]]
+path = "sample-archive/payload.txt"
+size_bytes = 22
+sha256 = "970106572FA3D6BCF1E1E24F2391CB570A0028D2E0998E3D6858D89121871D6D"
+blake3 = ""
+kangarootwelve = ""
+
+[signatures]
+detached_signatures_used = false
+policy = "No detached signatures used for this minimal example."
+files = []

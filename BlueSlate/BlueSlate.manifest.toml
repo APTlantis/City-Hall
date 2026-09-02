@@ -1,0 +1,110 @@
+[manifest]
+schema = "APTlantis Entity Manifest"
+schema_version = "2.4"
+manifest_type = "standard"
+canonical_name = "BlueSlate.manifest.toml"
+last_updated = "2026-08-20"
+maintainer = "Herb"
+
+[entity]
+id = "blue-slate"
+title = "Blue Slate"
+kind = "standard"
+class = "design-system"
+status = "candidate-active"
+description = "Candidate-active Aptlantis visual-system standard with design tokens, mockups, framework notes, validation guidance, and implementation starter packs."
+tags = ["design-system", "visual-language", "theme", "tokens", "candidate-active"]
+
+[standard]
+id = "blue-slate"
+title = "Blue Slate Visual System"
+abbreviation = "BlueSlate"
+status = "candidate-active"
+maturity = "candidate"
+version = "0.2.0"
+summary = "Aptlantis visual-system standard for local-first tools, archival project pages, evidence dashboards, command surfaces, and Windows desktop utilities."
+
+[governance]
+meta_standard = "SFDS"
+scope = "Visual-system tokens, layout patterns, framework profiles, starter packs, and adoption evidence for projects that explicitly adopt Blue Slate."
+primary_standard = "SFDS"
+primary_standard_path = "D:\\.city_hall\\SFDS\\README.md"
+additional_standards = ["WGS", "SESM"]
+additional_standard_paths = [
+    "D:\\.city_hall\\WGS\\README.md",
+    "D:\\.city_hall\\SESM\\README.md",
+]
+promotion_authority = "D:\\.city_hall"
+promotion_target = "D:\\.city_hall"
+promoted = true
+
+[lifecycle]
+state = "candidate-active"
+created = "2026-07-22"
+last_updated = "2026-08-20"
+maintainer = "Herb"
+completion_percent = 70
+
+[paths]
+root = "D:\\.city_hall\\BlueSlate"
+docs = "spec"
+source = "spec/tokens/BlueSlate.Tokens.json"
+artifacts = "starter-packs"
+
+[documentation]
+readme = "README.md"
+architecture = "spec/BlueSlate.DesignSystem.md"
+release_notes = "CHANGELOG.md"
+project_readme = "Project-README.md"
+
+[artifacts]
+specification = "spec/BlueSlate.DesignSystem.md"
+schema = ""
+templates = "starter-packs"
+examples = "examples"
+adoption_guide = "Adoption-Guide.md"
+validation_checklist = "Validation-Checklist.md"
+changelog = "CHANGELOG.md"
+validators = []
+governance_notes = []
+reference_examples = ["spec/mockups"]
+
+[runtime]
+platform = "design-system"
+language_primary = "JSON"
+languages_used = ["JSON", "CSS", "Markdown", "XAML", "HTML"]
+services = []
+storage = ["local-filesystem"]
+
+[relationships]
+depends_on_projects = []
+used_by_projects = []
+related_projects = ["D:\\.city_hall\\NeonInk", "D:\\.city_hall\\SESM"]
+external_dependencies = []
+
+[deliverables]
+source_of_truth = "D:\\.city_hall\\BlueSlate\\spec\\tokens\\BlueSlate.Tokens.json"
+token_css = "D:\\.city_hall\\BlueSlate\\spec\\tokens\\BlueSlate.Tokens.css"
+design_spec = "D:\\.city_hall\\BlueSlate\\spec\\BlueSlate.DesignSystem.md"
+layout_patterns = "D:\\.city_hall\\BlueSlate\\spec\\layout\\BlueSlate.LayoutPatterns.md"
+framework_notes = ["spec/frameworks/BlueSlate.Tailwind.md", "spec/frameworks/BlueSlate.TauriReact.md", "spec/frameworks/BlueSlate.WinUI.md", "spec/frameworks/BlueSlate.WPF.md"]
+starter_packs = ["starter-packs/tailwind", "starter-packs/tauri-react", "starter-packs/winui", "starter-packs/wpf"]
+visual_references = ["spec/mockups"]
+
+[promotion]
+promotion_state = "promoted"
+current_authority = "Candidate-active visual-system standard promoted by City Hall on 2026-07-25 and stored under D:\\.city_hall\\BlueSlate for active use."
+promotion_requirement = "Further stable/reference promotion requires additional adopter evidence, token/profile validation, and continued relationship clarity with NeonInk and SESM."
+active_governance_status = "May govern projects that explicitly adopt Blue Slate as pilot, active, or project-profile visual-system dependency."
+
+[state]
+stability = "candidate-active"
+active_development = true
+known_gaps = ["More real adopter evidence is needed before stable maturity.", "Automated token/profile validation is not yet provided.", "NeonInk lineage is documented, but not fully merged into a single promoted visual-language standard."]
+technical_debt = "Earlier project-style records are preserved for lineage while README.md is now the standard-suite front door."
+
+[agent]
+read_first = ["README.md", "BlueSlate.manifest.toml", "AGENTS.md", "Project-README.md", "spec/tokens/BlueSlate.Tokens.json", "spec/BlueSlate.DesignSystem.md"]
+governing_context = "Read D:\\AGENTS.md plus this standard record; consult City Hall, NeonInk, and SESM before changing promotion status, design-system semantics, or visual metadata."
+safe_to_modify = true
+notes = "Blue Slate is candidate active after the 2026-07-25 City Hall promotion record; record adoption level in each adopting project."

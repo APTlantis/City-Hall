@@ -1,0 +1,99 @@
+# ChromeArchivalPlugin Project Manifest
+# Version: 1.0
+# Last Updated: 2026-05-12
+
+[project]
+id = "chrome-archival-plugin"
+title = "ChromeArchivalPlugin"
+type = "tool"
+stage = "active"
+version = "1.0.0"
+description = "Browser-based ingestion and archival tool for Chrome/Chromium. Captures web content and metadata for archival systems."
+tags = ["browser", "extension", "archival", "chrome", "ingestion"]
+family = "browser-tools"
+canonical_manifest = true
+
+[metadata]
+created = "2026-04-09"
+last_updated = "2026-05-12"
+last_reviewed = "2026-05-12"
+maintainer = "Herb"
+license = "MIT"
+language_primary = "JavaScript"
+languages_used = ["JavaScript", "HTML", "CSS"]
+
+[state]
+completion_percent = 75
+stability = "mostly-stable"
+active_development = true
+technical_debt = "moderate"
+maintenance_burden = "medium"
+
+[runtime]
+platform = "web"
+environment = "Chrome/Chromium 90+"
+services = []
+storage = ["Browser local storage", "IndexedDB"]
+
+[capabilities]
+web_capture = true
+metadata_extraction = true
+batch_archival = true
+content_ingestion = true
+
+[relationships]
+depends_on_projects = []
+used_by_projects = []
+supersedes = []
+superseded_by = []
+external_dependencies = ["Chrome", "Chromium"]
+related_projects = []
+
+[artifacts]
+produces = ["archived-content", "metadata-json"]
+consumes = ["web-pages"]
+
+[generation]
+manifest_is_canonical = true
+generates_readme = true
+generates_jsonld = true
+generates_visualizations = true
+
+[documentation]
+readme = "README.md"
+generated_sections = true
+
+[semantic]
+domain = "archival"
+primary_concepts = ["web-archival", "content-capture", "metadata-extraction"]
+related_domains = ["Archival Systems", "Web Tools"]
+cognitive_tags = ["browser-extension", "archival"]
+complexity = "medium"
+
+[visual]
+theme = "NeonInk-v0.1.1"
+primary_color = "#ffcc00"
+semantic_role = "tool"
+contains_svg_assets = false
+
+[distribution]
+packaged = true
+package_formats = ["crx"]
+portable = true
+offline_capable = true
+requires_installation = true
+
+[links]
+homepage = "https://aptlantis.net"
+
+[structure]
+repo_path = "E:/ChromeArchivalPlugin"
+docs_path = "E:/ChromeArchivalPlugin/docs"
+
+[automation]
+build = "npm run build"
+tasks = ["build", "package", "test"]
+
+[notes]
+platform = "Chrome browser extension"
+purpose = "Ingestion and archival of web content from browser"

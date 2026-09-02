@@ -1,0 +1,234 @@
+# [AppName].manifest.toml
+# Desktop Application Release Standard — Project Manifest
+#
+# Instructions:
+#   1. Copy this file to your project root
+#   2. Rename it: YourAppName.manifest.toml
+#   3. Fill in every field marked REQUIRED
+#   4. Update [release], [release.installer], and [release.verified] as part of every release
+#   5. project.version must always match release.version
+#
+# This file is the version source of truth. The installer build script reads
+# the version from this file. The application assembly version must match.
+
+# ─────────────────────────────────────────────────────────────────────────────
+# PROJECT  (required)
+# ─────────────────────────────────────────────────────────────────────────────
+
+[project]
+id          = "appname"                    # REQUIRED — lowercase, kebab-case, no spaces
+title       = "App Name"                   # REQUIRED — human-readable name
+description = ""                           # one-sentence description of what this application does
+type        = "ui"                         # ui | service | tool | generator | pipeline | library | dashboard | infrastructure
+stage       = "prototype"                  # concept | prototype | active | near-complete | production | archived
+version     = "0.1.0"                      # REQUIRED — must match release.version
+tags        = []
+
+# ─────────────────────────────────────────────────────────────────────────────
+# METADATA  (required)
+# ─────────────────────────────────────────────────────────────────────────────
+
+[metadata]
+created          = "YYYY-MM-DD"            # REQUIRED — date project was started
+last_updated     = "YYYY-MM-DD"
+maintainer       = "Your Name"
+license          = "Proprietary"
+language_primary = "C#"                    # REQUIRED
+languages_used   = ["C#", "XAML"]
+
+# ─────────────────────────────────────────────────────────────────────────────
+# STATE
+# ─────────────────────────────────────────────────────────────────────────────
+
+[state]
+completion_percent  = 0                    # integer 0–100
+stability           = "experimental"       # experimental | unstable | mostly-stable | stable | hardened
+active_development  = true
+technical_debt      = "low"               # low | moderate | high
+maintenance_burden  = "low"               # low | medium | high
+known_gaps          = [
+  # "Example: no ARM64 build validated",
+]
+
+# ─────────────────────────────────────────────────────────────────────────────
+# RUNTIME  (required)
+# ─────────────────────────────────────────────────────────────────────────────
+
+[runtime]
+platform    = "desktop"                    # REQUIRED — desktop | server | cli | container | web | library
+environment = "Windows 10 22H2+ / Windows 11, x64"
+services    = []
+storage     = ["local-filesystem"]
+
+# ─────────────────────────────────────────────────────────────────────────────
+# CAPABILITIES
+# ─────────────────────────────────────────────────────────────────────────────
+
+[capabilities]
+offline    = true
+encryption = false
+telemetry  = false
+# Add any application-specific capability flags here
+
+# ─────────────────────────────────────────────────────────────────────────────
+# RELEASE  (required — update every release)
+#
+# Rules:
+#   - Never describe a version that has not been released
+#   - release.version must match project.version
+#   - release.installer.sha256 must match the artifact on disk
+#   - release.installer.sha256 must also appear in the release note document
+# ─────────────────────────────────────────────────────────────────────────────
+
+[release]
+status  = "draft"                          # draft | candidate | local-verified | published | superseded | withdrawn
+version = "0.1.0"                          # REQUIRED — must match project.version
+name    = "AppName v0.1.0 — Theme Name"   # REQUIRED — 'AppName vX.Y.Z — Release Theme'
+date    = "YYYY-MM-DD"                     # REQUIRED — ISO 8601 publish date
+
+[release.installer]
+path            = "artifacts/installer/AppName-0.1.0.0-win-x64.msi"   # REQUIRED
+runtime         = "win-x64"               # REQUIRED — win-x64 | win-arm64 | win-x86
+package_version = "0.1.0.0"              # REQUIRED — four-part Windows version (MAJOR.MINOR.PATCH.0)
+size_bytes      = 0                       # file size in bytes
+sha256          = ""                      # REQUIRED — uppercase hex SHA-256, no separators
+blake3          = ""                      # optional — recommended for security-sensitive releases
+signing         = "unsigned-internal"    # REQUIRED — microsoft-store-signed | self-signed-development | ca-signed | unsigned-internal | clear free text
+
+[release.verified]
+date            = "YYYY-MM-DD"            # REQUIRED — date verification was performed
+tests           = "[runner] passed N tests"       # REQUIRED — include runner name and test count
+installer_build = "[script] completed on YYYY-MM-DD"  # REQUIRED
+install_check   = "installed, launched with title '[window title]', uninstalled successfully on YYYY-MM-DD"
+data_safety     = "[data path] not deleted by uninstall on YYYY-MM-DD"
+upgrade_check   = ""                      # "existing data preserved after upgrade from vX.Y.Z" (if applicable)
+
+# ─────────────────────────────────────────────────────────────────────────────
+# DOCUMENTATION
+# ─────────────────────────────────────────────────────────────────────────────
+
+[documentation]
+readme             = "README.md"
+release_notes      = "docs/AppName v0.1.0.md"    # path to current version release note
+release_checklist  = "docs/AppName - Release Checklist.md"
+trust_model        = ""                   # path to trust/security model (required if app handles sensitive data)
+threat_model       = ""
+dependency_provenance = ""
+build_guide        = ""
+integrity_matrix   = ""
+architecture_doc   = ""
+generated_sections = false
+
+# ─────────────────────────────────────────────────────────────────────────────
+# RELATIONSHIPS
+# ─────────────────────────────────────────────────────────────────────────────
+
+[relationships]
+depends_on_projects   = []
+used_by_projects      = []
+external_dependencies = [
+  # "PackageName vX.Y.Z"
+]
+related_projects = []
+
+# ─────────────────────────────────────────────────────────────────────────────
+# ARTIFACTS
+# ─────────────────────────────────────────────────────────────────────────────
+
+[artifacts]
+produces = ["AppName-0.1.0.0-win-x64.msi"]
+consumes = []
+
+# ─────────────────────────────────────────────────────────────────────────────
+# DISTRIBUTION
+# ─────────────────────────────────────────────────────────────────────────────
+
+[distribution]
+packaged              = true
+package_formats       = ["msi"]           # msi | msix | exe
+channel               = "internal"        # microsoft-store-msix | msix-sideload-dev | direct-msi-exe | internal
+signing_authority     = "unsigned-internal"
+portable              = false
+offline_capable       = true
+requires_installation = true
+
+# ─────────────────────────────────────────────────────────────────────────────
+# STRUCTURE
+# ─────────────────────────────────────────────────────────────────────────────
+
+[structure]
+repo_path = ""
+docs_path = "docs/"
+data_path = ""
+
+# ─────────────────────────────────────────────────────────────────────────────
+# AUTOMATION
+# ─────────────────────────────────────────────────────────────────────────────
+
+[automation]
+build  = ""                               # e.g. "dotnet build -c Release"
+deploy = ""                               # e.g. ".\scripts\Build-Installer.ps1"
+tasks  = []
+
+# ─────────────────────────────────────────────────────────────────────────────
+# OBSERVABILITY
+# ─────────────────────────────────────────────────────────────────────────────
+
+[observability]
+logs          = false
+metrics       = false
+health_checks = false
+event_stream  = false
+telemetry     = false
+
+# ─────────────────────────────────────────────────────────────────────────────
+# GENERATION
+# ─────────────────────────────────────────────────────────────────────────────
+
+[generation]
+manifest_is_canonical    = true
+generates_readme         = false
+generates_writerside     = false
+generates_jsonld         = false
+generates_visualizations = false
+generates_embeddings     = false
+generator                = ""
+
+# ─────────────────────────────────────────────────────────────────────────────
+# SEMANTIC
+# ─────────────────────────────────────────────────────────────────────────────
+
+[semantic]
+domain           = ""
+primary_concepts = []
+related_domains  = []
+cognitive_tags   = []
+complexity       = "moderate"             # low | moderate | high | very-high
+
+# ─────────────────────────────────────────────────────────────────────────────
+# VISUAL
+# ─────────────────────────────────────────────────────────────────────────────
+
+[visual]
+theme               = ""
+primary_color       = ""
+semantic_role       = ""
+contains_svg_assets = false
+contains_scene_art  = false
+
+# ─────────────────────────────────────────────────────────────────────────────
+# LINKS
+# ─────────────────────────────────────────────────────────────────────────────
+
+[links]
+repository = ""
+homepage   = ""
+dashboard  = ""
+
+# ─────────────────────────────────────────────────────────────────────────────
+# NOTES
+# ─────────────────────────────────────────────────────────────────────────────
+
+[notes]
+# Add free-form key/value pairs here for project-specific metadata
+# example = "value"

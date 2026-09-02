@@ -1,0 +1,77 @@
+[standard]
+id = "sesm"
+title = "SVG Embedded Semantic Metadata"
+abbreviation = "SESM"
+status = "active"
+maturity = "candidate"
+version = "0.3.0"
+description = "Governs semantic metadata embedded in SVG assets, safe-profile review, privacy/conformance framing, fixtures, and supporting validation/conversion tooling."
+
+[governance]
+meta_standard = "SFDS"
+workspace_standard = "WGS"
+scope = "SVG metadata structure, semantic asset records, safe-profile rules, privacy and conformance requirements, validator rules, fixture corpus, conversion support, and agent-readable visual context."
+non_goals = ["General image editing", "palette contract definition", "desktop release packaging"]
+
+[artifacts]
+specification = "SESM-v0.2.md"
+schema = "svg_asset.schema.json"
+templates = "templates"
+examples = "examples"
+adoption_guide = "Adoption-Guide.md"
+validation_checklist = "Validation-Checklist.md"
+changelog = "CHANGELOG.md"
+validators = ["tests/run_tests.py", "Embed-SESM.py", "Validate-SESM-Safe.py"]
+governance_notes = [
+  "Governance-Boundary.md",
+  "EXPLAINER.md",
+  "SAFE-PROFILE.md",
+  "THREAT-MODEL.md",
+  "PRIVACY.md",
+  "CONFORMANCE.md",
+  "SECURITY.md",
+  "VALIDATOR-RULES.md",
+  "Specification-Version-Note.md",
+  "SANITIZER-PIPELINE.md",
+  "STRICT-INGESTION-PROFILE.md",
+  "INTEGRITY-ENDORSEMENTS.md",
+  "CI-Usage.md",
+  "JSON-LD-Mapping.md",
+  "tests/CONFORMANCE-HARNESS.md",
+  "REFERENCE-IMPLEMENTATION.md",
+  "SUBMISSION-PITCH.md",
+  "CONTRIBUTING.md",
+  "CODE_OF_CONDUCT.md",
+  "LICENSE"
+]
+reference_examples = [
+  "examples/SESM-Suite-Map.md",
+  "examples/extract-sesm.js",
+  "examples/validator-json-basic-safe.json",
+  "templates/SESM-Metadata-Example.json",
+  "fixtures/compatibility/v0.2-basic.svg",
+  "fixtures/compatibility/v0.3-basic.svg",
+  "fixtures/valid/basic-safe.svg",
+  "fixtures/valid/full-metadata.svg",
+  "fixtures/invalid/script.svg",
+  "fixtures/invalid/event-handler.svg",
+  "fixtures/invalid/javascript-url.svg",
+  "fixtures/invalid/duplicate-metadata.svg",
+  "fixtures/invalid/bad-json.svg",
+  "fixtures/warning/remote-reference.svg"
+]
+
+[adopter_artifacts]
+schemas = ["svg_asset.schema.json"]
+manifest_templates = []
+document_templates = ["templates/SESM-Metadata-Example.json", "JSON-LD-Mapping.md"]
+legacy_project_manifests = ["references/legacy-project-manifests/SESM.project.manifest.toml"]
+
+[lifecycle]
+created = "2026-06-10"
+last_updated = "2026-06-11"
+maintainer = "Herb"
+
+[agent]
+read_first = ["README.md", "EXPLAINER.md", "SAFE-PROFILE.md", "THREAT-MODEL.md", "PRIVACY.md", "CONFORMANCE.md", "VALIDATOR-RULES.md", "SESM-v0.2.md", "SESM.manifest.toml"]
+notes = "Existing tools and tests remain authoritative implementation evidence. SESM metadata is untrusted input and does not make arbitrary SVG safe."

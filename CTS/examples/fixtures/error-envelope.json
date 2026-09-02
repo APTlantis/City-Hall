@@ -1,0 +1,14 @@
+{
+  "status": "error",
+  "tool": "example-command",
+  "version": "1.0.0",
+  "data": null,
+  "warnings": [],
+  "errors": [
+    {
+      "code": "input-missing",
+      "message": "Required input path was not found.",
+      "path": "input.txt"
+    }
+  ]
+}

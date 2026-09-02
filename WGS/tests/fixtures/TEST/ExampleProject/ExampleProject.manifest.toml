@@ -1,0 +1,92 @@
+[manifest]
+schema = "APTlantis Entity Manifest"
+schema_version = "2.4"
+manifest_type = "project"
+canonical_name = "ExampleProject.manifest.toml"
+last_updated = "2026-07-08"
+maintainer = "Herb"
+
+[entity]
+id = "exampleproject"
+title = "ExampleProject"
+kind = "project"
+class = "project"
+status = "experimental"
+description = "Fixture project used to prove scaffold and audit compatibility."
+tags = []
+
+[project]
+type = "project"
+portfolio_class = "project"
+stage = "concept"
+version = "not-versioned"
+
+[governance]
+primary_standard = "CTS"
+primary_standard_path = "D:\\.city_hall\\CTS\\README.md"
+additional_standards = [
+    "WGS",
+    "PPS",
+]
+additional_standard_paths = [
+    "D:\\.city_hall\\WGS\\README.md",
+    "D:\\.city_hall\\PPS\\README.md",
+]
+inherits_from = "..\\TEST.manifest.toml"
+
+[lifecycle]
+state = "experimental"
+created = "2026-07-08"
+last_reviewed = "2026-07-08"
+maintainer = "Herb"
+
+[paths]
+root = "D:\\.city_hall\\WGS\\tests\\fixtures\\TEST\\ExampleProject"
+
+[documentation]
+project_readme = "Project-README.md"
+readme = "README.md"
+
+[relationships]
+parent = "D:\\.city_hall\\WGS\\tests\\fixtures\\TEST"
+child_projects = []
+
+[state]
+stability = "experimental"
+active_development = false
+known_gaps = [
+    "Implementation, build, test, artifact, and release evidence have not been established.",
+]
+
+[migration]
+archived_manifests = []
+
+[agent]
+read_first = [
+    "AGENTS.md",
+    "ExampleProject.manifest.toml",
+    "Project-README.md",
+]
+authoritative_docs = [
+    "ExampleProject.manifest.toml",
+    "Project-README.md",
+    "AGENTS.md",
+]
+safe_to_modify = true
+notes = "Concept scaffold; verify evidence before changing lifecycle claims."
+
+[structure]
+required_files = [
+    "AGENTS.md",
+    "ExampleProject.manifest.toml",
+    "Project-README.md",
+]
+
+[verification]
+level = "scaffold-only"
+evidence = "operator-supplied scaffold metadata"
+reviewed = "2026-07-08"
+build_verified = false
+tests_verified = false
+artifact_verified = false
+release_verified = false

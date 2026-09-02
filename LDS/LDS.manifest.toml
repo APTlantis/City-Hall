@@ -1,0 +1,49 @@
+[standard]
+id = "lds"
+title = "Library Development Standard"
+abbreviation = "LDS"
+status = "candidate-active"
+maturity = "candidate"
+version = "0.2.0"
+description = "Governs library crates, packages, and SDKs consumed by other code: public API surface, stability levels, versioning/breaking-change policy, extension contracts, and known-consumer tracking."
+
+[governance]
+meta_standard = "SFDS"
+workspace_standard = "WGS"
+scope = "Library crates, packages, and SDKs whose primary deliverable is code other code consumes; public API stability, versioning policy, extension/trait contracts, MSRV or runtime constraints, and known consumers."
+non_goals = ["CLI command contracts and exit codes", "service lifecycle and health checks", "desktop release packaging", "website deployment", "dataset provenance and licensing", "workspace root placement", "project mission and boundaries"]
+
+[artifacts]
+specification = "Library Development Standard.md"
+schema = "LibraryInterfaceNote.schema.json"
+templates = "templates"
+examples = "examples"
+adoption_guide = "Adoption-Guide.md"
+validation_checklist = "Validation-Checklist.md"
+changelog = "CHANGELOG.md"
+validators = ["tools/lds_validate.py"]
+governance_notes = [
+  "Semver-Breaking-Change-Policy.md",
+  "CI-Usage.md"
+]
+reference_examples = [
+  "examples/render-manifest.crate-Library-Interface-Note.md",
+  "examples/ManifestQuery.Core-Library-Interface-Note.md",
+  "examples/HashSuite.Core-Library-Interface-Note.md",
+  "examples/Breaking-Change-Cycle.md",
+  "examples/Library-Lifecycle-Transition.md"
+]
+
+[adopter_artifacts]
+schemas = ["LibraryInterfaceNote.schema.json", "LibraryInterfaceNote.context.jsonld"]
+manifest_templates = []
+document_templates = ["templates/Library-Interface-Note.md"]
+
+[lifecycle]
+created = "2026-07-22"
+last_updated = "2026-07-25"
+maintainer = "Herb"
+
+[agent]
+read_first = ["README.md", "Library Development Standard.md", "LDS.manifest.toml", "examples/render-manifest.crate-Library-Interface-Note.md"]
+notes = "Use LDS for library/SDK crates with no CLI or service entry point of their own. Pair with CTS or SIS when a project also ships a companion command or service crate. First candidate adopter: render-manifest.crate (staged under D:\\.zoning, not yet promoted)."

@@ -1,0 +1,111 @@
+# ClipboardFilter Project Manifest
+# Version: 2.4
+# Last Updated: 2026-05-12
+
+[project]
+id = "clipboard-filter"
+title = "ClipboardFilter"
+type = "pipeline"
+stage = "active"
+version = "2.0.0"
+description = "Atomic-entry clipboard processing pipeline. Extracts, embeds, and indexes clipboard histories and code snippets into a searchable DuckDB database with semantic embeddings. Rewrites raw clipboard data into typed TOML entries (commands, snippets, configs) with local LLM-based extraction and vector embeddings."
+tags = ["clipboard", "pipeline", "data-processing", "embeddings", "llm", "duckdb"]
+family = "data-pipeline"
+canonical_manifest = true
+
+[metadata]
+created = "2026-04-23"
+last_updated = "2026-05-12"
+last_reviewed = "2026-05-12"
+maintainer = "Herb"
+license = "MIT"
+language_primary = "Python"
+languages_used = ["Python", "TOML"]
+
+[state]
+completion_percent = 85
+stability = "mostly-stable"
+active_development = true
+technical_debt = "low"
+maintenance_burden = "medium"
+
+[runtime]
+platform = "cli"
+environment = "Python 3.10+, DuckDB, Ollama"
+services = ["DuckDB", "Ollama LLM service"]
+storage = ["DuckDB database", "TOML files"]
+
+[capabilities]
+clipboard_extraction = true
+code_snippet_parsing = true
+semantic_embedding = true
+database_ingestion = true
+schema_validation = true
+search_indexing = true
+
+[relationships]
+depends_on_projects = []
+used_by_projects = []
+supersedes = []
+superseded_by = []
+external_dependencies = ["Python 3.10+", "DuckDB", "Ollama", "phi4-mini", "snowflake-arctic-embed2"]
+related_projects = []
+
+[artifacts]
+produces = ["toml-entries", "duckdb-database", "embedding-refs", "validation-reports"]
+consumes = ["raw-clipboard-histories", "checked-code-files", "script-manifests"]
+
+[generation]
+manifest_is_canonical = true
+generates_readme = true
+generates_jsonld = true
+
+[documentation]
+readme = "README.md"
+schema_doc = "clipboard-schema.md"
+generated_sections = true
+
+[semantic]
+domain = "data-pipeline"
+primary_concepts = ["clipboard-processing", "semantic-embedding", "atomic-entries"]
+related_domains = ["Data Processing", "Information Extraction"]
+cognitive_tags = ["clipboard-indexing", "semantic-search"]
+complexity = "high"
+
+[visual]
+theme = "NeonInk-v0.1.1"
+primary_color = "#ff00ff"
+semantic_role = "pipeline"
+contains_svg_assets = false
+
+[components]
+"1-Input" = "Raw clipboard histories and checked artifact folders for processing"
+"2-Embed" = "Atomic TOML entries with extracted content and vector embeddings"
+"3-Database" = "DuckDB database with indexed entries and embedding references"
+"lookup" = "Query and search interface for the indexed clipboard database"
+"scripts" = "Processing scripts: extract_raw.py, extract_checked.py, ingest.py, embed.py"
+"src" = "Source code for core pipeline functionality"
+
+[distribution]
+packaged = true
+package_formats = ["source"]
+portable = false
+offline_capable = false
+requires_installation = false
+
+[links]
+homepage = "https://aptlantis.net"
+
+[structure]
+repo_path = "E:/ClipboardFilter"
+
+[automation]
+build = "pip install -r requirements.txt"
+tasks = ["extract-raw", "extract-checked", "ingest", "embed", "search"]
+
+[notes]
+purpose = "Process clipboard histories and code artifacts into a searchable, semantically-indexed database"
+workflow = "Extract → Convert to atomic TOML → Embed with local LLM → Ingest to DuckDB → Query/Search"
+models = "phi4-mini for extraction/summarization, snowflake-arctic-embed2 for embeddings"
+entry_types = "command (clipboard/scripts), snippet (code), config (JSON/YAML)"
+design_philosophy = "Atomic entries enable flexible schema evolution while maintaining consistent ingest/search interface"

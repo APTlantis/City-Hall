@@ -1,0 +1,168 @@
+# AptlantisLogos Project Manifest
+# Version: 1.0
+# Last Updated: 2026-05-12
+
+[project]
+id = "aptlantis-logos"
+title = "AptlantisLogos"
+type = "generator"
+stage = "production"
+version = "1.0"
+description = "Centralized logo asset pipeline that takes source PNG logos, generates SVG, PNG, and ICO derivatives, extracts 16-color palettes, and renders an HTML overview atlas. Used to convert DALL-E generated PNG logos into production-ready assets for deployment across the Aptlantis ecosystem."
+tags = ["asset-pipeline", "logos", "image-processing", "automation", "generator"]
+family = "semantic-ui"
+canonical_manifest = true
+
+[metadata]
+created = "2024-02-01"
+last_updated = "2026-05-12"
+last_reviewed = "2026-05-12"
+maintainer = "Herb"
+license = "MIT"
+language_primary = "Python"
+languages_used = ["Python", "PowerShell", "HTML"]
+
+[state]
+completion_percent = 95
+stability = "stable"
+active_development = false
+technical_debt = "low"
+maintenance_burden = "low"
+known_gaps = [
+  "Batch processing UI",
+  "Cloud storage integration"
+]
+
+[runtime]
+platform = "cli"
+environment = "Windows, Linux, macOS (requires ImageMagick)"
+services = []
+storage = ["Local file system"]
+
+[capabilities]
+png_input = true
+svg_generation = true
+ico_generation = true
+palette_extraction = true
+html_atlas_generation = true
+batch_processing = true
+theme_generation = true
+
+[interfaces]
+[interfaces.cli]
+type = "Command Line"
+path = "/scripts"
+entrypoint = "python scripts/Convert-to-SVG.py | Convert-to-ICO.py | generate_atlas.py"
+auth = false
+provider = "Python 3.12"
+
+[relationships]
+depends_on_projects = []
+used_by_projects = ["LangThemeGenerator"]
+supersedes = []
+superseded_by = []
+external_dependencies = ["ImageMagick", "Python 3.12", "Pillow"]
+related_projects = ["LangThemeGenerator", "AptlantisConsole"]
+
+[artifacts]
+produces = ["SVG files", "PNG optimized", "ICO icons", "16-color palette JSON", "HTML atlas"]
+consumes = ["PNG source logos (DALL-E generated)"]
+
+[persistence]
+primary_store = "File system"
+storage_mode = "directory-based"
+supports_replication = false
+
+[[scripts]]
+name = "Convert-to-SVG.py"
+language = "Python"
+role = "Converts PNG to vector SVG format"
+status = "active"
+version = 1
+
+[[scripts]]
+name = "Convert-to-ICO.py"
+language = "Python"
+role = "Generates ICO files from PNG sources"
+status = "active"
+version = 1
+
+[[scripts]]
+name = "generate_atlas.py"
+language = "Python"
+role = "Creates static HTML overview of all converted logos"
+status = "active"
+version = 1
+
+[[scripts]]
+name = "palette-extract.ps1"
+language = "PowerShell"
+role = "Uses ImageMagick to extract 16-color palettes"
+status = "active"
+version = 1
+
+[generation]
+manifest_is_canonical = true
+generates_readme = true
+generates_writerside = false
+generates_jsonld = true
+generates_visualizations = false
+generator = "aptlantis-docgen"
+
+[documentation]
+readme = "README.md"
+generated_sections = true
+
+[schemas]
+produces = ["SVG", "PNG", "ICO", "JSON (palette)"]
+validates = ["PNG source dimensions", "Color depth"]
+
+[semantic]
+domain = "asset-management"
+primary_concepts = ["logo-conversion", "asset-pipeline", "design-system", "theme-generation"]
+related_domains = ["Design Systems", "Asset Management", "DevOps"]
+cognitive_tags = ["automation", "asset-pipeline", "graphics", "theming"]
+complexity = "medium"
+
+[visual]
+theme = "NeonInk-v0.1.1"
+primary_color = "#ff00ff"
+semantic_role = "asset-generator"
+contains_svg_assets = true
+contains_scene_art = false
+
+[observability]
+logs = false
+metrics = false
+health_checks = false
+event_stream = false
+telemetry = false
+
+[distribution]
+packaged = false
+portable = true
+offline_capable = true
+requires_installation = false
+
+[links]
+homepage = "https://aptlantis.net"
+
+[structure]
+repo_path = "E:/AptlantisLogos"
+docs_path = "E:/AptlantisLogos/docs"
+data_path = "E:/AptlantisLogos/output"
+
+[automation]
+build = "python scripts/Convert-to-SVG.py && python scripts/Convert-to-ICO.py && python scripts/generate_atlas.py"
+tasks = [
+  "convert-png",
+  "extract-palettes",
+  "generate-theme-configs",
+  "create-atlas"
+]
+
+[notes]
+workflow = "PNG (DALL-E) -> SVG + ICO + Palette + HTML Atlas"
+output_destination = "Used by LangThemeGenerator for IDE themes"
+distribution_url = "https://aptlantis.net/language-atlas"
+imaging_tool = "ImageMagick with PowerShell wrapper"

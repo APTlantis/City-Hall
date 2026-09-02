@@ -1,0 +1,96 @@
+[manifest]
+schema = "APTlantis Entity Manifest"
+schema_version = "2.4"
+manifest_type = "project"
+canonical_name = "020-LIBRARY.manifest.toml"
+last_updated = "2026-06-10"
+maintainer = "Herb"
+
+[entity]
+id = "doc-hub"
+title = "DocHub"
+kind = "project"
+class = "library"
+status = "active"
+description = "DocHub document nexus project preserved from DocHub.manifest.toml."
+tags = ["documentation", "library"]
+
+[project]
+id = "doc-hub"
+title = "DocHub"
+description = "DocHub is a library of reusable snippets and documentation topics designed for internal use within the Aptlantis ecosystem. It supports both Markdown and XML formats for content creation, allowing operators to create and manage documentation efficiently."
+type = "library"
+stage = "active"
+version = "0.1.0"
+tags = ["documentation", "internal-tool", "snippet-library"]
+
+[metadata]
+created = "2026-06-02"
+last_updated = "2026-06-02"
+maintainer = "Herb"
+license = "Unspecified"
+language_primary = "Unknown"
+languages_used = []
+
+[state]
+completion_percent = 70
+stability = "mostly-stable"
+active_development = true
+technical_debt = "moderate"
+maintenance_burden = "low"
+known_gaps = []
+
+[runtime]
+platform = "library"
+environment = "Unspecified local environment"
+
+[relationships]
+depends_on_projects = []
+used_by_projects = []
+external_dependencies = []
+related_projects = []
+
+[artifacts]
+produces = []
+consumes = []
+
+[generation]
+manifest_is_canonical = true
+generates_readme = false
+generates_writerside = false
+generates_jsonld = false
+generates_visualizations = false
+generates_embeddings = false
+generator = "aptlantis-project-manifests"
+
+[documentation]
+readme = ""
+generated_sections = false
+
+[semantic]
+domain = "internal documentation tool"
+primary_concepts = ["create documentation topics", "manage reusable snippets", "support Markdown and XML"]
+related_domains = []
+cognitive_tags = ["documentation", "internal-tool", "snippet-library"]
+complexity = "medium"
+
+[visual]
+theme = "NeonInk-v0.1.1"
+primary_color = "#0ff0ff"
+semantic_role = "library"
+contains_svg_assets = false
+contains_scene_art = false
+
+[distribution]
+packaged = false
+package_formats = []
+portable = true
+offline_capable = true
+requires_installation = false
+
+[structure]
+repo_path = "E:/DocHub"
+
+[notes]
+needs_review = "Generated best-effort manifest. Verify inferred fields before treating optional metadata as authoritative."
+evidence = "AnalyzeProjects evaluation plus local project files"

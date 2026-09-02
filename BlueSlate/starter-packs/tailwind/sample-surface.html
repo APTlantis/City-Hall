@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Blue-Slate Sample Surface</title>
+    <link rel="stylesheet" href="../../aptlantis-blue-slate.tailwind.css" />
+  </head>
+  <body>
+    <main class="atl-shell">
+      <section class="atl-container py-10">
+        <article class="atl-panel atl-ornament p-8">
+          <p class="atl-eyebrow">Aptlantis / Blue-Slate</p>
+          <h1 class="atl-title text-5xl">Operational Evidence Surface</h1>
+          <p class="atl-subtitle mt-4 max-w-3xl">
+            A compact page shell for local-first tools, command builders, project dossiers, and verification dashboards.
+          </p>
+          <div class="atl-signal-row mt-6">
+            <span class="atl-chip-active">Active-core</span>
+            <span class="atl-chip-verified">Verified</span>
+            <span class="atl-chip-warning">Preflight</span>
+            <span class="atl-chip-taxonomy">CTS</span>
+          </div>
+        </article>
+
+        <nav class="atl-tabs mt-8" aria-label="Sample sections">
+          <a class="atl-tab-active" href="#overview">Overview</a>
+          <a class="atl-tab" href="#builder">Builder</a>
+          <a class="atl-tab" href="#evidence">Evidence</a>
+        </nav>
+
+        <section class="grid gap-6 lg:grid-cols-[1.35fr_0.65fr] mt-6">
+          <div class="atl-card p-6" id="builder">
+            <h2 class="text-xl font-bold">Command Builder</h2>
+            <div class="grid gap-4 md:grid-cols-2 mt-5">
+              <label class="atl-form-field">
+                <span class="atl-form-label">--input required</span>
+                <input class="atl-input" value="E:\source\data" />
+              </label>
+              <label class="atl-form-field">
+                <span class="atl-form-label">--output required</span>
+                <input class="atl-input" value="E:\output\manifest.json" />
+              </label>
+              <label class="atl-checkbox-row">
+                <input type="checkbox" checked />
+                <span>--verify-existing</span>
+              </label>
+              <label class="atl-checkbox-row">
+                <input type="checkbox" />
+                <span>--dry-run</span>
+              </label>
+            </div>
+            <pre class="atl-command-output mt-5">tool.exe --input "E:\source\data" --output "E:\output\manifest.json" --verify-existing</pre>
+          </div>
+
+          <aside class="atl-card p-6" id="evidence">
+            <h2 class="text-xl font-bold">Evidence</h2>
+            <div class="atl-evidence-grid mt-5">
+              <div class="atl-evidence-item">manifest.json<br /><span class="atl-muted">generated</span></div>
+              <div class="atl-evidence-item">hashes.sha256<br /><span class="atl-muted">verified</span></div>
+              <div class="atl-evidence-item">release-note.md<br /><span class="atl-muted">documented</span></div>
+            </div>
+          </aside>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>

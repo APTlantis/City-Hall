@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <metadata id="sesm"><![CDATA[
+{
+  "sesm_version": "0.3.0",
+  "asset": { "id": "duplicate-one", "role": "icon" }
+}
+]]></metadata>
+  <metadata id="sesm"><![CDATA[
+{
+  "sesm_version": "0.3.0",
+  "asset": { "id": "duplicate-two", "role": "icon" }
+}
+]]></metadata>
+  <rect width="100" height="100"/>
+</svg>

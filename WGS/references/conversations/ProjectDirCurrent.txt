@@ -1,0 +1,98 @@
+"E:\.agents" - Project directory level agent instructions/guides.
+"E:\.data" - Input/Output directory used by projects.
+"E:\.evals" - Various evaluations run on projects.
+"E:\.sonar" - Setup for running SonarrQube tests locally.
+
+"E:\Aegis" - DRS
+
+"E:\AnalyzeProjects" - CTS
+
+"E:\AptlantisConsole" - DRS
+
+"E:\AptlantisLogos" - CTS
+
+"E:\ArchiveHasher" - CTS
+
+"E:\ChromeArchivalPlugin" - DRS
+
+"E:\ClipboardFilter"
+-  "E:\ClipboardFilter\tests" - CTS
+-  "E:\ClipboardFilter\1-Input" - CTS
+-  "E:\ClipboardFilter\2-Embed" - CTS
+-  "E:\ClipboardFilter\3-Database" - CTS
+-  "E:\ClipboardFilter\lookup" - DRS
+
+
+"E:\CloneCratesio" - CTS
+
+"E:\CommandWizard" - DRS
+
+"E:\ConversionTools"
+-  "E:\ConversionTools\Audio" - CTS
+-  "E:\ConversionTools\CPU-Whisper" - CTS
+-  "E:\ConversionTools\VideoToMP4" - CTS
+
+
+"E:\DatasetPipelines"
+-  "E:\DatasetPipelines\TinyLlama-HolyC" - DATASET + CTS
+-  "E:\DatasetPipelines\Winget" - DATASET + CTS
+
+"E:\DocHub"
+
+"E:\EpicVideos" - CTS
+
+"E:\Feameworks-Standards"
+- -"E:\Feameworks-Standards\AADR"
+-  "E:\Feameworks-Standards\AAMHS"
+-  "E:\Feameworks-Standards\CTS"
+-  "E:\Feameworks-Standards\DRS"
+-  "E:\Feameworks-Standards\NeonInk"
+-  "E:\Feameworks-Standards\PPS"
+-  "E:\Feameworks-Standards\SESM"
+-  "E:\Feameworks-Standards\SFDS"
+-  "E:\Feameworks-Standards\WDS"
+-  "E:\Feameworks-Standards\WGS"
+
+
+"E:\FH-RefToolkit" - CTS
+
+"E:\FileCabinet" - DRS
+
+"E:\LangThemeGenerator" - CTS
+
+"E:\LinuxGenealogy" - DATASET + WDS
+
+"E:\Llama" - CTS
+
+"E:\PythonDocs" DATASET + WDS
+
+"E:\QB"
+-  "E:\QB\.inform" - RESOURCE
+-  "E:\QB\.qb64" - RESOURCE
+-  "E:\QB\.qb64pe" - RESOURCE
+-  "E:\QB\QB-7Zip" - DRS
+-  "E:\QB\QB-Veracrypt" - DRS
+-  "E:\QB\QB-Winget" - DRS
+
+"E:\ScriptWriters" - CTS
+
+"E:\Structra" - DRS
+
+"E:\Tauri-IT" - DRS
+
+"E:\Training"
+-  "E:\Training\RustForSmallModels" -  CTS
+-  "E:\Training\RustTrainingGemma4" - CTS
+
+"E:\Websites"
+-  "E:\Websites\aptlantis" - WDS
+-  "E:\Websites\aptlantis_net" - WDS
+-  "E:\Websites\aptlantis_studio" - WDS
+-  "E:\Websites\webserver" - WDS
+
+
+"E:\WinTrim" - CTS
+
+"E:\WSL" - DRS
+
+"E:\project.manifest.toml"

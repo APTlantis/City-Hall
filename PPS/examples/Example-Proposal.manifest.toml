@@ -1,0 +1,27 @@
+[proposal]
+id = "manifest-audit"
+status = "ready"
+readiness = "approved-for-build"
+created = "2026-07-30"
+operational_personas = ["maintainer", "agent"]
+responsibility_posture = "shared"
+
+[project]
+name = "Manifest Audit"
+type = "cli"
+mission = "Audit standard-suite manifests for required fields and broken artifact references."
+
+[criteria]
+success = [
+  "Reports missing required sections.",
+  "Reports unresolved local artifact paths.",
+  "Provides CTS-compatible JSON output."
+]
+failure = [
+  "Mutates files during audit.",
+  "Silently ignores missing artifacts."
+]
+
+[constraints]
+technical = ["Runs locally without network access."]
+scope = ["Standard-suite manifests only."]

@@ -1,0 +1,60 @@
+[standard]
+id = "drs"
+title = "Desktop Application Release Standard"
+abbreviation = "DRS"
+status = "active"
+maturity = "reference"
+version = "1.0.2"
+description = "Governs desktop application release notes, manifests, artifacts, distribution, hashes, verification, and release evidence."
+
+[governance]
+meta_standard = "SFDS"
+workspace_standard = "WGS"
+scope = "Desktop application release readiness, distribution posture, and evidence."
+non_goals = ["Project proposal creation", "CLI command output contracts", "website deployment", "dataset provenance"]
+
+[artifacts]
+specification = "Desktop Application Release Standard.md"
+schema = "DesktopApplicationRelease.manifest.schema.toml"
+templates = "templates"
+examples = "examples"
+adoption_guide = "Adoption-Guide.md"
+validation_checklist = "Validation-Checklist.md"
+changelog = "CHANGELOG.md"
+validators = ["drs.ps1", "tools/drs_integrity_check.py"]
+governance_notes = [
+  "Governance-Boundary.md",
+  "SFDS-Adoption-Note.md",
+  "docs/CI-Usage.md",
+  "docs/Troubleshooting.md",
+  "docs/Release-Gating-Workflow.md"
+]
+reference_examples = [
+  "examples/MiniVault",
+  "examples/FieldDesk/FieldDesk.manifest.toml",
+  "examples/Release-Folder-Verifier.html"
+]
+
+[adopter_artifacts]
+schemas = ["DesktopApplicationRelease.manifest.schema.toml", "ReleaseNoteMetadata.schema.json"]
+manifest_templates = ["templates/ProjectName.manifest.toml", "templates/Release-Note.Metadata.jsonld"]
+document_templates = [
+  "templates/Release-Note.md",
+  "templates/Release-Checklist.md",
+  "templates/Trust-Security-Model.md",
+  "templates/Dependency-Provenance.md",
+  "templates/Build-Reproducibility-Guide.md",
+  "templates/Threat-Model.md",
+  "templates/Integrity-Validation-Matrix.md",
+  "templates/Data-Migration-Contract.md",
+  "templates/Withdrawn-Release.md"
+]
+
+[lifecycle]
+created = "2026-06-10"
+last_updated = "2026-08-20"
+maintainer = "Herb"
+
+[agent]
+read_first = ["README.md", "Desktop Application Release Standard.md", "DRS.manifest.toml", "SFDS-Adoption-Note.md"]
+notes = "DRS is the reference pattern for practical Aptlantis documentation suites under SFDS v1.0. Public Windows GUI releases default to Microsoft Store MSIX with Store signing; development sideloads use self-signed development certificates. Use ARHS for release hash manifests."

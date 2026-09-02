@@ -1,0 +1,62 @@
+:root {
+  color-scheme: dark;
+
+  --bs-abyss: #050913;
+  --bs-deep-navy: #0B1728;
+  --bs-navy: #172536;
+  --bs-slate: #262F39;
+  --bs-steel: #40423F;
+  --bs-steel-blue: #192E46;
+  --bs-ocean-blue: #29384A;
+  --bs-dusk: #36485A;
+  --bs-blue-grey: #53606A;
+  --bs-cool-grey: #6F7E87;
+  --bs-mist-blue: #627786;
+  --bs-mist-grey: #768892;
+  --bs-pale-mist: #98A2A2;
+  --bs-sea-foam: #B9C9C5;
+  --bs-off-white: #E1E7DB;
+
+  --bs-electric-cyan: #00D8FF;
+  --bs-arctic-cyan: #65F2FF;
+  --bs-teal: #21C6B8;
+  --bs-aqua-teal: #3AD1C3;
+  --bs-amber: #FF884D;
+  --bs-brass: #D9A441;
+  --bs-violet: #9C7CFF;
+  --bs-indigo: #6A5BFF;
+  --bs-success: #30D58C;
+  --bs-verified: #6FE3A4;
+
+  --bs-bg: var(--bs-abyss);
+  --bs-bg-soft: var(--bs-deep-navy);
+  --bs-panel: var(--bs-navy);
+  --bs-panel-raised: var(--bs-slate);
+  --bs-panel-blue: var(--bs-steel-blue);
+  --bs-border: var(--bs-dusk);
+  --bs-border-soft: color-mix(in oklab, var(--bs-blue-grey) 58%, transparent);
+  --bs-text: var(--bs-off-white);
+  --bs-text-soft: var(--bs-sea-foam);
+  --bs-text-muted: var(--bs-pale-mist);
+  --bs-link: var(--bs-arctic-cyan);
+  --bs-action: var(--bs-electric-cyan);
+  --bs-action-soft: var(--bs-teal);
+  --bs-focus: var(--bs-arctic-cyan);
+  --bs-warning: var(--bs-amber);
+  --bs-attention: var(--bs-brass);
+  --bs-taxonomy: var(--bs-violet);
+  --bs-archive: var(--bs-indigo);
+  --bs-success-state: var(--bs-success);
+  --bs-verified-state: var(--bs-verified);
+
+  --bs-font-display: "Aptos Display", "Segoe UI Variable Display", "Segoe UI", system-ui, sans-serif;
+  --bs-font-sans: "Aptos", "Segoe UI Variable Text", "Segoe UI", system-ui, sans-serif;
+  --bs-font-mono: "Cascadia Code", "Cascadia Mono", "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
+
+  --bs-radius-sm: 0.375rem;
+  --bs-radius-md: 0.625rem;
+  --bs-radius-lg: 0.875rem;
+  --bs-radius-xl: 1.25rem;
+  --bs-shadow-panel: 0 20px 70px rgb(0 0 0 / 0.32), inset 0 1px 0 rgb(225 231 219 / 0.07);
+  --bs-shadow-signal: 0 0 0 1px rgb(101 242 255 / 0.30), 0 0 26px rgb(0 216 255 / 0.22);
+}

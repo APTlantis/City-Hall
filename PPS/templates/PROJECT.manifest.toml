@@ -1,0 +1,24 @@
+[project]
+id = "example-project"
+title = "Example Project"
+class = "unknown"
+status = "concept"
+mission = "Short mission statement."
+
+[governance]
+proposal_standard = "PPS"
+delivery_standard = ""
+workspace_standard = "WGS"
+responsibility_posture = "personal"
+
+[criteria]
+success = []
+failure = []
+
+[constraints]
+technical = []
+scope = []
+
+[agent]
+read_first = ["ProjectName.manifest.toml", "Project-Proposal.md"]
+notes = "Proposal must explain why the project exists before implementation expands."

@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "tool": "example-command",
+  "version": "1.0.0",
+  "data": {
+    "message": "Completed successfully.",
+    "items_count": 1
+  },
+  "warnings": [],
+  "errors": []
+}

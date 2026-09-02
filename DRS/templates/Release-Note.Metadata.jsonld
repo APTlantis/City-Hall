@@ -1,0 +1,32 @@
+{
+  "@context": {
+    "drs": "https://aptlantis.local/ns/drs#",
+    "schema": "https://schema.org/",
+    "project": "drs:project",
+    "release": "drs:release",
+    "artifact": "drs:artifact",
+    "sha256": "drs:sha256",
+    "blake3": "drs:blake3",
+    "signing": "drs:signing"
+  },
+  "@type": "drs:ReleaseNoteMetadata",
+  "schema": "drs.release-note.metadata.v1",
+  "project": {
+    "id": "example-app",
+    "title": "Example App"
+  },
+  "release": {
+    "version": "1.0.0",
+    "name": "Example App v1.0.0 - First Verified Release",
+    "date": "2026-07-30",
+    "status": "local-verified"
+  },
+  "artifact": {
+    "path": "artifacts/installer/ExampleApp-1.0.0.0-win-x64.msi",
+    "runtime": "win-x64",
+    "size_bytes": 123456,
+    "sha256": "0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF",
+    "blake3": "",
+    "signing": "unsigned"
+  }
+}

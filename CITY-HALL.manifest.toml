@@ -1,0 +1,60 @@
+[manifest]
+schema = "APTlantis Entity Manifest"
+schema_version = "2.4"
+manifest_type = "directory"
+canonical_name = "CITY-HALL.manifest.toml"
+last_updated = "2026-09-01"
+maintainer = "Herb"
+
+[entity]
+id = "city-hall"
+title = "City Hall"
+kind = "directory"
+class = "canonical-standards-root"
+status = "governed"
+description = "Canonical Aptlantis standards, templates, maps, and adopted governance resource for active work."
+tags = ["governance", "standards", "canonical", "aptlantis"]
+
+[directory]
+path = "D:\\.city_hall"
+role = "Provide the canonical active Aptlantis standards and adopted governance resources without competing with project source."
+health = "governed"
+
+[governance]
+primary_standard = "WGS"
+additional_standards = ["SFDS"]
+requires_child_manifests = true
+allowed_child_types = ["standard", "design-system", "document", "reference"]
+city_planning_root = "D:\\.city_hall\\City Planning"
+planning_rule = "City Planning material is non-governing unless deliberately adopted by an active City Hall standard."
+
+[lifecycle]
+state = "active"
+created = "2026-06-10"
+last_reviewed = "2026-09-01"
+maintainer = "Herb"
+
+[structure]
+required_files = ["CITY-HALL.manifest.toml", "AGENTS.md", "README.md", "WORKSHOP-MAP.md"]
+children = ["AAMHS", "ARHS", "Blanks", "BlueSlate", "CTS", "DRS", "LDS", "PPS", "SESM", "SFDS", "WDS", "WGS", "City Planning"]
+reserved_directories = []
+
+[relationships]
+parent = "D:\\"
+children = ["AAMHS", "ARHS", "Blanks", "BlueSlate", "CTS", "DRS", "LDS", "PPS", "SESM", "SFDS", "WDS", "WGS", "City Planning"]
+related_directories = ["D:\\.library", "D:\\.zoning"]
+
+[policy]
+allow_project_creation = false
+allow_agent_scaffolding = false
+requires_manual_review_for_moves = true
+
+[migration]
+authority_transition = "2026-09-01"
+retired_active_standards_path = "D:\\.city_hall"
+planning_successor = "D:\\.city_hall\\City Planning"
+
+[agent]
+read_first = ["CITY-HALL.manifest.toml", "AGENTS.md", "README.md", "WORKSHOP-MAP.md"]
+authoritative_docs = ["CITY-HALL.manifest.toml", "AGENTS.md", "README.md", "WORKSHOP-MAP.md"]
+notes = "On 2026-09-01, the active standards repository moved from D:\\.city_hall to City Hall. The former City Hall repository moved to City Planning."

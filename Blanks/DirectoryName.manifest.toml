@@ -1,0 +1,55 @@
+[manifest]
+schema = "APTlantis Entity Manifest"
+schema_version = "2.4"
+manifest_type = "directory"
+canonical_name = "DirectoryName.manifest.toml"
+last_updated = "2026-06-10"
+maintainer = "Herb"
+
+[entity]
+id = "example-directory"
+title = "Example Directory"
+kind = "directory"
+class = "workspace-root"
+status = "planned"
+description = "Short description of what this directory governs or contains."
+tags = []
+
+[directory]
+path = "D:\\000-EXAMPLE"
+role = "Short description of what this directory governs or contains."
+health = "governed"
+
+[governance]
+primary_standard = "WGS"
+additional_standards = []
+requires_child_manifests = true
+allowed_child_types = ["project", "standard", "service", "dataset", "document"]
+
+[lifecycle]
+state = "planned"
+created = "2026-06-10"
+last_reviewed = "2026-06-10"
+maintainer = "Herb"
+
+[structure]
+required_files = ["DirectoryName.manifest.toml"]
+recommended_files = ["README.md"]
+required_directories = []
+reserved_directories = []
+
+[relationships]
+parent = "D:\\"
+children = []
+related_directories = []
+
+[policy]
+allow_project_creation = false
+allow_agent_scaffolding = false
+requires_manual_review_for_moves = true
+
+[agent]
+read_first = ["DirectoryName.manifest.toml", "README.md"]
+authoritative_docs = ["DirectoryName.manifest.toml"]
+known_gaps = []
+notes = "Replace placeholder values before treating this as authoritative."

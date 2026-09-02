@@ -1,0 +1,57 @@
+[standard]
+id = "sfds"
+title = "Standards Framework Development Standard"
+abbreviation = "SFDS"
+status = "active"
+maturity = "stable"
+version = "1.0.0"
+description = "Defines how Aptlantis standards are authored, structured, versioned, validated, adopted, and preserved."
+
+[governance]
+meta_standard = "SFDS"
+workspace_standard = "WGS"
+scope = "Standards, frameworks, specifications, reusable governance contracts, and City Hall standard-suite structure."
+non_goals = ["Application implementation", "release packaging", "dataset content curation"]
+
+[artifacts]
+specification = "Standards Framework Development Standard.md"
+schema = "STANDARD.manifest.schema.toml"
+templates = "templates"
+examples = "examples"
+adoption_guide = "Adoption-Guide.md"
+validation_checklist = "Validation-Checklist.md"
+changelog = "CHANGELOG.md"
+validators = ["SFDS-Validation-Guidance.md", "tools/sfds_validate.py"]
+governance_notes = ["Governance-Notes.md", "Compatibility-Matrix.md", "CI-Usage.md"]
+reference_examples = [
+  "examples/DRS-Reference-Suite.md",
+  "examples/WGS-Candidate-Suite.md",
+  "examples/LDS-Candidate-Suite.md",
+  "../DRS/examples/MiniVault"
+]
+
+[adopter_artifacts]
+schemas = ["STANDARD.manifest.schema.toml", "Compatibility-Matrix.md"]
+manifest_templates = ["templates/StandardName.manifest.toml"]
+document_templates = [
+  "templates/Standard-Specification.md",
+  "templates/Adoption-Guide.md",
+  "templates/Validation-Checklist.md",
+  "templates/CHANGELOG.md"
+]
+
+[lifecycle]
+created = "2026-06-10"
+last_updated = "2026-07-25"
+maintainer = "Herb"
+
+[promotion]
+promotion_state = "candidate-active-library-copy"
+promotion_authority = "D:\\.city_hall"
+active_copy = "D:\\.city_hall\\SFDS"
+promotion_date = "2026-07-25"
+notes = "SFDS remains stable v1.0.0 in content while its active-use copy is promoted into aptlantis_core."
+
+[agent]
+read_first = ["README.md", "Standards Framework Development Standard.md", "SFDS.manifest.toml", "../DRS/README.md"]
+notes = "Use SFDS before drafting or normalizing other Aptlantis standards. Every standard directory needs a README role/index and a primary specification authority. Use DRS as the first reference implementation of the mature suite pattern."

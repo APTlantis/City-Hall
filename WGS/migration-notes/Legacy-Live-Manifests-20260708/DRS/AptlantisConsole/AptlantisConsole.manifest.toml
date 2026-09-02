@@ -1,0 +1,183 @@
+# AptlantisConsole Project Manifest
+# Version: 1.0
+# Last Updated: 2026-05-12
+
+[project]
+id = "aptlantis-console"
+title = "AptlantisConsole"
+type = "ui"
+stage = "active"
+version = "1.0.8"
+description = "A local-first operator console for the Aptlantis ecosystem, providing a unified dashboard to monitor and manage Docker, Git, MongoDB, DuckDB intake/embeddings, system resources, network, terminals, package inventory, SSH/FTP profiles, and editor snippets/templates/notes. Ships as a Next.js web app and a Tauri 2.0 desktop application with conPTY terminal tabs and live system metrics."
+tags = ["dashboard", "monitoring", "operator-console", "desktop", "web", "realtime"]
+family = "operator-runtime"
+canonical_manifest = true
+
+[metadata]
+created = "2024-01-01"
+last_updated = "2026-05-21"
+last_reviewed = "2026-05-13"
+maintainer = "Herb"
+license = "MIT"
+language_primary = "TypeScript"
+languages_used = ["TypeScript", "React", "HTML", "CSS", "Rust"]
+
+[state]
+completion_percent = 95
+stability = "stable"
+active_development = true
+technical_debt = "moderate"
+maintenance_burden = "medium"
+known_gaps = [
+  "Generic DuckDB table profiling",
+  "Parquet export",
+  "GPU monitoring integrations",
+  "Advanced kubectl integration"
+]
+
+[runtime]
+platform = "desktop"
+environment = "multi-platform (Windows, Linux, macOS)"
+services = ["Docker", "Git", "MongoDB", "DuckDB", "Winget", "SSH/SFTP"]
+storage = ["Local DuckDB", "Structured local files", "System metrics cache"]
+
+[capabilities]
+live_metrics = true
+docker_management = true
+git_integration = true
+mongodb_integration = true
+duckdb_integration = true
+winget_integration = true
+ssh_ftp_profiles = true
+terminal_tabs = true
+file_editing = true
+system_monitoring = true
+network_monitoring = true
+conpty_support = true
+
+[interfaces]
+[interfaces.web]
+type = "HTTP"
+path = "/web"
+entrypoint = "localhost:3000"
+auth = false
+provider = "Next.js development server"
+
+[interfaces.desktop]
+type = "Native"
+path = "/desktop"
+entrypoint = "AptlantisConsole.exe (Windows) / aptlantis-console (Linux)"
+auth = false
+provider = "Tauri 2.0"
+
+[relationships]
+depends_on_projects = ["AptlantisLogos", "NeonInk"]
+used_by_projects = []
+supersedes = []
+superseded_by = []
+external_dependencies = ["Docker", "Git", "MongoDB", "Node.js 18+", "Rust 1.70+"]
+related_projects = ["LangThemeGenerator", "CommandWizard"]
+
+[artifacts]
+produces = ["Desktop executable", "Web bundle", "System metrics snapshots"]
+consumes = ["Design system (NeonInk)", "Logo assets (AptlantisLogos)"]
+
+[persistence]
+primary_store = "DuckDB (local)"
+secondary_stores = ["MongoDB (optional remote)", "TOML artifacts", "File system cache"]
+storage_mode = "local-first with optional cloud sync"
+supports_replication = true
+
+[[scripts]]
+name = "build:next"
+language = "shell"
+role = "Build Next.js web application"
+status = "active"
+version = 1
+
+[[scripts]]
+name = "build:tauri"
+language = "shell"
+role = "Build Tauri desktop application"
+status = "active"
+version = 1
+
+[[scripts]]
+name = "dev"
+language = "shell"
+role = "Start development server"
+status = "active"
+version = 1
+
+[generation]
+manifest_is_canonical = true
+generates_readme = true
+generates_writerside = false
+generates_jsonld = true
+generates_visualizations = true
+generator = "aptlantis-docgen"
+
+[documentation]
+readme = "README.md"
+architecture_doc = "docs/architecture.md"
+generated_sections = true
+
+[schemas]
+uses = ["JSON Schema for config files"]
+produces = ["Metrics JSON", "System state snapshots"]
+validates = ["Terminal input", "File operations", "Docker API responses"]
+
+[semantic]
+domain = "system-administration"
+primary_concepts = ["monitoring", "management", "integration", "real-time-metrics"]
+related_domains = ["DevOps", "Infrastructure", "Observability"]
+cognitive_tags = ["dashboard", "control-plane", "operations", "systems-integration"]
+complexity = "high"
+
+[visual]
+theme = "NeonInk-v0.1.1"
+primary_color = "#0ff0ff"
+semantic_role = "operator-console"
+contains_svg_assets = true
+contains_scene_art = false
+
+[observability]
+logs = true
+metrics = true
+health_checks = true
+event_stream = true
+telemetry = false
+
+[distribution]
+packaged = true
+package_formats = ["exe", "AppImage", "dmg"]
+portable = true
+offline_capable = true
+requires_installation = false
+
+[links]
+repository = "https://github.com/user/AptlantisConsole"
+homepage = "https://aptlantis.net"
+dashboard = "https://console.aptlantis.net"
+
+[structure]
+repo_path = "E:/AptlantisConsole"
+docs_path = "E:/AptlantisConsole/docs"
+data_path = "E:/AptlantisConsole/.data"
+
+[automation]
+build = "npm run build && cargo tauri build"
+deploy = "gh release create"
+tasks = [
+  "lint",
+  "format",
+  "typecheck",
+  "test",
+  "build:next",
+  "build:tauri"
+]
+
+[notes]
+design_system = "E:/AptlantisConsole/docs/NeonInk-v0.1.1.md"
+most_complete_docs = "README.md, AptlantisConsoleVersionMilestoneTimeline.md"
+tech_stack = "Next.js 16, React 19.2, TypeScript 5, Tailwind CSS v4, Tauri 2.0"

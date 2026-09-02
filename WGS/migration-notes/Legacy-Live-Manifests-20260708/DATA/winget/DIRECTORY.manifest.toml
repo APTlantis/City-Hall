@@ -1,0 +1,55 @@
+[manifest]
+schema = "APTlantis Entity Manifest"
+schema_version = "2.4"
+manifest_type = "directory"
+canonical_name = "DIRECTORY.manifest.toml"
+last_updated = "2026-06-10"
+maintainer = "Herb"
+
+[entity]
+id = "983-winget"
+title = "983-WINGET"
+kind = "directory"
+class = "project-category"
+status = "governed"
+description = "983-WINGET category under 980-DATA."
+tags = []
+
+[directory]
+path = "D:\\980-DATA\\983-WINGET"
+role = "983-WINGET category under 980-DATA."
+health = "governed"
+
+[governance]
+primary_standard = "DDS"
+additional_standards = ["WGS"]
+requires_child_manifests = true
+allowed_child_types = ["project", "directory", "dataset"]
+
+[lifecycle]
+state = "governed"
+created = "2026-06-10"
+last_reviewed = "2026-06-10"
+maintainer = "Herb"
+
+[structure]
+required_files = ["DIRECTORY.manifest.toml"]
+recommended_files = ["README.md"]
+required_directories = []
+reserved_directories = []
+
+[relationships]
+parent = "D:\\"
+children = ["WingetExport", "winget"]
+related_directories = []
+
+[policy]
+allow_project_creation = true
+allow_agent_scaffolding = true
+requires_manual_review_for_moves = true
+
+[agent]
+read_first = ["DIRECTORY.manifest.toml", "README.md"]
+authoritative_docs = ["DIRECTORY.manifest.toml"]
+known_gaps = []
+notes = "Numbered category directory created during structure categorization pass."

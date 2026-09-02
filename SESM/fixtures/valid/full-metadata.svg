@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 90" role="img" aria-label="Dataset card">
+  <title>Dataset card</title>
+  <metadata id="sesm"><![CDATA[
+{
+  "sesm_version": "0.3.0",
+  "asset": {
+    "id": "full-metadata-card",
+    "role": "dataset-card",
+    "title": "Full Metadata Card",
+    "tags": ["fixture", "dataset", "safe-profile"]
+  },
+  "theme": {
+    "id": "neon-ink",
+    "mode": "dark",
+    "tokens": {
+      "base": "#0B0F1A",
+      "info": "#22D3EE"
+    }
+  },
+  "crawl": {
+    "indexable": true,
+    "archive": true
+  },
+  "llm": {
+    "summary": "A fixture showing fuller SESM metadata.",
+    "intended_interpretation": "Treat this SVG as a dataset card fixture.",
+    "interpretation_hints": [
+      "Use SESM fields instead of inferring meaning from color alone."
+    ]
+  },
+  "provenance": {
+    "generated": false
+  }
+}
+]]></metadata>
+  <rect width="160" height="90" rx="4" fill="#0B0F1A"/>
+  <text x="12" y="28" fill="#22D3EE">Dataset card</text>
+</svg>

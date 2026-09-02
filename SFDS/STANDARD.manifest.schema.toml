@@ -1,0 +1,30 @@
+title = "Aptlantis Standard Manifest Schema"
+type = "object"
+required = ["standard", "governance", "artifacts", "lifecycle"]
+
+[properties.standard]
+required = ["id", "title", "abbreviation", "status", "maturity", "version"]
+
+[properties.standard.properties.status]
+type = "string"
+enum = ["concept", "draft", "planned", "candidate-active", "active", "stable", "deprecated", "retired"]
+
+[properties.standard.properties.maturity]
+type = "string"
+enum = ["concept", "draft", "candidate", "stable", "reference-candidate", "reference"]
+
+[properties.governance]
+required = ["meta_standard", "scope"]
+
+[properties.artifacts]
+required = ["specification", "adoption_guide", "validation_checklist", "changelog"]
+
+[properties.adopter_artifacts]
+description = "Optional adopter-facing schemas, manifest templates, and document templates governed by the standard. These do not replace the entity-named standard suite manifest."
+
+[properties.lifecycle]
+required = ["created", "last_updated", "maintainer"]
+
+[properties.promotion.properties.promotion_state]
+type = "string"
+enum = ["draft", "candidate-active-library-copy", "active-library-copy", "promoted", "deprecated"]

@@ -1,0 +1,55 @@
+[standard]
+id = "wds"
+title = "Website Development Standard"
+abbreviation = "WDS"
+status = "active"
+maturity = "candidate"
+version = "0.2.1"
+description = "Governs websites and web applications as documented, deployable, accessible, metadata-rich, monitorable projects."
+
+[governance]
+meta_standard = "SFDS"
+workspace_standard = "WGS"
+scope = "Websites, web applications, deployment records, accessibility, metadata, route checks, rollback expectations, and monitoring."
+non_goals = ["Desktop installer releases", "CLI command output", "dataset corpus construction"]
+
+[artifacts]
+specification = "Website Development Standard.md"
+schema = "SiteManifest.schema.toml"
+templates = "templates"
+examples = "examples"
+adoption_guide = "Adoption-Guide.md"
+validation_checklist = "Validation-Checklist.md"
+changelog = "CHANGELOG.md"
+validators = [
+  "tools/wds_validate.py",
+  "tools/route_check.py",
+  "tools/accessibility_smoke.py",
+  "tools/fill_deployment_record.py"
+]
+governance_notes = [
+  "Publication-Approval-Flow.md",
+  "Route-Check-Harness.md",
+  "Monitoring-Integration-Fields.md",
+  "tests/CONFORMANCE.md"
+]
+reference_examples = [
+  "examples/WDS-Suite-Map.md",
+  "examples/Example-Deployment-Record.md",
+  "examples/Example-Accessibility-Metadata-Check.md",
+  "examples/SiteMetadata.jsonld"
+]
+
+[adopter_artifacts]
+schemas = ["SiteManifest.schema.toml"]
+manifest_templates = ["templates/Site-Manifest.toml"]
+document_templates = ["templates/Deployment-Record.md", "examples/SiteMetadata.jsonld"]
+
+[lifecycle]
+created = "2026-06-10"
+last_updated = "2026-06-11"
+maintainer = "Herb"
+
+[agent]
+read_first = ["README.md", "Website Development Standard.md", "WDS.manifest.toml"]
+notes = "Expected adopters include aptlantis.net and aptlantis.studio."

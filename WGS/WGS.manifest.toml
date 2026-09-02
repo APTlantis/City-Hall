@@ -1,0 +1,78 @@
+[standard]
+id = "wgs"
+title = "Workspace Governance Standard"
+abbreviation = "WGS"
+status = "active"
+maturity = "candidate"
+version = "0.2.7"
+description = "Governs the Aptlantis workspace structure, manifests, project registration, lifecycle visibility, services, standards hierarchy, responsibility boundaries, agent orientation, and workspace health."
+
+[governance]
+meta_standard = "SFDS"
+workspace_standard = "WGS"
+scope = "Workspace roots, manifests, standards relationships, project classes, lifecycle states, shared services, metadata records, agent startup, and workspace health."
+non_goals = ["Application release procedure", "CLI command behavior", "website deployment details", "dataset licensing policy"]
+
+[artifacts]
+specification = "Workspace Governance Standard.md"
+schema = "STANDARD.manifest.schema.toml"
+templates = "templates"
+examples = "examples"
+adoption_guide = "Adoption-Guide.md"
+validation_checklist = "Validation-Checklist.md"
+changelog = "CHANGELOG.md"
+validators = [
+  "tools/city_hall_audit.py",
+  "tools/workspace_inventory.py",
+  "tools/governance_scaffold.py",
+  "tools/normalize_entity_manifests.py",
+  "tools/snapshot_root_governance.py",
+  "tools/manifest_diff.py",
+  "tools/link_integrity.py"
+]
+governance_notes = [
+  "Manifest-Conventions.md",
+  "Agent-Startup-Procedure.md",
+  "Agent-Closeout-Procedure.md",
+  "Workspace-Audit-Dashboard-Spec.md",
+  "Entity-Manifest-Query-Store.md",
+  "CI-Usage.md",
+  "Workspace-Recovery-Plan-2026-08-22.md",
+  "Documentation-Suite-Roadmap.md",
+  "Governance-Responsibility-Matrix.md"
+]
+reference_examples = [
+  "examples/WGS-Suite-Map.md",
+  "examples/City-Hall-Health-Record.md",
+  "examples/Library-Root-Health-Record.md",
+  "examples/Workspace-Health-Dashboard.html",
+  "examples/City-Hall-Audit-2026-06-11.md",
+  "examples/Workspace-Governance-Audit-2026-07-07.md",
+  "examples/Workspace-Governance-Audit-2026-07-08.md"
+]
+
+[adopter_artifacts]
+schemas = ["STANDARD.manifest.schema.toml", "EntityManifest-v2.4.schema.json"]
+manifest_templates = [
+  "templates/Development.manifest.toml",
+  "templates/DirectoryName.manifest.toml",
+  "templates/ProjectName.manifest.toml",
+  "templates/StandardName.manifest.toml"
+]
+document_templates = [
+  "templates/AGENTS.root.md",
+  "templates/AGENTS.directory.md",
+  "templates/AGENTS.project.md",
+  "templates/PROJECT-READMAP.toml",
+  "templates/Project-README.md",
+  "templates/Workspace-Health-Record.md"
+]
+
+[lifecycle]
+created = "2026-06-10"
+last_updated = "2026-08-23"
+maintainer = "Herb"
+
+[agent]
+read_first = ["README.md", "Workspace Governance Standard.md", "Manifest-Conventions.md", "Agent-Startup-Procedure.md"]
+notes = "WGS is the architectural constitution for the drive. Use SFDS for standard-suite shape and WGS for workspace placement, registration, lifecycle visibility, metadata records, services, and agent orientation."

@@ -1,0 +1,73 @@
+[manifest]
+schema = "APTlantis Entity Manifest"
+schema_version = "2.4"
+manifest_type = "project"
+canonical_name = "PROJECT.manifest.toml"
+last_updated = "2026-06-10"
+maintainer = "Herb"
+
+[entity]
+id = "datasetpipelines"
+title = "DatasetPipelines"
+kind = "project"
+class = "command-tool"
+status = "active"
+description = "Generated project manifest for DatasetPipelines. Review and enrich project-specific metadata."
+tags = []
+
+[project]
+type = "command-tool"
+stage = "active"
+version = "0.0.0"
+
+[governance]
+primary_standard = "CTS"
+release_standard = "CTS"
+additional_standards = []
+proposal_required = true
+
+[lifecycle]
+state = "active"
+created = "2026-06-10"
+last_updated = "2026-06-10"
+maintainer = "Herb"
+completion_percent = 0
+
+[paths]
+root = "D:\\200-CTS\\240-DATA-PIPELINES\\DatasetPipelines"
+docs = "docs"
+source = ""
+artifacts = ""
+data = ""
+
+[documentation]
+readme = "README.md"
+proposal = "PROJECT.md"
+roadmap = ""
+architecture = ""
+release_notes = ""
+
+[runtime]
+platform = "cli"
+language_primary = "unknown"
+languages_used = []
+services = []
+storage = ["local-filesystem"]
+
+[relationships]
+depends_on_projects = []
+used_by_projects = []
+related_projects = []
+external_dependencies = []
+
+[state]
+stability = "experimental"
+active_development = false
+known_gaps = ["Generated during workspace categorization; review project-specific metadata."]
+technical_debt = "unknown"
+
+[agent]
+read_first = ["PROJECT.manifest.toml", "README.md"]
+governing_context = "Read the governing standard before making broad changes."
+safe_to_modify = false
+notes = "Regenerated after category move to keep root path current."

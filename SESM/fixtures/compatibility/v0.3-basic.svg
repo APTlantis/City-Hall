@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="SESM 0.3 compatibility icon">
+  <title>SESM 0.3 compatibility icon</title>
+  <metadata id="sesm"><![CDATA[
+{
+  "sesm_version": "0.3.0",
+  "asset": {
+    "id": "compat-v0-3-basic",
+    "role": "icon",
+    "title": "SESM 0.3 Compatibility Fixture"
+  },
+  "llm": {
+    "summary": "Current SESM 0.3 metadata fixture used for compatibility validation.",
+    "interpretation_hints": [
+      "Use this fixture to verify the current public-review SESM profile."
+    ]
+  }
+}
+]]></metadata>
+  <circle cx="32" cy="32" r="22" fill="#F97316"/>
+</svg>

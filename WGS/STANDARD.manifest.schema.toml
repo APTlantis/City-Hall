@@ -1,0 +1,13 @@
+title = "Workspace Governance Standard Manifest Schema"
+type = "object"
+required = ["standard", "governance", "artifacts", "lifecycle"]
+
+[properties.standard]
+required = ["id", "title", "abbreviation", "status", "maturity", "version"]
+
+[properties.governance]
+required = ["meta_standard", "workspace_standard", "scope"]
+
+[properties.artifacts]
+required = ["specification", "templates", "adoption_guide", "validation_checklist", "changelog"]
+

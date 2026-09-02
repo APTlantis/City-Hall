@@ -1,0 +1,56 @@
+[standard]
+id = "cts"
+title = "Command Tool Standard"
+abbreviation = "CTS"
+status = "active"
+maturity = "candidate"
+version = "0.2.1"
+description = "Governs CLI tools, command contracts, output schemas, exit codes, automation compatibility, release distribution, and release verification."
+
+[governance]
+meta_standard = "SFDS"
+workspace_standard = "WGS"
+scope = "Command-line tools, automation utilities, command contracts, output streams, exit codes, destructive command safety, and CLI distribution posture."
+non_goals = ["Desktop GUI release packaging", "website deployment", "dataset provenance", "archive-preservation signing policy"]
+
+[artifacts]
+specification = "Command Tool Standard.md"
+schema = "CommandOutput.schema.json"
+templates = "templates"
+examples = "examples"
+adoption_guide = "Adoption-Guide.md"
+validation_checklist = "Validation-Checklist.md"
+changelog = "CHANGELOG.md"
+validators = ["tools/cts_validate.py", "tools/cts_lint_contract.py"]
+governance_notes = [
+  "JSON-Data-Payload-Guidance.md",
+  "Command-Versioning-Migration-Notes.md",
+  "CI-Usage.md",
+  "Progress-Output-Compatibility.md"
+]
+reference_examples = [
+  "examples/CTS-Suite-Map.md",
+  "examples/Manifest-Audit-Command-Contract.md",
+  "examples/manifest-audit-output-ok.json",
+  "examples/manifest-audit-output-error.json",
+  "examples/fixtures/ok-envelope.json",
+  "examples/fixtures/error-envelope.json",
+  "examples/reference-implementations/python_cli.py"
+]
+
+[adopter_artifacts]
+schemas = ["CommandOutput.schema.json"]
+manifest_templates = []
+document_templates = [
+  "templates/Command-Contract.md",
+  "templates/CLI-Release-Checklist.md"
+]
+
+[lifecycle]
+created = "2026-06-10"
+last_updated = "2026-08-20"
+maintainer = "Herb"
+
+[agent]
+read_first = ["README.md", "Command Tool Standard.md", "CTS.manifest.toml"]
+notes = "Use CTS for ArchiveHasher, ReleaseHasher, AnalyzeProjects, ScriptWriters, LangThemeGenerator, CloneCratesio, ClipboardFilter, and Llama tooling. Use ARHS for publishable CLI release hash manifests and AAMHS for archive-preservation signing."

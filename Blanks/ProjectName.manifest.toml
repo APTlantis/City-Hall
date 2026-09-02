@@ -1,0 +1,73 @@
+[manifest]
+schema = "APTlantis Entity Manifest"
+schema_version = "2.4"
+manifest_type = "project"
+canonical_name = "PROJECT.manifest.toml"
+last_updated = "2026-06-10"
+maintainer = "Herb"
+
+[entity]
+id = "example-project"
+title = "Example Project"
+kind = "project"
+class = "tool"
+status = "concept"
+description = "Short description of the project mission."
+tags = []
+
+[project]
+type = "tool"
+stage = "concept"
+version = "0.0.0"
+
+[governance]
+primary_standard = "PPS"
+release_standard = ""
+additional_standards = []
+proposal_required = true
+
+[lifecycle]
+state = "concept"
+created = "2026-06-10"
+last_updated = "2026-06-10"
+maintainer = "Herb"
+completion_percent = 0
+
+[paths]
+root = "D:\\000-EXAMPLE\\ExampleProject"
+docs = "docs"
+source = ""
+artifacts = ""
+data = ""
+
+[documentation]
+readme = "README.md"
+proposal = "PROJECT.md"
+roadmap = ""
+architecture = ""
+release_notes = ""
+
+[runtime]
+platform = "unknown"
+language_primary = "unknown"
+languages_used = []
+services = []
+storage = ["local-filesystem"]
+
+[relationships]
+depends_on_projects = []
+used_by_projects = []
+related_projects = []
+external_dependencies = []
+
+[state]
+stability = "experimental"
+active_development = false
+known_gaps = ["Generated during workspace structure rollout; review project-specific metadata."]
+technical_debt = "unknown"
+
+[agent]
+read_first = ["PROJECT.manifest.toml", "README.md"]
+governing_context = "Read the governing standard before making broad changes."
+safe_to_modify = false
+notes = "Replace placeholder values before treating this as authoritative."

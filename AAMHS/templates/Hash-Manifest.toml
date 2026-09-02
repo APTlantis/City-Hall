@@ -1,0 +1,26 @@
+[archive]
+id = "example-archive"
+title = "Example Archive"
+created = "2026-07-30"
+maintainer = "Your Name"
+update_cadence = "on archive update"
+
+[hash_suite]
+version = "aamhs.hash-suite.v1"
+primary = "sha256"
+additional = []
+allowed_algorithms = ["sha256", "blake3", "kangarootwelve"]
+generated_at = "2026-07-30T00:00:00Z"
+tool = "Get-FileHash -Algorithm SHA256"
+
+[[files]]
+path = "relative/path/to/archive-file.bin"
+size_bytes = 12345
+sha256 = "0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF"
+blake3 = ""
+kangarootwelve = ""
+
+[signatures]
+detached_signatures_used = false
+policy = "No detached signatures used."
+files = []

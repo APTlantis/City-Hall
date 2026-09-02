@@ -1,0 +1,34 @@
+title = "Aptlantis Project Proposal Manifest Schema"
+type = "object"
+required = ["proposal", "project", "criteria", "constraints"]
+
+[properties.proposal]
+required = ["id", "status", "created", "responsibility_posture"]
+
+[properties.proposal.properties.status]
+type = "string"
+enum = ["sketch", "draft", "ready", "approved", "deferred", "rejected", "archived"]
+
+[properties.proposal.properties.readiness]
+type = "string"
+enum = ["sketch", "ready-for-review", "approved-for-build", "blocked", "deferred"]
+
+[properties.proposal.properties.operational_personas]
+type = "array"
+
+[properties.proposal.properties.operational_personas.items]
+type = "string"
+enum = ["solo-maintainer", "operator", "agent", "reviewer", "adopter", "maintainer"]
+
+[properties.proposal.properties.responsibility_posture]
+type = "string"
+enum = ["personal", "shared", "adoptable"]
+
+[properties.project]
+required = ["name", "type", "mission"]
+
+[properties.criteria]
+required = ["success", "failure"]
+
+[properties.constraints]
+required = ["technical", "scope"]
