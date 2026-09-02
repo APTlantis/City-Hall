@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.3.0",
   "name": "Aptlantis Blue-Slate",
   "canonicalBoard": "AptlantisBlue-Slate.png",
   "ratio": {
@@ -24,12 +24,14 @@
     "offWhite": { "hex": "#E1E7DB", "role": "primary text and high emphasis" },
     "electricCyan": { "hex": "#00D8FF", "role": "focus, active action, signal glow" },
     "arcticCyan": { "hex": "#65F2FF", "role": "strong focus highlight and luminous detail" },
+    "pink": { "hex": "#ED72B6", "role": "editorial code and differentiated signal detail" },
     "teal": { "hex": "#21C6B8", "role": "selected technical surface and secondary action" },
     "aquaTeal": { "hex": "#3AD1C3", "role": "soft technical emphasis" },
     "amber": { "hex": "#FF884D", "role": "warning and priority signal" },
     "brass": { "hex": "#D9A441", "role": "attention, preflight note, command highlight" },
     "violet": { "hex": "#9C7CFF", "role": "taxonomy and special state" },
     "indigo": { "hex": "#6A5BFF", "role": "vault, archive, and classification state" },
+    "danger": { "hex": "#FF5C74", "role": "error, destructive action, and invalid state" },
     "success": { "hex": "#30D58C", "role": "success and healthy state" },
     "verified": { "hex": "#6FE3A4", "role": "verified and complete state" }
   },
@@ -60,7 +62,93 @@
     "codeString": "{palette.verified}",
     "codeNumber": "{palette.brass}",
     "codePunctuation": "{palette.paleMist}",
-    "codeDanger": "{palette.amber}"
+    "codeDanger": "{palette.amber}",
+    "surfaces": {
+      "canvas": "{palette.abyss}",
+      "canvasRecessed": "{palette.deepNavy}",
+      "panel": "{palette.navy}",
+      "panelRaised": "{palette.slate}",
+      "panelAccent": "{palette.steelBlue}",
+      "overlay": "{palette.deepNavy}",
+      "popover": "{palette.deepNavy}",
+      "input": "{palette.deepNavy}",
+      "table": "{palette.deepNavy}",
+      "disabled": "{palette.deepNavy}"
+    },
+    "content": {
+      "primary": "{palette.offWhite}",
+      "emphasis": "{palette.offWhite}",
+      "secondary": "{palette.seaFoam}",
+      "tertiary": "{palette.paleMist}",
+      "disabled": "{palette.coolGrey}",
+      "link": "{palette.arcticCyan}",
+      "linkHover": "#B3FAFF",
+      "code": "{palette.seaFoam}",
+      "codeAccent": "{palette.pink}"
+    },
+    "structure": {
+      "border": "{palette.dusk}",
+      "borderSoft": "{palette.blueGrey}",
+      "borderStrong": "{palette.coolGrey}",
+      "borderTranslucent": "{palette.mistBlue}"
+    },
+    "intent": {
+      "primary": "{palette.electricCyan}",
+      "secondary": "{palette.mistBlue}",
+      "success": "{palette.success}",
+      "info": "{palette.violet}",
+      "warning": "{palette.amber}",
+      "danger": "{palette.danger}",
+      "light": "{palette.seaFoam}",
+      "dark": "{palette.deepNavy}",
+      "attention": "{palette.brass}",
+      "taxonomy": "{palette.violet}",
+      "archive": "{palette.indigo}",
+      "verified": "{palette.verified}"
+    },
+    "interaction": {
+      "action": "{palette.electricCyan}",
+      "actionSecondary": "{palette.teal}",
+      "focus": "{palette.arcticCyan}",
+      "hover": "{palette.arcticCyan}",
+      "active": "{palette.steelBlue}",
+      "disabled": "{palette.coolGrey}"
+    },
+    "validation": {
+      "valid": "{palette.verified}",
+      "validBorder": "{palette.success}",
+      "invalid": "{palette.danger}",
+      "invalidBorder": "{palette.danger}"
+    }
+  },
+  "foundation": {
+    "radii": {
+      "small": "0.375rem",
+      "default": "0.625rem",
+      "large": "0.875rem",
+      "extraLarge": "1.25rem",
+      "extraExtraLarge": "1.5rem",
+      "pill": "50rem"
+    },
+    "elevation": {
+      "small": "0 0.125rem 0.5rem rgb(0 0 0 / 0.22)",
+      "panel": "0 0.5rem 1.5rem rgb(0 0 0 / 0.30), inset 0 1px 0 rgb(231 236 227 / 0.05)",
+      "floating": "0 1.25rem 4.375rem rgb(0 0 0 / 0.38), inset 0 1px 0 rgb(231 236 227 / 0.07)",
+      "inset": "inset 0 1px 2px rgb(0 0 0 / 0.30)"
+    },
+    "spacing": {
+      "zero": "0",
+      "one": "0.25rem",
+      "two": "0.5rem",
+      "three": "1rem",
+      "four": "1.5rem",
+      "five": "3rem"
+    },
+    "focusRing": {
+      "width": "0.25rem",
+      "opacity": 0.3,
+      "color": "{semantic.interaction.focus}"
+    }
   },
   "typography": {
     "display": "\"Aptos Display\", \"Segoe UI Variable Display\", \"Segoe UI\", system-ui, sans-serif",

@@ -1,7 +1,7 @@
 # Blue-Slate Design System
 
-Version: 0.1.0
-Status: formalized local standard
+Version: 0.3.0
+Status: candidate-active local standard
 Canonical board: `AptlantisBlue-Slate.png`
 
 Blue-Slate is the Aptlantis house system for local-first tools, archival project pages, command surfaces, evidence dashboards, and Windows desktop utilities. It is not a broad public design framework. It is a compact, opinionated standard for the products this workspace tends to produce.
@@ -33,6 +33,30 @@ The system has four token layers:
 4. Framework translations: Tailwind CSS variables/classes, XAML resources, WinUI resources, and Tauri/React usage patterns.
 
 The canonical machine-readable token source is `spec/tokens/BlueSlate.Tokens.json`. CSS consumers can start from `spec/tokens/BlueSlate.Tokens.css`.
+
+## Expanded Semantic Contract
+
+Semantic tokens now distinguish the operational conditions that desktop interfaces need to communicate:
+
+| Group | Roles |
+| --- | --- |
+| Surfaces | canvas, recessed canvas, panel, raised panel, accent panel, overlay, popover, input, table, disabled |
+| Content | primary, emphasis, secondary, tertiary, disabled, link, link-hover, code, code-accent |
+| Structure | standard, soft, strong, and translucent borders |
+| Intent | primary, secondary, success, info, warning, danger, light, dark, attention, taxonomy, archive, verified |
+| Interaction | action, secondary action, hover, active, disabled, and focus |
+| Validation | valid/valid-border and invalid/invalid-border |
+| Foundation | radii, elevation, spacing, and focus-ring metrics |
+
+Use these roles before raw palette tokens. A framework may expose compatibility aliases or more detailed component variables, but it must map them back to this contract rather than making framework names canonical.
+
+## Interaction, Status, and Accessibility
+
+- Default, hover, focus, active, disabled, valid, and invalid states must remain distinguishable at normal working density.
+- Focus uses the cyan/arctic semantic path and must be visible by keyboard, not inferred from hover styling.
+- Intent color communicates meaning only with a text label, icon, or other non-color cue for status and validation.
+- Check normal text at 4.5:1 minimum and large text or non-text interactive indicators at 3:1 minimum against the rendered surface.
+- Disabled state communicates unavailable action without erasing legibility or the reason it is unavailable.
 
 ## Accent Semantics
 
@@ -82,4 +106,11 @@ Avoid:
 - WPF translation: `spec/frameworks/BlueSlate.WPF.md`
 - WinUI translation: `spec/frameworks/BlueSlate.WinUI.md`
 - Tauri/React profile: `spec/frameworks/BlueSlate.TauriReact.md`
+- Bootstrap 5.3 profile: `spec/frameworks/BlueSlate.Bootstrap53.md`
 - Asset baseline: `spec/assets/BlueSlate.Assets.md`
+
+## Framework Boundary and Compatibility
+
+Framework profiles share the token source and semantic meaning, not implementation mechanics. Bootstrap 5.3 is a maintained profile that supplies its required contextual families, RGB channels, subtle variants, and component aliases; those values are translation details and may differ from framework-neutral defaults. Existing Tailwind, Tauri/React, WinUI, and WPF profiles remain valid and may add the expanded roles incrementally.
+
+Blue Slate is deliberately single-theme dark. This version does not introduce a light palette or a color-mode switch.

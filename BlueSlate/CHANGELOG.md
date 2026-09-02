@@ -1,5 +1,13 @@
 # Blue Slate Changelog
 
+## 0.3.0 - 2026-09-02
+
+- Expanded the framework-neutral semantic contract with operational surface, content, structure, intent, interaction, validation, elevation, radius, spacing, and focus roles while preserving existing palette values.
+- Added the maintained single-dark-theme Bootstrap 5.3 profile, local root-variable translation, and component-state starter example.
+- Defined the boundary between canonical Blue Slate semantics and Bootstrap-required compatibility aliases; existing profiles remain valid and may adopt the new roles incrementally.
+- Updated adoption and validation guidance for Bootstrap version recording, state coverage, contrast, and visible keyboard focus.
+- Preserved `D:\.zoning\blue-slate-bootstrap` as dated source evidence rather than treating it as canonical authority.
+
 ## Unreleased - 2026-08-20
 
 - Normalized the active library manifest to `BlueSlate.manifest.toml` with SFDS-required `[standard]` and `[governance]` metadata while preserving the Blue Slate / blue.slate product identity.

@@ -19,8 +19,8 @@ Projects may use Blue Slate as an explicit candidate-active visual-system depend
 | Token CSS | `spec\tokens\BlueSlate.Tokens.css` |
 | Design-system notes | `spec\BlueSlate.DesignSystem.md` |
 | Layout patterns | `spec\layout\BlueSlate.LayoutPatterns.md` |
-| Framework notes | `spec\frameworks\BlueSlate.Tailwind.md`, `BlueSlate.TauriReact.md`, `BlueSlate.WinUI.md`, `BlueSlate.WPF.md` |
-| Starter packs | `starter-packs\tailwind`, `starter-packs\tauri-react`, `starter-packs\winui`, `starter-packs\wpf` |
+| Framework notes | `spec\frameworks\BlueSlate.Tailwind.md`, `BlueSlate.TauriReact.md`, `BlueSlate.WinUI.md`, `BlueSlate.WPF.md`, `BlueSlate.Bootstrap53.md` |
+| Starter packs | `starter-packs\tailwind`, `starter-packs\tauri-react`, `starter-packs\winui`, `starter-packs\wpf`, `starter-packs\bootstrap53` |
 | Visual references | `apps`, `spec\mockups` |
 
 ## Promotion Record
@@ -34,7 +34,7 @@ Promotion state: candidate active as of 2026-07-25.
 Remaining gaps:
 
 - More real adopter evidence is needed before stable maturity.
-- Automated token/profile validation is not yet provided.
+- The Bootstrap 5.3 profile still needs rendered adopter evidence before stable maturity.
 - NeonInk lineage is documented, but not fully merged into a single promoted visual-language standard.
 
 ## Governance

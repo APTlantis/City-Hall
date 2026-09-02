@@ -3,7 +3,7 @@ schema = "APTlantis Entity Manifest"
 schema_version = "2.4"
 manifest_type = "standard"
 canonical_name = "BlueSlate.manifest.toml"
-last_updated = "2026-08-20"
+last_updated = "2026-09-02"
 maintainer = "Herb"
 
 [entity]
@@ -21,7 +21,7 @@ title = "Blue Slate Visual System"
 abbreviation = "BlueSlate"
 status = "candidate-active"
 maturity = "candidate"
-version = "0.2.0"
+version = "0.3.0"
 summary = "Aptlantis visual-system standard for local-first tools, archival project pages, evidence dashboards, command surfaces, and Windows desktop utilities."
 
 [governance]
@@ -41,7 +41,7 @@ promoted = true
 [lifecycle]
 state = "candidate-active"
 created = "2026-07-22"
-last_updated = "2026-08-20"
+last_updated = "2026-09-02"
 maintainer = "Herb"
 completion_percent = 70
 
@@ -65,7 +65,7 @@ examples = "examples"
 adoption_guide = "Adoption-Guide.md"
 validation_checklist = "Validation-Checklist.md"
 changelog = "CHANGELOG.md"
-validators = []
+validators = ["spec/frameworks/validate_bootstrap53_profile.py"]
 governance_notes = []
 reference_examples = ["spec/mockups"]
 
@@ -87,8 +87,8 @@ source_of_truth = "D:\\.city_hall\\BlueSlate\\spec\\tokens\\BlueSlate.Tokens.jso
 token_css = "D:\\.city_hall\\BlueSlate\\spec\\tokens\\BlueSlate.Tokens.css"
 design_spec = "D:\\.city_hall\\BlueSlate\\spec\\BlueSlate.DesignSystem.md"
 layout_patterns = "D:\\.city_hall\\BlueSlate\\spec\\layout\\BlueSlate.LayoutPatterns.md"
-framework_notes = ["spec/frameworks/BlueSlate.Tailwind.md", "spec/frameworks/BlueSlate.TauriReact.md", "spec/frameworks/BlueSlate.WinUI.md", "spec/frameworks/BlueSlate.WPF.md"]
-starter_packs = ["starter-packs/tailwind", "starter-packs/tauri-react", "starter-packs/winui", "starter-packs/wpf"]
+framework_notes = ["spec/frameworks/BlueSlate.Tailwind.md", "spec/frameworks/BlueSlate.TauriReact.md", "spec/frameworks/BlueSlate.WinUI.md", "spec/frameworks/BlueSlate.WPF.md", "spec/frameworks/BlueSlate.Bootstrap53.md"]
+starter_packs = ["starter-packs/tailwind", "starter-packs/tauri-react", "starter-packs/winui", "starter-packs/wpf", "starter-packs/bootstrap53"]
 visual_references = ["spec/mockups"]
 
 [promotion]
@@ -100,7 +100,7 @@ active_governance_status = "May govern projects that explicitly adopt Blue Slate
 [state]
 stability = "candidate-active"
 active_development = true
-known_gaps = ["More real adopter evidence is needed before stable maturity.", "Automated token/profile validation is not yet provided.", "NeonInk lineage is documented, but not fully merged into a single promoted visual-language standard."]
+known_gaps = ["More real adopter evidence is needed before stable maturity.", "The Bootstrap 5.3 profile still needs rendered adopter evidence before stable maturity.", "NeonInk lineage is documented, but not fully merged into a single promoted visual-language standard."]
 technical_debt = "Earlier project-style records are preserved for lineage while README.md is now the standard-suite front door."
 
 [agent]

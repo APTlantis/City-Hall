@@ -1,6 +1,6 @@
 # Blue Slate Visual System
 
-![Standard](https://img.shields.io/badge/visual%20system-blue.slate%20v0.2.0-blue)
+![Standard](https://img.shields.io/badge/visual%20system-blue.slate%20v0.3.0-blue)
 ![Manifest](https://img.shields.io/badge/manifest-entity--named%20TOML-orange)
 ![Scope](https://img.shields.io/badge/scope-design%20tokens%20and%20layout-green)
 ![Status](https://img.shields.io/badge/status-candidate--active-lightgrey)
@@ -22,7 +22,9 @@ It is candidate active: projects may adopt it deliberately, but each adoption sh
 | `spec/tokens/BlueSlate.Tokens.css` | CSS token translation. |
 | `spec/layout/BlueSlate.LayoutPatterns.md` | Reusable layout vocabulary. |
 | `spec/frameworks/` | Tailwind, Tauri/React, WinUI, and WPF implementation notes. |
-| `starter-packs/` | Pilot implementation resources. |
+| `spec/frameworks/BlueSlate.Bootstrap53.md` | Bootstrap 5.3 translation profile. |
+| `spec/frameworks/validate_bootstrap53_profile.py` | Checks the Bootstrap profile's token/alias mapping boundary. |
+| `starter-packs/` | Pilot implementation resources, including a Bootstrap 5.3 state example. |
 | `apps/`, `spec/mockups/` | Visual references and screenshots. |
 
 ## Role
@@ -42,11 +44,12 @@ NeonInk remains the broader visual-language lineage, while SESM governs embedded
 1. `README.md`
 2. `spec/BlueSlate.DesignSystem.md`
 3. `spec/tokens/BlueSlate.Tokens.json`
-4. `Adoption-Guide.md`
-5. `Validation-Checklist.md`
+4. the relevant framework profile, including `BlueSlate.Bootstrap53.md` for Bootstrap 5.3
+5. `Adoption-Guide.md`
+6. `Validation-Checklist.md`
 
 ## Maturity
 
-Candidate active v0.2.0.
+Candidate active v0.3.0.
 
 The token source, layout vocabulary, framework notes, and starter packs are usable for active work, but Blue Slate still needs more real adopter evidence before being called stable or reference.

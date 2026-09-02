@@ -13,6 +13,16 @@ Use Blue Slate when an Aptlantis project needs a local-first, operational visual
 7. Use one primary layout pattern from `spec/layout/BlueSlate.LayoutPatterns.md` and no more than two secondary patterns per page or surface.
 8. Record any local deviations, missing tokens, or project-specific accessibility findings.
 
+## Bootstrap 5.3 Adoption
+
+For Bootstrap 5.3 adopters:
+
+1. Bundle Bootstrap 5.3.x locally and load `starter-packs/bootstrap53/aptlantis-blue-slate.bootstrap53.css` after it.
+2. Record `BlueSlate.Bootstrap53` as the framework profile and `0.3.0` as the token source version.
+3. Use semantic contextual components for declared intent, not decorative color.
+4. Review the state matrix in `starter-packs/bootstrap53/sample-surface.html`; document any component override or local profile decision.
+5. Complete contrast and keyboard-focus checks on the rendered adopter surface.
+
 ## Adoption Levels
 
 | Level | Meaning |
@@ -36,7 +46,8 @@ An adopting project should record:
 - adoption level,
 - token source version,
 - framework profile used,
+- Bootstrap version when the Bootstrap profile is used,
 - primary layout pattern,
 - local deviations,
-- accessibility or contrast checks performed,
+- accessibility/contrast and state-coverage checks performed,
 - known gaps or deferred visual cleanup.

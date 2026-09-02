@@ -19,12 +19,14 @@
 
   --bs-electric-cyan: #00D8FF;
   --bs-arctic-cyan: #65F2FF;
+  --bs-pink: #ED72B6;
   --bs-teal: #21C6B8;
   --bs-aqua-teal: #3AD1C3;
   --bs-amber: #FF884D;
   --bs-brass: #D9A441;
   --bs-violet: #9C7CFF;
   --bs-indigo: #6A5BFF;
+  --bs-danger: #FF5C74;
   --bs-success: #30D58C;
   --bs-verified: #6FE3A4;
 
@@ -49,6 +51,36 @@
   --bs-success-state: var(--bs-success);
   --bs-verified-state: var(--bs-verified);
 
+  /* Expanded semantic roles (v0.3.0). */
+  --bs-canvas: var(--bs-abyss);
+  --bs-canvas-recessed: var(--bs-deep-navy);
+  --bs-overlay: var(--bs-deep-navy);
+  --bs-popover: var(--bs-deep-navy);
+  --bs-input-surface: var(--bs-deep-navy);
+  --bs-table-surface: var(--bs-deep-navy);
+  --bs-disabled-surface: var(--bs-deep-navy);
+  --bs-content-primary: var(--bs-off-white);
+  --bs-content-emphasis: var(--bs-off-white);
+  --bs-content-secondary: var(--bs-sea-foam);
+  --bs-content-tertiary: var(--bs-pale-mist);
+  --bs-content-disabled: var(--bs-cool-grey);
+  --bs-link-hover: #B3FAFF;
+  --bs-code-accent: var(--bs-pink);
+  --bs-border-strong: var(--bs-cool-grey);
+  --bs-border-translucent: color-mix(in oklab, var(--bs-mist-blue) 28%, transparent);
+  --bs-intent-primary: var(--bs-electric-cyan);
+  --bs-intent-secondary: var(--bs-mist-blue);
+  --bs-intent-success: var(--bs-success);
+  --bs-intent-info: var(--bs-violet);
+  --bs-intent-warning: var(--bs-amber);
+  --bs-intent-danger: var(--bs-danger);
+  --bs-intent-light: var(--bs-sea-foam);
+  --bs-intent-dark: var(--bs-deep-navy);
+  --bs-validation-valid: var(--bs-verified);
+  --bs-validation-valid-border: var(--bs-success);
+  --bs-validation-invalid: var(--bs-danger);
+  --bs-validation-invalid-border: var(--bs-danger);
+
   --bs-font-display: "Aptos Display", "Segoe UI Variable Display", "Segoe UI", system-ui, sans-serif;
   --bs-font-sans: "Aptos", "Segoe UI Variable Text", "Segoe UI", system-ui, sans-serif;
   --bs-font-mono: "Cascadia Code", "Cascadia Mono", "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
@@ -59,4 +91,14 @@
   --bs-radius-xl: 1.25rem;
   --bs-shadow-panel: 0 20px 70px rgb(0 0 0 / 0.32), inset 0 1px 0 rgb(225 231 219 / 0.07);
   --bs-shadow-signal: 0 0 0 1px rgb(101 242 255 / 0.30), 0 0 26px rgb(0 216 255 / 0.22);
+
+  --bs-space-0: 0;
+  --bs-space-1: 0.25rem;
+  --bs-space-2: 0.5rem;
+  --bs-space-3: 1rem;
+  --bs-space-4: 1.5rem;
+  --bs-space-5: 3rem;
+  --bs-focus-ring-width: 0.25rem;
+  --bs-focus-ring-opacity: 0.30;
+  --bs-focus-ring-color: rgb(101 242 255 / 0.30);
 }

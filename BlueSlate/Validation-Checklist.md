@@ -12,6 +12,8 @@ This checklist separates Blue Slate suite validation from adopter validation.
 - [ ] `CHANGELOG.md` records version and promotion history.
 - [ ] `spec/tokens/BlueSlate.Tokens.json` parses successfully.
 - [ ] CSS and framework translations identify the token source they follow.
+- [ ] Each Bootstrap 5.3 compatibility variable maps to a canonical semantic/raw role or is documented as a Bootstrap-required alias.
+- [ ] Bootstrap starter example is registered and covers the documented state matrix.
 - [ ] NeonInk and SESM relationships are documented.
 - [ ] Known gaps are recorded instead of hidden.
 
@@ -25,10 +27,14 @@ This checklist separates Blue Slate suite validation from adopter validation.
 - [ ] Primary and secondary layout patterns are named.
 - [ ] Framework-specific notes are followed or deviations are documented.
 - [ ] Accessibility and contrast issues are checked for the adopted surface.
+- [ ] Bootstrap adopters record Bootstrap 5.3.x, Blue Slate token version, and local overrides.
+- [ ] Bootstrap adopters check cards, navigation, tables, badges, buttons, forms, alerts, progress, and code at desktop width.
+- [ ] Button default/hover/focus/active/disabled and valid/invalid/disabled field states are visibly distinct and keyboard focus is visible.
+- [ ] Normal text meets 4.5:1 minimum contrast; large text and non-text interactive indicators meet 3:1 minimum.
 - [ ] Project-specific additions are recorded as local profile decisions.
 
 ## Candidate-Active Gaps
 
 - [ ] More real adopter evidence is needed before stable maturity.
-- [ ] Automated token/profile validation is not yet provided.
+- [ ] The Bootstrap 5.3 profile needs rendered adopter evidence before stable maturity.
 - [ ] NeonInk lineage is documented, but not fully merged into a single promoted visual-language standard.
