@@ -15,6 +15,7 @@ For release distribution, CTS-governed tools use the channel that fits their eco
 | File | Purpose |
 | --- | --- |
 | `Command Tool Standard.md` | Primary CTS specification. |
+| `Quick-Reference.md` | Condensed working reference for CTS adopters and reviewers. |
 | `CTS.manifest.toml` | Standard manifest. |
 | `CommandOutput.schema.json` | Reusable CTS JSON output envelope schema. |
 | `JSON-Data-Payload-Guidance.md` | Guidance for command-specific `data` payloads. |

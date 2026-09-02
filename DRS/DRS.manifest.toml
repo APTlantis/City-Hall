@@ -23,6 +23,7 @@ validation_checklist = "Validation-Checklist.md"
 changelog = "CHANGELOG.md"
 validators = ["drs.ps1", "tools/drs_integrity_check.py"]
 governance_notes = [
+  "Quick-Reference.md",
   "Governance-Boundary.md",
   "SFDS-Adoption-Note.md",
   "docs/CI-Usage.md",
@@ -52,7 +53,7 @@ document_templates = [
 
 [lifecycle]
 created = "2026-06-10"
-last_updated = "2026-08-20"
+last_updated = "2026-09-01"
 maintainer = "Herb"
 
 [agent]

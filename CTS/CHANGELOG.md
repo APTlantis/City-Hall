@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Added a condensed Quick Reference for implementers and reviewers, linked to the authoritative specification and supporting adoption materials.
 - Added CLI distribution guidance for GitHub releases, package ecosystems, Windows portable/package-manager distribution, and internal utilities.
 - Linked publishable CLI artifacts to ARHS `.hashmanifest.toml` release hash manifests.
 - Clarified that ArchiveHasher and `manifest-signer.exe` are AAMHS archive-preservation signing tools, not normal CLI release signing.

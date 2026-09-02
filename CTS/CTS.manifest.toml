@@ -23,6 +23,7 @@ validation_checklist = "Validation-Checklist.md"
 changelog = "CHANGELOG.md"
 validators = ["tools/cts_validate.py", "tools/cts_lint_contract.py"]
 governance_notes = [
+  "Quick-Reference.md",
   "JSON-Data-Payload-Guidance.md",
   "Command-Versioning-Migration-Notes.md",
   "CI-Usage.md",
@@ -48,7 +49,7 @@ document_templates = [
 
 [lifecycle]
 created = "2026-06-10"
-last_updated = "2026-08-20"
+last_updated = "2026-09-01"
 maintainer = "Herb"
 
 [agent]

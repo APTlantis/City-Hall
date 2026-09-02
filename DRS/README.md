@@ -45,6 +45,7 @@ The README is the City Hall role/index for the DRS suite. `Desktop Application R
 | File | Purpose |
 |------|---------|
 | [`Desktop Application Release Standard.md`](Desktop%20Application%20Release%20Standard.md) | The full release standard. Read this first. |
+| [`Quick-Reference.md`](Quick-Reference.md) | Condensed working reference for DRS adopters and release reviewers. |
 | [`DesktopApplicationRelease.manifest.schema.toml`](DesktopApplicationRelease.manifest.schema.toml) | Machine-readable schema defining all required and optional manifest fields. |
 | [`ReleaseNoteMetadata.schema.json`](ReleaseNoteMetadata.schema.json) | Machine-readable release-note metadata schema for JSON-LD or automation exports. |
 | [`docs/CI-Usage.md`](docs/CI-Usage.md) | CI and local automation snippets for running `drs.ps1`. |
