@@ -1,0 +1,11 @@
+{
+  "id": "semantic-rail-control-room",
+  "prompt": "A futuristic manga control room where original female operators route glowing answer cards along color-coded semantic rails, large circular dashboards without readable text, cyan and violet light, yellow urgency indicators, organized systems-thinking atmosphere, wide hero composition.. Section: how-to-use-it-practical-application. Role: scene. original manga-inspired scene, no named characters or franchises, no text or watermarks, dramatic cinematic composition, high contrast ink-style linework, neon-lit knowledge district aesthetic. Color palette: deep indigo to midnight black backgrounds; accents electric cyan, neon magenta, amber gold; neutrals cool grey mid-tones for architectural elements. Lighting: dramatic high-contrast lighting, rim light on figures, deep shadows. Linework: clean, precise ink lines with confident stroke weight variation. Wide cinematic composition suitable for a hero banner. No text, logos, watermarks, or named characters.",
+  "model": "gpt-image-2",
+  "size": "1792x1024",
+  "quality": "high",
+  "role": "scene",
+  "section": "how-to-use-it-practical-application",
+  "source_profile": "D:\\1000QA\\tools\\manga_style_profile.json",
+  "generated_at": "2026-05-07T15:46:09.483951+00:00"
+}

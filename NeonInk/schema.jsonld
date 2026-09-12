@@ -1,0 +1,6 @@
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "NeonInk",
+  "url": "https://aptlantis.net/neon-ink"
+}

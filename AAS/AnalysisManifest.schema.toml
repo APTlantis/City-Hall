@@ -1,0 +1,18 @@
+title = "AAS Analysis Manifest Schema"
+type = "object"
+required = ["analysis", "governance", "inputs", "environment", "outputs"]
+
+[properties.analysis]
+required = ["id", "title", "status"]
+
+[properties.governance]
+required = ["standard", "workspace_standard"]
+
+[properties.inputs]
+required = ["datasets", "artifacts"]
+
+[properties.environment]
+required = ["tools", "runtime"]
+
+[properties.outputs]
+required = ["metrics", "files"]

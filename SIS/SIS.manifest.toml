@@ -1,0 +1,48 @@
+[standard]
+id = "sis"
+title = "Service and Infrastructure Standard"
+abbreviation = "SIS"
+status = "active"
+maturity = "candidate"
+version = "0.1.0"
+description = "Governs local-first services, daemons, local APIs, shared infrastructure, lifecycle commands, health checks, ports, logs, state paths, resource bounds, and recovery procedures."
+
+[governance]
+meta_standard = "SFDS"
+workspace_standard = "WGS"
+scope = "Long-running local services, shared infrastructure, background daemons, local APIs, cache services, model services, schedulers, health checks, lifecycle controls, and resource contracts."
+non_goals = ["Desktop release packaging", "one-shot CLI command output", "website deployment", "dataset provenance"]
+
+[artifacts]
+specification = "Service and Infrastructure Standard.md"
+schema = "ServiceManifest.schema.toml"
+templates = "templates"
+examples = "examples"
+adoption_guide = "Adoption-Guide.md"
+validation_checklist = "Validation-Checklist.md"
+changelog = "CHANGELOG.md"
+validators = []
+governance_notes = []
+reference_examples = [
+  "examples/SIS-Suite-Map.md",
+  "examples/Example-Local-API-Service.md",
+  "examples/Example-Workspace-Cache-Service.md"
+]
+
+[adopter_artifacts]
+schemas = ["ServiceManifest.schema.toml"]
+manifest_templates = ["templates/Service-Manifest.toml"]
+document_templates = [
+  "templates/Service-Runbook.md",
+  "templates/Health-Check-Contract.md",
+  "templates/Resource-Constraint-Contract.md"
+]
+
+[lifecycle]
+created = "2026-06-12"
+last_updated = "2026-06-12"
+maintainer = "Herb"
+
+[agent]
+read_first = ["README.md", "Service and Infrastructure Standard.md", "SIS.manifest.toml"]
+notes = "Use SIS for local-first background services, shared infrastructure, daemons, local APIs, caches, model services, schedulers, and any project class that runs beyond a one-shot command."

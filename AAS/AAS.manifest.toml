@@ -1,0 +1,43 @@
+[standard]
+id = "aas"
+title = "Aptlantis Analysis Standard"
+abbreviation = "AAS"
+status = "active"
+maturity = "candidate"
+version = "0.2.1"
+description = "Governs local evaluation pipelines, analysis manifests, run records, metric definitions, evidence, interpretation boundaries, and credibility checks."
+
+[governance]
+meta_standard = "SFDS"
+workspace_standard = "WGS"
+scope = "Evaluation and analysis records, input references, tools, environments, metrics, outputs, comparisons, limitations, and interpretation notes."
+non_goals = ["Dataset licensing", "model training recipes", "agent handoff format"]
+
+[artifacts]
+specification = "Aptlantis Analysis Standard.md"
+schema = "AnalysisManifest.schema.toml"
+templates = "templates"
+examples = "examples"
+adoption_guide = "Adoption-Guide.md"
+validation_checklist = "Validation-Checklist.md"
+changelog = "CHANGELOG.md"
+validators = []
+governance_notes = ["references/Aptlantis Analysis Standard (AAS)_ The Local Evaluation Pipeline Framework.txt"]
+reference_examples = [
+  "examples/AAS-Suite-Map.md",
+  "examples/Example-Evaluation-Run-Record.md"
+]
+
+[adopter_artifacts]
+schemas = ["AnalysisManifest.schema.toml"]
+manifest_templates = ["templates/Analysis-Manifest.toml"]
+document_templates = ["templates/Evaluation-Run-Record.md"]
+
+[lifecycle]
+created = "2026-06-10"
+last_updated = "2026-06-11"
+maintainer = "Herb"
+
+[agent]
+read_first = ["README.md", "Aptlantis Analysis Standard.md", "references/Aptlantis Analysis Standard (AAS)_ The Local Evaluation Pipeline Framework.txt"]
+notes = "Existing AAS framework notes remain preserved references."

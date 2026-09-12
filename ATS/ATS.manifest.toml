@@ -1,0 +1,47 @@
+[standard]
+id = "ats"
+title = "Agent Task Standard"
+abbreviation = "ATS"
+status = "active"
+maturity = "candidate"
+version = "0.2.1"
+description = "Governs agent task records, lifecycle states, context capture, handoff, validation records, and replayability."
+
+[governance]
+meta_standard = "SFDS"
+workspace_standard = "WGS"
+scope = "Agent workflows, task records, context capture, validation summaries, blockers, handoffs, and replayability."
+non_goals = ["Workspace root layout", "project proposal criteria", "release packaging"]
+
+[artifacts]
+specification = "Agent Task Standard.md"
+schema = "AgentTaskRecord.schema.toml"
+templates = "templates"
+examples = "examples"
+adoption_guide = "Adoption-Guide.md"
+validation_checklist = "Validation-Checklist.md"
+changelog = "CHANGELOG.md"
+validators = []
+governance_notes = []
+reference_examples = [
+  "examples/ATS-Suite-Map.md",
+  "examples/Completed-Agent-Task-Record.md",
+  "examples/Blocked-Handoff-Note.md"
+]
+
+[adopter_artifacts]
+schemas = ["AgentTaskRecord.schema.toml"]
+manifest_templates = []
+document_templates = [
+  "templates/Agent-Task-Record.md",
+  "templates/Handoff-Note.md"
+]
+
+[lifecycle]
+created = "2026-06-10"
+last_updated = "2026-06-11"
+maintainer = "Herb"
+
+[agent]
+read_first = ["README.md", "Agent Task Standard.md", "ATS.manifest.toml"]
+notes = "Use ATS after WGS orientation to record substantial agent work, handoffs, validation, blockers, and replayable context."

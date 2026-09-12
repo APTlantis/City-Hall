@@ -1,0 +1,11 @@
+{
+  "id": "crystal-throne-princess-qa",
+  "prompt": "An original manga princess character sits in a crystalline neon throne room reviewing floating QA artifact cards like royal records, elegant cyan and violet lighting, soft gold highlights, calm thoughtful expression, structured composition, polished website illustration feel, no readable text.. Section: how-to-use-it-practical-application. Role: scene. original manga-inspired scene, no named characters or franchises, no text or watermarks, dramatic cinematic composition, high contrast ink-style linework, neon-lit knowledge district aesthetic. Color palette: deep indigo to midnight black backgrounds; accents electric cyan, neon magenta, amber gold; neutrals cool grey mid-tones for architectural elements. Lighting: dramatic high-contrast lighting, rim light on figures, deep shadows. Linework: clean, precise ink lines with confident stroke weight variation. Wide cinematic composition suitable for a hero banner. No text, logos, watermarks, or named characters.",
+  "model": "gpt-image-2",
+  "size": "1536x1024",
+  "quality": "high",
+  "role": "scene",
+  "section": "how-to-use-it-practical-application",
+  "source_profile": "D:\\1000QA\\tools\\manga_style_profile.json",
+  "generated_at": "2026-05-07T22:39:07.597496+00:00"
+}

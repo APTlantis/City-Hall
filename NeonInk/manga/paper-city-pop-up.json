@@ -1,0 +1,11 @@
+{
+  "id": "paper-city-pop-up",
+  "prompt": "A cartoony manga pop-up paper city made from folded QA cards, cyan guide rails drawn like marker lines, original tiny female characters walking between panels, playful handcrafted artifact feeling, bright clean shapes, no readable text.. Section: what-neon-ink-is. Role: scene. original manga-inspired scene, no named characters or franchises, no text or watermarks, dramatic cinematic composition, high contrast ink-style linework, neon-lit knowledge district aesthetic. Color palette: deep indigo to midnight black backgrounds; accents electric cyan, neon magenta, amber gold; neutrals cool grey mid-tones for architectural elements. Lighting: dramatic high-contrast lighting, rim light on figures, deep shadows. Linework: clean, precise ink lines with confident stroke weight variation. Wide cinematic composition suitable for a hero banner. No text, logos, watermarks, or named characters.",
+  "model": "gpt-image-2",
+  "size": "1536x1024",
+  "quality": "high",
+  "role": "scene",
+  "section": "what-neon-ink-is",
+  "source_profile": "D:\\1000QA\\tools\\manga_style_profile.json",
+  "generated_at": "2026-05-07T14:32:43.638398+00:00"
+}

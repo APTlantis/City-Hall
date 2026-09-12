@@ -1,0 +1,11 @@
+{
+  "id": "obsidian-witch-sigil-blade",
+  "prompt": "An original dark manga witch draws a glowing sigil blade from a ring of floating artifact cards, black and violet robes, cyan edge light, fierce combat stance, strong ink contrast, dramatic action portrait, no readable text.. Section: how-it-s-built-system-integration. Role: character. original manga-inspired scene, no named characters or franchises, no text or watermarks, dramatic cinematic composition, high contrast ink-style linework, neon-lit knowledge district aesthetic. Color palette: deep indigo to midnight black backgrounds; accents electric cyan, neon magenta, amber gold; neutrals cool grey mid-tones for architectural elements. Lighting: dramatic high-contrast lighting, rim light on figures, deep shadows. Linework: clean, precise ink lines with confident stroke weight variation. Wide cinematic composition suitable for a hero banner. No text, logos, watermarks, or named characters.",
+  "model": "gpt-image-2",
+  "size": "1024x1024",
+  "quality": "high",
+  "role": "character",
+  "section": "how-it-s-built-system-integration",
+  "source_profile": "D:\\1000QA\\tools\\manga_style_profile.json",
+  "generated_at": "2026-05-08T02:46:18.889649+00:00"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "archive-moon-market",
+  "prompt": "A lively manga night market on the moon where original female helper characters trade glowing answer cards, tiny archive stalls, floating metadata lanterns, cyan violet and orange neon, playful crowd energy, rounded cartoony details, clean web-section composition, no readable text.. Section: gateway. Role: scene. original manga-inspired scene, no named characters or franchises, no text or watermarks, dramatic cinematic composition, high contrast ink-style linework, neon-lit knowledge district aesthetic. Color palette: deep indigo to midnight black backgrounds; accents electric cyan, neon magenta, amber gold; neutrals cool grey mid-tones for architectural elements. Lighting: dramatic high-contrast lighting, rim light on figures, deep shadows. Linework: clean, precise ink lines with confident stroke weight variation. Wide cinematic composition suitable for a hero banner. No text, logos, watermarks, or named characters.",
+  "model": "gpt-image-2",
+  "size": "1536x1024",
+  "quality": "high",
+  "role": "scene",
+  "section": "gateway",
+  "source_profile": "D:\\1000QA\\tools\\manga_style_profile.json",
+  "generated_at": "2026-05-07T15:20:06.457853+00:00"
+}

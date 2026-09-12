@@ -1,0 +1,91 @@
+# NeonInk Project Manifest
+# Version: 1.0
+# Last Updated: 2026-05-12
+
+[project]
+id = "neon-ink"
+title = "NeonInk"
+type = "library"
+stage = "active"
+version = "0.1.0"
+description = "Aptlantis Studio design system. Semantic color palette and design language specification for data-driven artifact compilation. Core design system for all Aptlantis ecosystem UI."
+tags = ["design-system", "palette", "theming", "ui-specification"]
+family = "semantic-ui"
+canonical_manifest = true
+
+[metadata]
+created = "2026-01-01"
+last_updated = "2026-05-12"
+last_reviewed = "2026-05-12"
+maintainer = "Herb"
+license = "MIT"
+language_primary = "Markdown"
+languages_used = ["Markdown", "CSS", "JSON"]
+
+[state]
+completion_percent = 70
+stability = "mostly-stable"
+active_development = true
+technical_debt = "low"
+maintenance_burden = "low"
+
+[runtime]
+platform = "library"
+environment = "Web, Applications"
+services = []
+storage = []
+
+[capabilities]
+semantic_colors = true
+palette_definition = true
+theme_specification = true
+design_rules = true
+
+[relationships]
+depends_on_projects = []
+used_by_projects = ["AptlantisConsole", "LangThemeGenerator", "StandardPageGenerator"]
+supersedes = []
+superseded_by = []
+external_dependencies = []
+related_projects = ["AptlantisStudio"]
+
+[generation]
+manifest_is_canonical = true
+generates_readme = true
+generates_jsonld = true
+generates_visualizations = true
+
+[documentation]
+readme = "README.md"
+generated_sections = true
+
+[semantic]
+domain = "design"
+primary_concepts = ["color-palette", "design-system", "semantic-design"]
+related_domains = ["UI/UX", "Brand Design"]
+cognitive_tags = ["design-system", "theming", "palette"]
+complexity = "low"
+
+[visual]
+theme = "NeonInk-v0.1.1"
+primary_color = "#00ccff"
+semantic_role = "design-system"
+contains_svg_assets = true
+
+[distribution]
+packaged = false
+portable = true
+offline_capable = true
+requires_installation = false
+
+[links]
+homepage = "https://aptlantis.net"
+
+[structure]
+repo_path = "E:/NeonInk"
+docs_path = "E:/NeonInk/docs"
+
+[notes]
+purpose = "Design system and color palette specification for Aptlantis ecosystem"
+approach = "Semantic color design with no visual element without source data"
+used_by = "AptlantisConsole, LangThemeGenerator, and other UI projects"

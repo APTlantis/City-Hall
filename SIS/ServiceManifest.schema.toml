@@ -1,0 +1,27 @@
+title = "SIS Service Manifest Schema"
+type = "object"
+required = ["service", "governance", "lifecycle", "health", "network", "storage", "resources", "operations"]
+
+[properties.service]
+required = ["id", "title", "class", "readiness"]
+
+[properties.governance]
+required = ["standard", "workspace_standard", "proposal_standard"]
+
+[properties.lifecycle]
+required = ["start", "stop", "restart", "status"]
+
+[properties.health]
+required = ["mode", "contract", "statuses"]
+
+[properties.network]
+required = ["ports", "bind_policy"]
+
+[properties.storage]
+required = ["state_paths", "cache_paths", "log_paths"]
+
+[properties.resources]
+required = ["log_rotation", "cache_limit", "cleanup"]
+
+[properties.operations]
+required = ["runbook", "recovery", "agent_rules"]

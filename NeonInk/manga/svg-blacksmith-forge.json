@@ -1,0 +1,11 @@
+{
+  "id": "svg-blacksmith-forge",
+  "prompt": "A manga blacksmith forge where original female characters hammer glowing SVG panels into polished artifact tiles, orange forge light, cyan sparks, violet shadow ink, oversized tools, intense craft energy, clean website-ready composition, no text or logos.. Section: how-it-s-built-system-integration. Role: scene. original manga-inspired scene, no named characters or franchises, no text or watermarks, dramatic cinematic composition, high contrast ink-style linework, neon-lit knowledge district aesthetic. Color palette: deep indigo to midnight black backgrounds; accents electric cyan, neon magenta, amber gold; neutrals cool grey mid-tones for architectural elements. Lighting: dramatic high-contrast lighting, rim light on figures, deep shadows. Linework: clean, precise ink lines with confident stroke weight variation. Wide cinematic composition suitable for a hero banner. No text, logos, watermarks, or named characters.",
+  "model": "gpt-image-2",
+  "size": "1536x1024",
+  "quality": "high",
+  "role": "scene",
+  "section": "how-it-s-built-system-integration",
+  "source_profile": "D:\\1000QA\\tools\\manga_style_profile.json",
+  "generated_at": "2026-05-07T15:36:41.667465+00:00"
+}

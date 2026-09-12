@@ -1,0 +1,25 @@
+title = "Agent Task Record Schema"
+type = "object"
+required = ["goal", "starting_context", "governing_standards", "actions_taken", "validation", "remaining_work"]
+
+[properties.goal]
+type = "string"
+required = true
+
+[properties.starting_context]
+required = ["workspace", "relevant_files", "prior_state"]
+
+[properties.governing_standards]
+type = "array"
+
+[properties.actions_taken]
+type = "array"
+
+[properties.validation]
+required = ["commands_or_checks", "result", "evidence"]
+
+[properties.remaining_work]
+type = "array"
+
+[properties.known_risks]
+type = "array"
