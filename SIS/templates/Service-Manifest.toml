@@ -1,0 +1,58 @@
+[service]
+id = "example-service"
+title = "Example Service"
+class = "service"
+readiness = "experimental"
+owner = "TBD"
+
+[governance]
+standard = "SIS"
+workspace_standard = "WGS"
+proposal_standard = "PPS"
+supporting_standards = ["CTS"]
+
+[lifecycle]
+start = ""
+stop = ""
+restart = ""
+status = ""
+logs = ""
+
+[health]
+mode = "command"
+contract = "Health-Check-Contract.md"
+statuses = ["healthy", "degraded", "offline", "unknown"]
+
+[[network.ports]]
+name = "api"
+port = 0
+protocol = "http"
+bind = "127.0.0.1"
+required = true
+
+[network]
+bind_policy = "local-only"
+remote_access = "forbidden"
+
+[storage]
+state_paths = []
+cache_paths = []
+log_paths = []
+temp_paths = []
+
+[resources]
+log_rotation = ""
+cache_limit = ""
+cleanup = ""
+memory_expectation = ""
+cpu_expectation = ""
+
+[operations]
+runbook = "Service-Runbook.md"
+recovery = ""
+agent_rules = []
+
+[dependencies]
+services = []
+files = []
+network = []

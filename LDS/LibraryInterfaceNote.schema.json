@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://aptlantis.local/schemas/lds/library-interface-note.schema.json",
+  "title": "LDS Library Interface Note",
+  "type": "object",
+  "required": [
+    "library_name",
+    "public_api_surface",
+    "stability_level",
+    "versioning_policy",
+    "extension_contracts",
+    "known_consumers"
+  ],
+  "properties": {
+    "library_name": { "type": "string", "minLength": 1 },
+    "public_api_surface": { "type": "string", "minLength": 1 },
+    "stability_level": {
+      "type": "string",
+      "enum": ["experimental", "interface-stable", "versioned", "reference"]
+    },
+    "versioning_policy": { "type": "string", "minLength": 1 },
+    "extension_contracts": { "type": "string" },
+    "known_consumers": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "companion_crates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "standard"],
+        "properties": {
+          "name": { "type": "string" },
+          "standard": { "type": "string" }
+        },
+        "additionalProperties": true
+      }
+    },
+    "known_gaps": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  },
+  "additionalProperties": true
+}

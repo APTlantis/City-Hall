@@ -1,0 +1,18 @@
+title = "DDS Dataset Manifest Schema"
+type = "object"
+required = ["dataset", "governance", "provenance", "license", "validation"]
+
+[properties.dataset]
+required = ["id", "title", "version", "class"]
+
+[properties.governance]
+required = ["standard", "workspace_standard"]
+
+[properties.provenance]
+required = ["sources", "created"]
+
+[properties.license]
+required = ["name", "usage_constraints"]
+
+[properties.validation]
+required = ["status", "checks"]

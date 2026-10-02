@@ -1,0 +1,14 @@
+# Framework adapters
+
+Read the relevant suite profile and `Migration-0.5.md`; coverage is intentionally uneven.
+
+- **Neutral CSS:** consume `generated/BlueSlate.Tokens.css` semantic/component variables. The standalone specimen demonstrates composition only.
+- **Tailwind v4:** compile `tailwindcss` plus `generated/BlueSlate.Tailwind.css`, keeping the neutral CSS sibling import resolvable. Six color aliases are supplied. `atl-*` primitives are an adopter component contract, not an included library. Do not load `@theme` input directly as a finished stylesheet.
+- **Tauri/Vite/React:** use the tool as the first screen; preserve offline/local asset behavior. The suite contains guidance, not a runnable project. Use existing project components and build scripts.
+- **SiYuan:** the generated map covers 22 variables only. Inspect the target version's real variable usage and theme CSS. Validate installation/loading and hover, selection, editor, menu and graph behavior separately from CSS generation. No live workspace changes are implied by a theme-source task.
+- **WPF:** translate hex colors into native resource dictionaries and semantic brushes, then implement native templates/states as needed. Existing dictionaries and samples are partial pilots. Filing Cabinet's extra dim colors and differing danger value are local-profile evidence, not canonical overrides. Inspect merged dictionary/resource dependencies and test actual control behavior.
+- **WinUI:** use native theme resources and visual states. The supplied single dictionary and shell are partial; the documented multi-file structure is a target architecture. Do not copy WPF templates into WinUI.
+- **Bootstrap 5.3:** preserved v0.3 compatibility profile. Record its actual version separately from suite 0.5.0. Bundle Bootstrap locally before the profile. The board is an adopted visual reference, but its ramps/RGB/subtle values do not become canonical palette entries. Validate rendered component states and alpha contrast; the Python checker covers names, sample markers and seven opaque CSS pairs only.
+- **Other frameworks (including JetBrains and Carbon):** inspect the target's current supported extension points and create a separate adapter with source role, target key, resolution and limitations. Metadata key inventories prove coverage only, not rendered fidelity. With Carbon, preserve Carbon anatomy, semantic roles, grid and accessibility; document supported Blue Slate mappings in the project profile.
+
+For existing consumers, retain frozen `spec/tokens/BlueSlate.Tokens.json` and `.css` until the adopter deliberately migrates. Current generated JSON uses grouped token references and hyphenated palette names. Compare required keys and semantics before switching imports. Record `pilot`, `active` or `project-profile` using the suite template; `candidate-active` describes the standard, not an adoption level.

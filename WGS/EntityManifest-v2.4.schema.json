@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://aptlantis.local/schemas/wgs/entity-manifest-v2.4.schema.json",
+  "title": "WGS Entity Manifest v2.4",
+  "type": "object",
+  "required": ["manifest", "entity", "lifecycle", "agent"],
+  "properties": {
+    "manifest": {
+      "type": "object",
+      "required": ["schema", "schema_version", "manifest_type", "canonical_name", "last_updated", "maintainer"],
+      "properties": {
+        "schema": { "type": "string", "minLength": 1 },
+        "schema_version": { "type": "string", "const": "2.4" },
+        "manifest_type": {
+          "type": "string",
+          "enum": ["workspace", "directory", "project", "standard", "dataset", "service", "development"]
+        },
+        "canonical_name": { "type": "string", "pattern": "^[^\\\\/:*?\"<>|]+\\.manifest\\.toml$" },
+        "last_updated": { "type": "string" },
+        "maintainer": { "type": "string", "minLength": 1 }
+      },
+      "additionalProperties": true
+    },
+    "entity": {
+      "type": "object",
+      "required": ["id", "title", "kind", "status"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "title": { "type": "string", "minLength": 1 },
+        "kind": { "type": "string", "minLength": 1 },
+        "class": { "type": "string" },
+        "status": {
+          "type": "string",
+          "enum": ["concept", "planned", "experimental", "candidate-active", "active", "governed", "complete", "deprecated", "archived"]
+        },
+        "description": { "type": "string" },
+        "tags": { "type": "array", "items": { "type": "string" } }
+      },
+      "additionalProperties": true
+    },
+    "governance": {
+      "type": "object",
+      "properties": {
+        "primary_standard": { "type": "string" },
+        "primary_standard_path": { "type": "string" },
+        "release_standard": { "type": "string" },
+        "additional_standards": { "type": "array", "items": { "type": "string" } },
+        "additional_standard_paths": { "type": "array", "items": { "type": "string" } },
+        "proposal_required": { "type": "boolean" }
+      },
+      "additionalProperties": true
+    },
+    "lifecycle": {
+      "type": "object",
+      "required": ["created", "last_updated", "maintainer"],
+      "properties": {
+        "state": { "type": "string" },
+        "created": { "type": "string" },
+        "last_updated": { "type": "string" },
+        "maintainer": { "type": "string", "minLength": 1 },
+        "completion_percent": { "type": "integer", "minimum": 0, "maximum": 100 }
+      },
+      "additionalProperties": true
+    },
+    "paths": {
+      "type": "object",
+      "properties": {
+        "root": { "type": "string" },
+        "docs": { "type": "string" },
+        "source": { "type": "string" },
+        "artifacts": { "type": "string" },
+        "data": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+    "relationships": {
+      "type": "object",
+      "properties": {
+        "parent": { "type": "string" },
+        "child_projects": { "type": "array", "items": { "type": "string" } },
+        "child_containers": { "type": "array", "items": { "type": "string" } }
+      },
+      "additionalProperties": true
+    },
+    "agent": {
+      "type": "object",
+      "required": ["read_first", "notes"],
+      "properties": {
+        "read_first": { "type": "array", "items": { "type": "string" } },
+        "notes": { "type": "string" },
+        "safe_to_modify": { "type": "boolean" }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}

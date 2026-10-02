@@ -1,0 +1,102 @@
+"E:\DRS"
+- Standard or Framework
+
+"E:\EpicVideos"
+- CLI Project
+
+"E:\FileCabinet"
+- DRS
+
+"E:\FlathubRefs"
+- CLI Project
+
+"E:\LangThemeGenerator"
+- CLI Project
+
+"E:\LinuxGenealogy"
+- Dataset + Webpage
+
+"E:\Llama"
+- CLI Project
+
+"E:\NeonInk"
+- Standard or Framework
+
+"E:\PythonDocs"
+- Dataset + Webpage
+
+"E:\QB"
+- DRS
+
+"E:\ScriptWriters"
+- CLI Project
+
+"E:\SESM"
+- Standard or Framework
+
+"E:\Structra"
+- DRS
+
+"E:\Tauri-IT"
+- ClonedWeb Project I wrapped with Tauri2.0
+
+"E:\Training"
+- CLI Projects
+  - HolyC-TinyLlama
+  - Rust-SmallModels
+  
+"E:\Websites"
+- Websites
+  - aptlantis.net
+  - aptlantis.studio
+
+"E:\WinTrim"
+- Standard or Framework
+
+"E:\WSL"
+- DSR 
+  - feren
+  - popos
+  
+"E:\AAMHS"
+- Standard or Framework
+
+"E:\Aegis"
+- DRS
+
+"E:\AnalyzeProjects"
+- CLI Project
+
+"E:\AptlantisConsole"
+- DRS
+
+"E:\AptlantisLogos"
+- CLI Project
+
+"E:\ArchiveHasher"
+- CLI Project
+
+"E:\ChromeArchivalPlugin"
+- DRS
+
+"E:\ClipboardFilter"
+- CLI Project
+
+"E:\CloneCratesio"
+- CLI Project
+
+"E:\CommandWizard"
+- DRS
+
+"E:\ConversionTools"
+- CLI Projects
+  - VideoToMP4
+  - Audio
+  - CPU-Whisper
+ 
+"E:\DatasetPipelines"
+  - TinyLlama-HolyC
+  - Winget
+  
+"E:\DocHub"
+- Undetermined

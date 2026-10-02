@@ -1,0 +1,61 @@
+schema = "cityhall.project-readmap"
+version = "1.0"
+
+[project]
+name = "{{PROJECT_NAME}}"
+generated_by = "{{GENERATED_BY}}"
+
+[budget]
+analyzer_file_budget = 25
+reserved_mandatory = 4
+remaining_exploratory = 21
+
+[[mandatory]]
+path = "{{PROJECT_MANIFEST}}"
+rank = 1
+reason = "Canonical machine-readable project metadata"
+
+[[mandatory]]
+path = "Project-README.md"
+rank = 2
+reason = "Canonical project overview and operator context"
+
+[[mandatory]]
+path = "AGENTS.md"
+rank = 3
+reason = "Project-local agent instructions"
+
+[[mandatory]]
+path = "Project-Proposal.md"
+rank = 4
+reason = "PPS project intent, scope, boundaries, and version shape"
+
+[[priority]]
+path = "docs/ARCHITECTURE.md"
+rank = 5
+reason = "Current architecture and implementation model, when established"
+
+[[priority]]
+path = "docs/RELEASE.md"
+rank = 6
+reason = "Release posture and evidence summary, when applicable"
+
+[[evidence]]
+path = "artifacts/"
+reason = "Generated project artifacts and verification evidence"
+
+[[secondary]]
+path = "docs/"
+reason = "Supporting project documentation"
+
+[[exclude]]
+path = "node_modules/"
+reason = "Generated dependency tree"
+
+[[exclude]]
+path = "dist/"
+reason = "Generated frontend build output"
+
+[[exclude]]
+path = "src-tauri/target/"
+reason = "Generated Tauri/Rust build output"

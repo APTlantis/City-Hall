@@ -1,0 +1,106 @@
+# ConversionTools Project Manifest
+# Version: 2.4
+# Last Updated: 2026-05-12
+
+[project]
+id = "conversion-tools"
+title = "ConversionTools"
+type = "tool"
+stage = "active"
+version = "1.0.0"
+description = "Suite of media conversion and transcription utilities. Converts audio formats, transcribes audio files to text using Whisper, and converts video files to MP4 format. Each tool is standalone but grouped to support media processing workflows."
+tags = ["conversion", "media", "audio", "video", "transcription", "utilities"]
+family = "media-production"
+canonical_manifest = true
+
+[metadata]
+created = "2026-05-02"
+last_updated = "2026-05-12"
+last_reviewed = "2026-05-12"
+maintainer = "Herb"
+license = "MIT"
+language_primary = "Rust"
+languages_used = ["Rust", "Python"]
+
+[state]
+completion_percent = 75
+stability = "mostly-stable"
+active_development = true
+technical_debt = "low"
+maintenance_burden = "medium"
+
+[runtime]
+platform = "cli"
+environment = "Rust 1.70+, Python 3.10+, FFmpeg"
+services = ["FFmpeg"]
+storage = ["File system"]
+
+[capabilities]
+audio_conversion = true
+audio_transcription = true
+video_conversion = true
+batch_processing = true
+format_detection = true
+
+[relationships]
+depends_on_projects = []
+used_by_projects = []
+supersedes = []
+superseded_by = []
+external_dependencies = ["Rust 1.70+", "Python 3.10+", "FFmpeg", "OpenAI Whisper", "Ollama (CPU)"]
+related_projects = []
+
+[artifacts]
+produces = ["converted-audio", "transcribed-text", "converted-video", "processing-logs"]
+consumes = ["audio-files", "video-files", "media-streams"]
+
+[generation]
+manifest_is_canonical = true
+generates_readme = true
+generates_jsonld = true
+
+[documentation]
+readme = "README.md"
+generated_sections = true
+
+[semantic]
+domain = "media-production"
+primary_concepts = ["media-conversion", "audio-transcription", "format-transformation"]
+related_domains = ["Media Processing", "Content Creation"]
+cognitive_tags = ["conversion-utilities", "transcription-tools"]
+complexity = "medium"
+
+[visual]
+theme = "NeonInk-v0.1.1"
+primary_color = "#ff9900"
+semantic_role = "tool"
+contains_svg_assets = false
+
+[components]
+"Audio" = "Rust-based audio format converter supporting multiple codec and container formats"
+"CPU-Whisper" = "Python-based audio transcription using CPU-friendly Whisper models; supports AAC, FLAC, MP3, MP4, OGG, WAV, WebM, and more"
+"VideoToMP4" = "Rust-based video converter normalizing various video formats to MP4 standard"
+"in" = "Input directory for media files awaiting processing"
+
+[distribution]
+packaged = true
+package_formats = ["rust-binary", "python-script"]
+portable = true
+offline_capable = true
+requires_installation = false
+
+[links]
+homepage = "https://aptlantis.net"
+
+[structure]
+repo_path = "E:/ConversionTools"
+
+[automation]
+build = "cd Audio && cargo build --release && cd ../CPU-Whisper && pip install -r requirements.txt && cd ../VideoToMP4 && cargo build --release"
+tasks = ["convert-audio", "transcribe-audio", "convert-video", "batch-process"]
+
+[notes]
+purpose = "Provide standalone media conversion and transcription tools grouped for ecosystem-wide content processing"
+approach = "Each tool is independently executable but shares common patterns for integration into larger workflows"
+design_philosophy = "Modular tools that handle specific conversions; can be chained or called individually as needed"
+cpu_friendly = "Audio transcription uses Ollama's CPU-optimized Whisper implementation for offline processing"

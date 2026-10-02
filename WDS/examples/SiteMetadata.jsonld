@@ -1,0 +1,24 @@
+{
+  "@context": {
+    "wds": "https://aptlantis.local/ns/wds#",
+    "schema": "https://schema.org/",
+    "site": "wds:site",
+    "deployment": "wds:deployment",
+    "accessibility": "wds:accessibility"
+  },
+  "@type": "schema:WebSite",
+  "site": {
+    "id": "example-site",
+    "title": "Example Site",
+    "status": "preview"
+  },
+  "deployment": {
+    "environment": "preview",
+    "url": "https://preview.example.invalid",
+    "rollback": "Redeploy the previous static snapshot."
+  },
+  "accessibility": {
+    "target": "WCAG 2.2 AA",
+    "checks": ["landmarks", "headings", "alt-text", "keyboard-navigation"]
+  }
+}

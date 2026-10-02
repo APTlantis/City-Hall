@@ -1,0 +1,12 @@
+{
+  "kind": "synthetic-design-fixture",
+  "as_of": "2026-09-27",
+  "description": "Invented counts for reference composition only. No production evidence.",
+  "coverage": [
+    {"family": "Reference", "records": 480},
+    {"family": "Tutorial", "records": 320},
+    {"family": "Specification", "records": 210},
+    {"family": "Example", "records": 140},
+    {"family": "Other", "records": 50}
+  ]
+}

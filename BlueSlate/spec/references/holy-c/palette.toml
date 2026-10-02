@@ -1,0 +1,52 @@
+﻿[theme]
+source_image = "H:/Logos/apt-HolyC-logo.jpg"
+generated_at = "2026-09-15T21:06:17.8359864-04:00"
+candidate_colors = 192
+final_colors = 32
+
+[palette.structural_dark]
+structural_dark_01 = { hex = "#0C0C11", rgb = [12, 12, 17], oklch = { l = 0.156826, c = 0.010567, h = 285.117 } }
+structural_dark_02 = { hex = "#010102", rgb = [1, 1, 2], oklch = { l = 0.069239, c = 0.008005, h = 284.115 } }
+structural_dark_03 = { hex = "#1C1C21", rgb = [28, 28, 33], oklch = { l = 0.228616, c = 0.009588, h = 285.617 } }
+structural_dark_04 = { hex = "#09080E", rgb = [9, 8, 14], oklch = { l = 0.139065, c = 0.013400, h = 292.807 } }
+
+[palette.structural_mid]
+structural_mid_01 = { hex = "#3291B0", rgb = [50, 145, 176], oklch = { l = 0.614887, c = 0.098021, h = 223.771 } }
+structural_mid_02 = { hex = "#654669", rgb = [101, 70, 105], oklch = { l = 0.441782, c = 0.067902, h = 322.674 } }
+structural_mid_03 = { hex = "#373944", rgb = [55, 57, 68], oklch = { l = 0.347061, c = 0.019328, h = 277.214 } }
+structural_mid_04 = { hex = "#23242A", rgb = [35, 36, 42], oklch = { l = 0.261806, c = 0.011266, h = 278.089 } }
+
+[palette.text_light]
+text_light_01 = { hex = "#F8F6E9", rgb = [248, 246, 233], oklch = { l = 0.971162, c = 0.017263, h = 99.598 } }
+text_light_02 = { hex = "#B6B8B8", rgb = [182, 184, 184], oklch = { l = 0.781002, c = 0.002249, h = 197.111 } }
+text_light_03 = { hex = "#C8FEFB", rgb = [200, 254, 251], oklch = { l = 0.959350, c = 0.054621, h = 192.063 } }
+text_light_04 = { hex = "#EBD6AF", rgb = [235, 214, 175], oklch = { l = 0.883592, c = 0.056372, h = 82.914 } }
+text_light_05 = { hex = "#EBEBE6", rgb = [235, 235, 230], oklch = { l = 0.938676, c = 0.006664, h = 106.527 } }
+
+[palette.accent]
+accent_01 = { hex = "#E151D5", rgb = [225, 81, 213], oklch = { l = 0.673844, c = 0.229604, h = 331.272 } }
+accent_02 = { hex = "#8C6F37", rgb = [140, 111, 55], oklch = { l = 0.558071, c = 0.082555, h = 82.105 } }
+accent_03 = { hex = "#70D96A", rgb = [112, 217, 106], oklch = { l = 0.797163, c = 0.178747, h = 142.662 } }
+accent_04 = { hex = "#983593", rgb = [152, 53, 147], oklch = { l = 0.506345, c = 0.172879, h = 329.850 } }
+accent_05 = { hex = "#33AFC8", rgb = [51, 175, 200], oklch = { l = 0.698376, c = 0.110139, h = 214.497 } }
+
+[palette.accent_strong]
+accent_strong_01 = { hex = "#15141A", rgb = [21, 20, 26], oklch = { l = 0.195183, c = 0.012037, h = 292.893 } }
+accent_strong_02 = { hex = "#19191D", rgb = [25, 25, 29], oklch = { l = 0.215164, c = 0.007781, h = 285.728 } }
+accent_strong_03 = { hex = "#D746C5", rgb = [215, 70, 197], oklch = { l = 0.641092, c = 0.225808, h = 333.273 } }
+accent_strong_04 = { hex = "#111116", rgb = [17, 17, 22], oklch = { l = 0.179996, c = 0.010198, h = 285.330 } }
+
+[palette.neutral]
+neutral_01 = { hex = "#868588", rgb = [134, 133, 136], oklch = { l = 0.618515, c = 0.004593, h = 301.373 } }
+neutral_02 = { hex = "#676668", rgb = [103, 102, 104], oklch = { l = 0.511841, c = 0.003337, h = 308.388 } }
+neutral_03 = { hex = "#464854", rgb = [70, 72, 84], oklch = { l = 0.404384, c = 0.020236, h = 277.972 } }
+neutral_04 = { hex = "#777678", rgb = [119, 118, 120], oklch = { l = 0.567358, c = 0.003252, h = 308.397 } }
+
+[palette.data]
+data_01 = { hex = "#AE8E4B", rgb = [174, 142, 75], oklch = { l = 0.662267, c = 0.094105, h = 84.190 } }
+data_02 = { hex = "#558756", rgb = [85, 135, 86], oklch = { l = 0.574544, c = 0.091640, h = 144.713 } }
+data_03 = { hex = "#4EEAF3", rgb = [78, 234, 243], oklch = { l = 0.860616, c = 0.127714, h = 200.672 } }
+data_04 = { hex = "#345887", rgb = [52, 88, 135], oklch = { l = 0.456001, c = 0.087872, h = 255.675 } }
+data_05 = { hex = "#D0AD60", rgb = [208, 173, 96], oklch = { l = 0.762703, c = 0.104423, h = 85.440 } }
+data_06 = { hex = "#FBF192", rgb = [251, 241, 146], oklch = { l = 0.945772, c = 0.116938, h = 103.136 } }
+

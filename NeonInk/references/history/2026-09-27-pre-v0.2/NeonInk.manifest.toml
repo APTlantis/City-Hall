@@ -1,0 +1,41 @@
+[standard]
+id = "neonink"
+title = "NeonInk"
+abbreviation = "NeonInk"
+status = "active"
+maturity = "candidate"
+version = "0.1.6"
+description = "Semantic design language for Aptlantis color systems, theme behavior, visual intent, UI language, app surfaces, web surfaces, and generated assets."
+
+[governance]
+meta_standard = "SFDS"
+workspace_standard = "WGS"
+scope = "Semantic color systems, visual language, theme contracts, component patterns, desktop app surfaces, web surfaces, and design consistency."
+non_goals = ["Application release packaging", "workspace root policy", "archive hash validation"]
+
+[artifacts]
+specification = "Docs/NeonInk-v0.1.1.md"
+schema = "schema.jsonld"
+templates = "templates"
+examples = "examples"
+adoption_guide = "Adoption-Guide.md"
+validation_checklist = "Validation-Checklist.md"
+changelog = "CHANGELOG.md"
+validators = []
+governance_notes = ["Governance-Index.md"]
+reference_examples = ["examples/NeonInk-Suite-Map.md"]
+
+[adopter_artifacts]
+schemas = ["schema.jsonld"]
+manifest_templates = []
+legacy_project_manifests = ["references/legacy-project-manifests/NeonInk.project.manifest.toml"]
+document_templates = ["templates/NeonInk-Adoption-Record.md"]
+
+[lifecycle]
+created = "2026-06-10"
+last_updated = "2026-06-11"
+maintainer = "Herb"
+
+[agent]
+read_first = ["Governance-Index.md", "README.md", "Docs/NeonInk-v0.1.1.md"]
+notes = "Normalize by indexing existing mature docs/assets, not by flattening them."

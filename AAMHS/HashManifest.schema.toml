@@ -1,0 +1,81 @@
+title = "AAMHS Hash Manifest Schema"
+type = "object"
+required = ["archive", "hash_suite", "files"]
+
+[properties.archive]
+required = ["id", "title", "created"]
+
+[properties.archive.properties.id]
+type = "string"
+
+[properties.archive.properties.title]
+type = "string"
+
+[properties.archive.properties.created]
+type = "string"
+format = "date"
+
+[properties.archive.properties.maintainer]
+type = "string"
+
+[properties.archive.properties.update_cadence]
+type = "string"
+
+[properties.hash_suite]
+required = ["version", "primary", "additional"]
+
+[properties.hash_suite.properties.version]
+type = "string"
+pattern = "^aamhs\\.hash-suite\\.v[0-9]+$"
+
+[properties.hash_suite.properties.primary]
+type = "string"
+enum = ["sha256", "blake3", "kangarootwelve"]
+
+[properties.hash_suite.properties.additional]
+type = "array"
+
+[properties.hash_suite.properties.additional.items]
+type = "string"
+enum = ["sha256", "blake3", "kangarootwelve"]
+
+[properties.hash_suite.properties.allowed_algorithms]
+type = "array"
+
+[properties.hash_suite.properties.allowed_algorithms.items]
+type = "string"
+enum = ["sha256", "blake3", "kangarootwelve"]
+
+[properties.files]
+type = "array"
+required = ["path", "size_bytes", "sha256"]
+
+[properties.files.items]
+type = "object"
+required = ["path", "size_bytes", "sha256"]
+
+[properties.files.items.properties.path]
+type = "string"
+
+[properties.files.items.properties.size_bytes]
+type = "integer"
+minimum = 0
+
+[properties.files.items.properties.sha256]
+type = "string"
+pattern = "^[A-Fa-f0-9]{64}$"
+
+[properties.files.items.properties.blake3]
+type = "string"
+
+[properties.files.items.properties.kangarootwelve]
+type = "string"
+
+[properties.signatures]
+required = ["detached_signatures_used"]
+
+[properties.signatures.properties.detached_signatures_used]
+type = "boolean"
+
+[properties.signatures.properties.files]
+type = "array"

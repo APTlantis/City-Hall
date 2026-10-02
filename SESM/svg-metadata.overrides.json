@@ -1,0 +1,250 @@
+{
+  "_example": {
+    "slug-or-relative-path": {
+      "roles": [
+        "logo",
+        "branding"
+      ],
+      "sesm": {
+        "sesm_version": "0.3.0",
+        "asset": {
+          "id": "slug-or-relative-path",
+          "role": "logo",
+          "title": "Display Name",
+          "ecosystem": "ecosystem-name",
+          "tags": ["tag1", "tag2"]
+        },
+        "llm": {
+          "summary": "Human-readable summary."
+        }
+      },
+      "ai": {
+        "summary": "Human-readable summary.",
+        "tags": [
+          "tag1",
+          "tag2"
+        ]
+      }
+    }
+  },
+  "apt-c-logo": {
+    "roles": ["logo", "branding"],
+    "sesm": {
+      "sesm_version": "0.3.0",
+      "asset": {
+        "id": "apt-c-logo",
+        "role": "logo",
+        "title": "C Programming Language Logo",
+        "ecosystem": "c",
+        "tags": ["c", "programming-language", "logo", "branding"]
+      },
+      "llm": {
+        "summary": "Logo representing the C programming language in the APTlantis ecosystem."
+      }
+    },
+    "ai": {
+      "summary": "Logo representing the C programming language in the APTlantis ecosystem.",
+      "tags": ["c", "programming-language", "logo", "branding"]
+    }
+  },
+  "apt-caddy-logo": {
+    "roles": ["logo", "branding"],
+    "sesm": {
+      "sesm_version": "0.3.0",
+      "asset": {
+        "id": "apt-caddy-logo",
+        "role": "logo",
+        "title": "Caddy Web Server Logo",
+        "ecosystem": "caddy",
+        "tags": ["caddy", "web-server", "logo", "branding"]
+      },
+      "llm": {
+        "summary": "Logo representing the Caddy web server in the APTlantis ecosystem."
+      }
+    },
+    "ai": {
+      "summary": "Logo representing the Caddy web server in the APTlantis ecosystem.",
+      "tags": ["caddy", "web-server", "logo", "branding"]
+    }
+  },
+  "apt-clojure-logo": {
+    "roles": ["logo", "branding"],
+    "sesm": {
+      "sesm_version": "0.3.0",
+      "asset": {
+        "id": "apt-clojure-logo",
+        "role": "logo",
+        "title": "Clojure Programming Language Logo",
+        "ecosystem": "clojure",
+        "tags": ["clojure", "programming-language", "lisp", "logo", "branding"]
+      },
+      "llm": {
+        "summary": "Logo representing the Clojure programming language in the APTlantis ecosystem."
+      }
+    },
+    "ai": {
+      "summary": "Logo representing the Clojure programming language in the APTlantis ecosystem.",
+      "tags": ["clojure", "programming-language", "lisp", "logo", "branding"]
+    }
+  },
+  "apt-coffeescript-logo": {
+    "roles": ["logo", "branding"],
+    "sesm": {
+      "sesm_version": "0.3.0",
+      "asset": {
+        "id": "apt-coffeescript-logo",
+        "role": "logo",
+        "title": "CoffeeScript Programming Language Logo",
+        "ecosystem": "coffeescript",
+        "tags": ["coffeescript", "programming-language", "javascript", "logo", "branding"]
+      },
+      "llm": {
+        "summary": "Logo representing the CoffeeScript programming language in the APTlantis ecosystem."
+      }
+    },
+    "ai": {
+      "summary": "Logo representing the CoffeeScript programming language in the APTlantis ecosystem.",
+      "tags": ["coffeescript", "programming-language", "javascript", "logo", "branding"]
+    }
+  },
+  "apt-cpan-logo": {
+    "roles": ["logo", "branding"],
+    "sesm": {
+      "sesm_version": "0.3.0",
+      "asset": {
+        "id": "apt-cpan-logo",
+        "role": "logo",
+        "title": "CPAN Archive Logo",
+        "ecosystem": "perl",
+        "tags": ["cpan", "perl", "package-manager", "logo", "branding"]
+      },
+      "llm": {
+        "summary": "Logo representing CPAN (Comprehensive Perl Archive Network) in the APTlantis ecosystem."
+      }
+    },
+    "ai": {
+      "summary": "Logo representing CPAN (Comprehensive Perl Archive Network) in the APTlantis ecosystem.",
+      "tags": ["cpan", "perl", "package-manager", "logo", "branding"]
+    }
+  },
+  "apt-flathub-logo": {
+    "roles": ["logo", "branding"],
+    "sesm": {
+      "sesm_version": "0.3.0",
+      "asset": {
+        "id": "apt-flathub-logo",
+        "role": "logo",
+        "title": "Flathub App Store Logo",
+        "ecosystem": "linux",
+        "tags": ["flathub", "flatpak", "linux", "app-store", "logo", "branding"]
+      },
+      "llm": {
+        "summary": "Logo representing the Flathub app store in the APTlantis ecosystem."
+      }
+    },
+    "ai": {
+      "summary": "Logo representing the Flathub app store in the APTlantis ecosystem.",
+      "tags": ["flathub", "flatpak", "linux", "app-store", "logo", "branding"]
+    }
+  },
+  "apt-fortran-logo": {
+    "roles": ["logo", "branding"],
+    "sesm": {
+      "sesm_version": "0.3.0",
+      "asset": {
+        "id": "apt-fortran-logo",
+        "role": "logo",
+        "title": "Fortran Programming Language Logo",
+        "ecosystem": "fortran",
+        "tags": ["fortran", "programming-language", "logo", "branding"]
+      },
+      "llm": {
+        "summary": "Logo representing the Fortran programming language in the APTlantis ecosystem."
+      }
+    },
+    "ai": {
+      "summary": "Logo representing the Fortran programming language in the APTlantis ecosystem.",
+      "tags": ["fortran", "programming-language", "logo", "branding"]
+    }
+  },
+  "apt-fsharp-logo": {
+    "roles": ["logo", "branding"],
+    "sesm": {
+      "sesm_version": "0.3.0",
+      "asset": {
+        "id": "apt-fsharp-logo",
+        "role": "logo",
+        "title": "F# Programming Language Logo",
+        "ecosystem": "fsharp",
+        "tags": ["fsharp", "dotnet", "programming-language", "logo", "branding"]
+      },
+      "llm": {
+        "summary": "Logo representing the F# programming language in the APTlantis ecosystem."
+      }
+    },
+    "ai": {
+      "summary": "Logo representing the F# programming language in the APTlantis ecosystem.",
+      "tags": ["fsharp", "dotnet", "programming-language", "logo", "branding"]
+    }
+  },
+  "apt-malbolge-logo": {
+    "roles": ["logo", "branding"],
+    "sesm": {
+      "sesm_version": "0.3.0",
+      "asset": {
+        "id": "apt-malbolge-logo",
+        "role": "logo",
+        "title": "Malbolge Programming Language Logo",
+        "ecosystem": "esoteric",
+        "tags": ["malbolge", "esoteric-programming-language", "logo", "branding"]
+      },
+      "llm": {
+        "summary": "Logo representing the Malbolge esoteric programming language in the APTlantis ecosystem."
+      }
+    },
+    "ai": {
+      "summary": "Logo representing the Malbolge esoteric programming language in the APTlantis ecosystem.",
+      "tags": ["malbolge", "esoteric-programming-language", "logo", "branding"]
+    }
+  },
+  "apt-matlab-logo": {
+    "roles": ["logo", "branding"],
+    "sesm": {
+      "sesm_version": "0.3.0",
+      "asset": {
+        "id": "apt-matlab-logo",
+        "role": "logo",
+        "title": "MATLAB Programming Language Logo",
+        "ecosystem": "matlab",
+        "tags": ["matlab", "scientific-computing", "programming-language", "logo", "branding"]
+      },
+      "llm": {
+        "summary": "Logo representing the MATLAB programming language in the APTlantis ecosystem."
+      }
+    },
+    "ai": {
+      "summary": "Logo representing the MATLAB programming language in the APTlantis ecosystem.",
+      "tags": ["matlab", "scientific-computing", "programming-language", "logo", "branding"]
+    }
+  },
+  "apt-node-logo.pngu7": {
+    "roles": ["logo", "branding"],
+    "sesm": {
+      "sesm_version": "0.3.0",
+      "asset": {
+        "id": "apt-node-logo.pngu7",
+        "role": "logo",
+        "title": "Node.js Runtime Logo",
+        "ecosystem": "nodejs",
+        "tags": ["nodejs", "runtime", "javascript", "logo", "branding"]
+      },
+      "llm": {
+        "summary": "Logo representing the Node.js runtime in the APTlantis ecosystem."
+      }
+    },
+    "ai": {
+      "summary": "Logo representing the Node.js runtime in the APTlantis ecosystem.",
+      "tags": ["nodejs", "runtime", "javascript", "logo", "branding"]
+    }
+  }
+}

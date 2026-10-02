@@ -1,0 +1,17 @@
+# Illustrative blank record, deliberately fails the promotion gate.
+version = "REPLACE"
+target = "stable"
+date = "YYYY-MM-DD"
+reviewer = ""
+approved = false
+
+[[adopters]]
+project = ""
+production = false
+teaching = true
+date = "YYYY-MM-DD"
+adoption_record = ""
+schema_log = ""
+schema_errors = -1
+runtime_log = ""
+runtime_result = "pending"

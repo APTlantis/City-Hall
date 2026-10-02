@@ -1,0 +1,117 @@
+{
+  "status": "ok",
+  "results": [
+    {
+      "suite": "D:\\.city_hall\\AAMHS",
+      "manifest": "D:\\.city_hall\\AAMHS\\AAMHS.manifest.toml",
+      "status": "ok",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "suite": "D:\\.city_hall\\AAS",
+      "manifest": "D:\\.city_hall\\AAS\\AAS.manifest.toml",
+      "status": "ok",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "suite": "D:\\.city_hall\\ARHS",
+      "manifest": "D:\\.city_hall\\ARHS\\ARHS.manifest.toml",
+      "status": "ok",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "suite": "D:\\.city_hall\\ATS",
+      "manifest": "D:\\.city_hall\\ATS\\ATS.manifest.toml",
+      "status": "ok",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "suite": "D:\\.city_hall\\BlueSlate",
+      "manifest": "D:\\.city_hall\\BlueSlate\\BlueSlate.manifest.toml",
+      "status": "ok",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "suite": "D:\\.city_hall\\CTS",
+      "manifest": "D:\\.city_hall\\CTS\\CTS.manifest.toml",
+      "status": "ok",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "suite": "D:\\.city_hall\\DDS",
+      "manifest": "D:\\.city_hall\\DDS\\DDS.manifest.toml",
+      "status": "ok",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "suite": "D:\\.city_hall\\DRS",
+      "manifest": "D:\\.city_hall\\DRS\\DRS.manifest.toml",
+      "status": "ok",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "suite": "D:\\.city_hall\\LDS",
+      "manifest": "D:\\.city_hall\\LDS\\LDS.manifest.toml",
+      "status": "ok",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "suite": "D:\\.city_hall\\NeonInk",
+      "manifest": "D:\\.city_hall\\NeonInk\\NeonInk.manifest.toml",
+      "status": "ok",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "suite": "D:\\.city_hall\\PPS",
+      "manifest": "D:\\.city_hall\\PPS\\PPS.manifest.toml",
+      "status": "ok",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "suite": "D:\\.city_hall\\SESM",
+      "manifest": "D:\\.city_hall\\SESM\\SESM.manifest.toml",
+      "status": "ok",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "suite": "D:\\.city_hall\\SFDS",
+      "manifest": "D:\\.city_hall\\SFDS\\SFDS.manifest.toml",
+      "status": "ok",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "suite": "D:\\.city_hall\\SIS",
+      "manifest": "D:\\.city_hall\\SIS\\SIS.manifest.toml",
+      "status": "ok",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "suite": "D:\\.city_hall\\WDS",
+      "manifest": "D:\\.city_hall\\WDS\\WDS.manifest.toml",
+      "status": "ok",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "suite": "D:\\.city_hall\\WGS",
+      "manifest": "D:\\.city_hall\\WGS\\WGS.manifest.toml",
+      "status": "ok",
+      "errors": [],
+      "warnings": []
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]
+jsonschema==4.26.0
+attrs==26.1.0
+referencing==0.37.0
+rpds-py==2026.6.3
+jsonschema-specifications==2025.9.1

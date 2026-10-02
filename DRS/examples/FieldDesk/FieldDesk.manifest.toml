@@ -1,0 +1,153 @@
+# FieldDesk.manifest.toml
+# Example DRS adopter manifest exercising dependency provenance and data migration fields.
+
+[project]
+id          = "fielddesk"
+title       = "FieldDesk"
+description = "Offline-first desktop case notes utility for field operators."
+type        = "ui"
+stage       = "production"
+version     = "1.4.2"
+tags        = ["desktop", "offline-first", "sqlite", "migration"]
+
+[metadata]
+created          = "2026-01-12"
+last_updated     = "2026-07-30"
+maintainer       = "Aptlantis"
+license          = "Proprietary"
+language_primary = "C#"
+languages_used   = ["C#", "XAML", "PowerShell"]
+
+[state]
+completion_percent  = 100
+stability           = "stable"
+active_development  = true
+technical_debt      = "moderate"
+maintenance_burden  = "medium"
+known_gaps          = [
+  "ARM64 installer has not been validated.",
+  "BLAKE3 is recorded for release evidence but SHA-256 remains the required minimum."
+]
+
+[runtime]
+platform    = "desktop"
+environment = "Windows 10 22H2+ / Windows 11, x64"
+services    = []
+storage     = ["local-filesystem", "sqlite"]
+
+[capabilities]
+offline    = true
+encryption = true
+telemetry  = false
+
+[release]
+status  = "local-verified"
+version = "1.4.2"
+name    = "FieldDesk v1.4.2 - Local Archive Migration"
+date    = "2026-07-30"
+
+[release.installer]
+path            = "artifacts/installer/FieldDesk-1.4.2.0-win-x64.msi"
+runtime         = "win-x64"
+package_version = "1.4.2.0"
+size_bytes      = 48320512
+sha256          = "9C2F0E8A1B4D6C7E8F90123456789ABCDEF0123456789ABCDEF0123456789ABC"
+blake3          = "6F1D5E0E1A5D5D4B7A7E4B2A8C8D6F9E1B3C5A7D9E0F1A2B3C4D5E6F708192A3"
+signing         = "self-signed CN=FieldDesk Local Release"
+
+[release.verified]
+date            = "2026-07-30"
+tests           = "dotnet test passed 184 tests"
+installer_build = "scripts/Build-Installer.ps1 completed on 2026-07-30"
+install_check   = "installed, launched with title 'FieldDesk', uninstalled successfully on 2026-07-30"
+data_safety     = "%LOCALAPPDATA%/FieldDesk was preserved by uninstall on 2026-07-30"
+upgrade_check   = "existing data preserved after upgrade from v1.4.1"
+
+[documentation]
+readme             = "README.md"
+release_notes      = "docs/FieldDesk v1.4.2.md"
+release_checklist  = "docs/FieldDesk - Release Checklist.md"
+trust_model        = "docs/FieldDesk - Trust and Security Model.md"
+threat_model       = "docs/FieldDesk - Threat Model.md"
+dependency_provenance = "docs/FieldDesk - Dependency Provenance.md"
+build_guide        = "docs/FieldDesk - Build Reproducibility Guide.md"
+integrity_matrix   = "docs/FieldDesk - Integrity Validation Matrix.md"
+architecture_doc   = "docs/FieldDesk - Architecture.md"
+generated_sections = false
+
+[relationships]
+depends_on_projects   = []
+used_by_projects      = []
+external_dependencies = [
+  "Microsoft.Data.Sqlite 8.0.7 from NuGet lock file packages.lock.json",
+  "WixToolset.Sdk 5.0.1 from NuGet lock file packages.lock.json",
+  "CommunityToolkit.Mvvm 8.2.2 from NuGet lock file packages.lock.json"
+]
+related_projects = []
+
+[artifacts]
+produces = ["FieldDesk-1.4.2.0-win-x64.msi"]
+consumes = [
+  "data/migrations/2026-07-archive-index.sql",
+  "packages.lock.json"
+]
+
+[distribution]
+packaged              = true
+package_formats       = ["msi"]
+portable              = false
+offline_capable       = true
+requires_installation = true
+
+[structure]
+repo_path = "D:/Projects/FieldDesk"
+docs_path = "docs/"
+data_path = "%LOCALAPPDATA%/FieldDesk"
+
+[automation]
+build  = "dotnet build -c Release --locked-mode"
+deploy = "scripts/Build-Installer.ps1"
+tasks  = [
+  "dotnet test -c Release",
+  "drs verify-manifest",
+  "drs check-release"
+]
+
+[observability]
+logs          = true
+metrics       = false
+health_checks = false
+event_stream  = false
+telemetry     = false
+
+[generation]
+manifest_is_canonical    = true
+generates_readme         = false
+generates_writerside     = false
+generates_jsonld         = false
+generates_visualizations = false
+generates_embeddings     = false
+generator                = ""
+
+[semantic]
+domain           = "field-operations"
+primary_concepts = ["case notes", "offline archive", "local migration"]
+related_domains  = ["desktop-release", "local-first-data"]
+cognitive_tags   = ["release-evidence", "migration-safety", "dependency-provenance"]
+complexity       = "high"
+
+[visual]
+theme               = "Field operations"
+primary_color       = "#245C73"
+semantic_role       = "quiet operational desktop app"
+contains_svg_assets = false
+contains_scene_art  = false
+
+[links]
+repository = ""
+homepage   = ""
+dashboard  = ""
+
+[notes]
+dependency_provenance_summary = "All NuGet packages are locked by packages.lock.json and listed in dependency provenance documentation."
+data_migration_contract = "Release v1.4.2 applies archive index migration with pre-migration backup and rollback procedure."

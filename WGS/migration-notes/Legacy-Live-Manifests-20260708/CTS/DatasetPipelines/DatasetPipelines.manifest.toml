@@ -1,0 +1,82 @@
+title = "APTlantis Project Manifest v2.3"
+
+[project]
+id = "dataset-pipelines"
+title = "DatasetPipelines"
+description = "DatasetPipelines is a Rust-based framework designed to create repeatable data processing pipelines that generate datasets along with their associated metadata and validation reports. It emphasizes the importance of provenance and quality checks throughout the data transformation process."
+type = "dataset"
+stage = "active"
+version = "0.1.0"
+tags = ["rust", "data-processing", "pipeline", "local-first"]
+
+[metadata]
+created = "2026-06-02"
+last_updated = "2026-06-02"
+maintainer = "Herb"
+license = "Unspecified"
+language_primary = "Unknown"
+languages_used = []
+
+[state]
+completion_percent = 75
+stability = "mostly-stable"
+active_development = true
+technical_debt = "moderate"
+maintenance_burden = "medium"
+known_gaps = []
+
+[runtime]
+platform = "cli"
+environment = "Unspecified local environment"
+
+[relationships]
+depends_on_projects = []
+used_by_projects = []
+external_dependencies = []
+related_projects = []
+
+[artifacts]
+produces = ["Datasets", "Build manifests", "Validation reports", "Training splits", "Model metadata"]
+consumes = ["Source data files", "Configuration files"]
+
+[generation]
+manifest_is_canonical = true
+generates_readme = false
+generates_writerside = false
+generates_jsonld = false
+generates_visualizations = false
+generates_embeddings = false
+generator = "aptlantis-project-manifests"
+
+[documentation]
+readme = ""
+generated_sections = false
+
+[semantic]
+domain = "Data processing and generation"
+primary_concepts = ["Data ingestion", "Data transformation", "Dataset validation", "Metadata generation", "Pipeline artifact creation"]
+related_domains = []
+cognitive_tags = ["rust", "data-processing", "pipeline", "local-first"]
+complexity = "high"
+
+[visual]
+theme = "NeonInk-v0.1.1"
+primary_color = "#0ff0ff"
+semantic_role = "dataset"
+contains_svg_assets = false
+contains_scene_art = false
+
+[distribution]
+packaged = false
+package_formats = []
+portable = true
+offline_capable = true
+requires_installation = false
+
+[structure]
+repo_path = "E:/DatasetPipelines"
+
+[notes]
+needs_review = "Generated best-effort manifest. Verify inferred fields before treating optional metadata as authoritative."
+evidence = "AnalyzeProjects evaluation plus local project files"
+

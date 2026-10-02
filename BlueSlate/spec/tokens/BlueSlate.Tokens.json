@@ -1,0 +1,164 @@
+{
+  "version": "0.3.0",
+  "name": "Aptlantis Blue-Slate",
+  "canonicalBoard": "AptlantisBlue-Slate.png",
+  "ratio": {
+    "baseNeutrals": 0.85,
+    "signalAccents": 0.15
+  },
+  "palette": {
+    "abyss": { "hex": "#050913", "role": "deepest background and primary canvas" },
+    "deepNavy": { "hex": "#0B1728", "role": "soft background and recessed canvas" },
+    "navy": { "hex": "#172536", "role": "primary surface and card base" },
+    "slate": { "hex": "#262F39", "role": "secondary surface and elevated neutral" },
+    "steel": { "hex": "#40423F", "role": "warm dark neutral and dense controls" },
+    "steelBlue": { "hex": "#192E46", "role": "blue panel base and accent foundation" },
+    "oceanBlue": { "hex": "#29384A", "role": "blue-grey surface layer" },
+    "dusk": { "hex": "#36485A", "role": "borders, dividers, and structure" },
+    "blueGrey": { "hex": "#53606A", "role": "secondary structure and muted controls" },
+    "coolGrey": { "hex": "#6F7E87", "role": "tertiary structure and disabled emphasis" },
+    "mistBlue": { "hex": "#627786", "role": "links, low emphasis accent, icon lines" },
+    "mistGrey": { "hex": "#768892", "role": "secondary text and neutral accent" },
+    "paleMist": { "hex": "#98A2A2", "role": "muted text and secondary UI" },
+    "seaFoam": { "hex": "#B9C9C5", "role": "soft text, links, and highlighted structure" },
+    "offWhite": { "hex": "#E1E7DB", "role": "primary text and high emphasis" },
+    "electricCyan": { "hex": "#00D8FF", "role": "focus, active action, signal glow" },
+    "arcticCyan": { "hex": "#65F2FF", "role": "strong focus highlight and luminous detail" },
+    "pink": { "hex": "#ED72B6", "role": "editorial code and differentiated signal detail" },
+    "teal": { "hex": "#21C6B8", "role": "selected technical surface and secondary action" },
+    "aquaTeal": { "hex": "#3AD1C3", "role": "soft technical emphasis" },
+    "amber": { "hex": "#FF884D", "role": "warning and priority signal" },
+    "brass": { "hex": "#D9A441", "role": "attention, preflight note, command highlight" },
+    "violet": { "hex": "#9C7CFF", "role": "taxonomy and special state" },
+    "indigo": { "hex": "#6A5BFF", "role": "vault, archive, and classification state" },
+    "danger": { "hex": "#FF5C74", "role": "error, destructive action, and invalid state" },
+    "success": { "hex": "#30D58C", "role": "success and healthy state" },
+    "verified": { "hex": "#6FE3A4", "role": "verified and complete state" }
+  },
+  "semantic": {
+    "background": "{palette.abyss}",
+    "backgroundSoft": "{palette.deepNavy}",
+    "panel": "{palette.navy}",
+    "panelRaised": "{palette.slate}",
+    "panelBlue": "{palette.steelBlue}",
+    "border": "{palette.dusk}",
+    "borderSoft": "{palette.blueGrey}",
+    "text": "{palette.offWhite}",
+    "textSoft": "{palette.seaFoam}",
+    "textMuted": "{palette.paleMist}",
+    "link": "{palette.arcticCyan}",
+    "action": "{palette.electricCyan}",
+    "actionSoft": "{palette.teal}",
+    "focus": "{palette.arcticCyan}",
+    "warning": "{palette.amber}",
+    "attention": "{palette.brass}",
+    "taxonomy": "{palette.violet}",
+    "archive": "{palette.indigo}",
+    "success": "{palette.success}",
+    "verified": "{palette.verified}",
+    "codeBackground": "{palette.abyss}",
+    "codeText": "{palette.seaFoam}",
+    "codeKeyword": "{palette.arcticCyan}",
+    "codeString": "{palette.verified}",
+    "codeNumber": "{palette.brass}",
+    "codePunctuation": "{palette.paleMist}",
+    "codeDanger": "{palette.amber}",
+    "surfaces": {
+      "canvas": "{palette.abyss}",
+      "canvasRecessed": "{palette.deepNavy}",
+      "panel": "{palette.navy}",
+      "panelRaised": "{palette.slate}",
+      "panelAccent": "{palette.steelBlue}",
+      "overlay": "{palette.deepNavy}",
+      "popover": "{palette.deepNavy}",
+      "input": "{palette.deepNavy}",
+      "table": "{palette.deepNavy}",
+      "disabled": "{palette.deepNavy}"
+    },
+    "content": {
+      "primary": "{palette.offWhite}",
+      "emphasis": "{palette.offWhite}",
+      "secondary": "{palette.seaFoam}",
+      "tertiary": "{palette.paleMist}",
+      "disabled": "{palette.coolGrey}",
+      "link": "{palette.arcticCyan}",
+      "linkHover": "#B3FAFF",
+      "code": "{palette.seaFoam}",
+      "codeAccent": "{palette.pink}"
+    },
+    "structure": {
+      "border": "{palette.dusk}",
+      "borderSoft": "{palette.blueGrey}",
+      "borderStrong": "{palette.coolGrey}",
+      "borderTranslucent": "{palette.mistBlue}"
+    },
+    "intent": {
+      "primary": "{palette.electricCyan}",
+      "secondary": "{palette.mistBlue}",
+      "success": "{palette.success}",
+      "info": "{palette.violet}",
+      "warning": "{palette.amber}",
+      "danger": "{palette.danger}",
+      "light": "{palette.seaFoam}",
+      "dark": "{palette.deepNavy}",
+      "attention": "{palette.brass}",
+      "taxonomy": "{palette.violet}",
+      "archive": "{palette.indigo}",
+      "verified": "{palette.verified}"
+    },
+    "interaction": {
+      "action": "{palette.electricCyan}",
+      "actionSecondary": "{palette.teal}",
+      "focus": "{palette.arcticCyan}",
+      "hover": "{palette.arcticCyan}",
+      "active": "{palette.steelBlue}",
+      "disabled": "{palette.coolGrey}"
+    },
+    "validation": {
+      "valid": "{palette.verified}",
+      "validBorder": "{palette.success}",
+      "invalid": "{palette.danger}",
+      "invalidBorder": "{palette.danger}"
+    }
+  },
+  "foundation": {
+    "radii": {
+      "small": "0.375rem",
+      "default": "0.625rem",
+      "large": "0.875rem",
+      "extraLarge": "1.25rem",
+      "extraExtraLarge": "1.5rem",
+      "pill": "50rem"
+    },
+    "elevation": {
+      "small": "0 0.125rem 0.5rem rgb(0 0 0 / 0.22)",
+      "panel": "0 0.5rem 1.5rem rgb(0 0 0 / 0.30), inset 0 1px 0 rgb(231 236 227 / 0.05)",
+      "floating": "0 1.25rem 4.375rem rgb(0 0 0 / 0.38), inset 0 1px 0 rgb(231 236 227 / 0.07)",
+      "inset": "inset 0 1px 2px rgb(0 0 0 / 0.30)"
+    },
+    "spacing": {
+      "zero": "0",
+      "one": "0.25rem",
+      "two": "0.5rem",
+      "three": "1rem",
+      "four": "1.5rem",
+      "five": "3rem"
+    },
+    "focusRing": {
+      "width": "0.25rem",
+      "opacity": 0.3,
+      "color": "{semantic.interaction.focus}"
+    }
+  },
+  "typography": {
+    "display": "\"Aptos Display\", \"Segoe UI Variable Display\", \"Segoe UI\", system-ui, sans-serif",
+    "sans": "\"Aptos\", \"Segoe UI Variable Text\", \"Segoe UI\", system-ui, sans-serif",
+    "mono": "\"Cascadia Code\", \"Cascadia Mono\", \"JetBrains Mono\", \"SFMono-Regular\", Consolas, monospace",
+    "optionalWebFallback": "\"Inter\""
+  },
+  "assets": {
+    "icons": "Material Symbols",
+    "fontBaseline": "Aptos",
+    "bundling": "local-first; bundle required fonts/icons instead of relying on CDN"
+  }
+}

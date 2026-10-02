@@ -1,0 +1,49 @@
+[standard]
+id = "dds"
+title = "Dataset Development Standard"
+abbreviation = "DDS"
+status = "active"
+maturity = "candidate"
+version = "0.2.1"
+description = "Governs datasets, corpora, provenance, licensing, validation, splits, hashes, usage notes, sensitive-data constraints, and release readiness."
+
+[governance]
+meta_standard = "SFDS"
+workspace_standard = "WGS"
+scope = "Datasets, training corpora, evaluation sets, reference archives, derived datasets, provenance, licensing, validation, splits, integrity, and usage constraints."
+non_goals = ["Model training recipes", "website deployment", "desktop release packaging"]
+
+[artifacts]
+specification = "Dataset Development Standard.md"
+schema = "DatasetManifest.schema.toml"
+templates = "templates"
+examples = "examples"
+adoption_guide = "Adoption-Guide.md"
+validation_checklist = "Validation-Checklist.md"
+changelog = "CHANGELOG.md"
+validators = []
+governance_notes = []
+reference_examples = [
+  "examples/DDS-Suite-Map.md",
+  "examples/Example-Provenance-Record.md",
+  "examples/Example-License-Record.md",
+  "examples/Example-Split-Record.md"
+]
+
+[adopter_artifacts]
+schemas = ["DatasetManifest.schema.toml"]
+manifest_templates = ["templates/DATASET.manifest.toml"]
+document_templates = [
+  "templates/Provenance-Record.md",
+  "templates/License-Record.md",
+  "templates/Split-Record.md"
+]
+
+[lifecycle]
+created = "2026-06-10"
+last_updated = "2026-06-11"
+maintainer = "Herb"
+
+[agent]
+read_first = ["README.md", "Dataset Development Standard.md", "DDS.manifest.toml"]
+notes = "Use DDS for local corpora, training data, and archive datasets."

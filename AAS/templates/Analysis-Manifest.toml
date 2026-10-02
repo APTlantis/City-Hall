@@ -1,0 +1,21 @@
+[analysis]
+id = "example-analysis"
+title = "Example Analysis"
+status = "draft"
+
+[governance]
+standard = "AAS"
+workspace_standard = "WGS"
+
+[inputs]
+datasets = []
+artifacts = []
+
+[environment]
+tools = []
+runtime = ""
+
+[outputs]
+metrics = []
+files = []
+

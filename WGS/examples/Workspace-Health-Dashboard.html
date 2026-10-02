@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WGS Workspace Health Dashboard</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: #f7f7f4;
+      color: #202124;
+    }
+    body {
+      margin: 0;
+      padding: 28px;
+    }
+    main {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: 28px;
+      margin: 0 0 6px;
+      letter-spacing: 0;
+    }
+    p {
+      margin: 0 0 20px;
+      color: #52565a;
+    }
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+      gap: 12px;
+      margin-bottom: 18px;
+    }
+    .metric {
+      background: #ffffff;
+      border: 1px solid #d9dcd6;
+      border-radius: 8px;
+      padding: 14px;
+    }
+    .label {
+      color: #62666b;
+      font-size: 13px;
+    }
+    .value {
+      font-size: 30px;
+      font-weight: 650;
+      margin-top: 5px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #ffffff;
+      border: 1px solid #d9dcd6;
+    }
+    th, td {
+      text-align: left;
+      padding: 10px 12px;
+      border-bottom: 1px solid #eceee8;
+      font-size: 14px;
+    }
+    th {
+      background: #f0f2ec;
+      color: #34383c;
+    }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Workspace Health</h1>
+  <p>Static example dashboard backed by WGS audit record types.</p>
+  <section class="metrics" id="metrics"></section>
+  <table>
+    <thead>
+      <tr><th>Standard</th><th>Status</th><th>Maturity</th><th>Validators</th><th>Missing Artifacts</th></tr>
+    </thead>
+    <tbody id="rows"></tbody>
+  </table>
+</main>
+<script>
+const records = [
+  {record_type: "standard_suite_coverage", standard: "WGS", status: "active", maturity: "candidate", validators_registered: ["city_hall_audit.py", "workspace_inventory.py"], required_artifacts_missing: []},
+  {record_type: "standard_suite_coverage", standard: "SFDS", status: "active", maturity: "stable", validators_registered: ["sfds_validate.py"], required_artifacts_missing: []},
+  {record_type: "standard_suite_coverage", standard: "DRS", status: "active", maturity: "reference", validators_registered: ["drs.ps1"], required_artifacts_missing: []}
+];
+
+const suites = records.filter(record => record.record_type === "standard_suite_coverage");
+const metrics = [
+  ["Suites", suites.length],
+  ["With Validators", suites.filter(suite => suite.validators_registered.length).length],
+  ["Missing Artifacts", suites.reduce((sum, suite) => sum + suite.required_artifacts_missing.length, 0)]
+];
+
+document.getElementById("metrics").innerHTML = metrics.map(([label, value]) => `
+  <div class="metric"><div class="label">${label}</div><div class="value">${value}</div></div>
+`).join("");
+
+document.getElementById("rows").innerHTML = suites.map(suite => `
+  <tr>
+    <td>${suite.standard}</td>
+    <td>${suite.status}</td>
+    <td>${suite.maturity}</td>
+    <td>${suite.validators_registered.join(", ") || "None"}</td>
+    <td>${suite.required_artifacts_missing.join(", ") || "None"}</td>
+  </tr>
+`).join("");
+</script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+title = "APTlantis Entity Manifest v2.4"
+type = "object"
+required = ["manifest", "entity"]
+description = "Default Aptlantis TOML manifest shape for workspace, directory, project, standard, service, dataset, document, and artifact entities. Domain-specific manifests may add sections, but must keep [manifest] and [entity]."
+
+[properties.manifest]
+type = "object"
+required = ["schema", "schema_version", "manifest_type", "canonical_name", "last_updated", "maintainer"]
+
+[properties.manifest.properties.schema]
+type = "string"
+const = "APTlantis Entity Manifest"
+
+[properties.manifest.properties.schema_version]
+type = "string"
+const = "2.4"
+
+[properties.manifest.properties.manifest_type]
+type = "string"
+enum = ["workspace", "directory", "project", "standard", "service", "dataset", "document", "artifact"]
+
+[properties.manifest.properties.canonical_name]
+type = "string"
+description = "Expected filename, such as WORKSPACE.manifest.toml, DirectoryName.manifest.toml, ProjectName.manifest.toml, or StandardName.manifest.toml."
+
+[properties.entity]
+type = "object"
+required = ["id", "title", "kind", "class", "status", "description"]
+
+[properties.entity.properties.kind]
+type = "string"
+enum = ["workspace", "directory", "project", "standard", "service", "dataset", "document", "artifact"]
+
+[properties.workspace]
+type = "object"
+description = "Present when manifest_type is workspace. Registers governed roots and standards."
+
+[properties.directory]
+type = "object"
+description = "Present when manifest_type is directory. Describes a governed root or category directory."
+
+[properties.project]
+type = "object"
+description = "Present when manifest_type is project. Describes a project that produces artifacts."
+
+[properties.governance]
+type = "object"
+description = "Governing standards, proposal/release requirements, and child-manifest policy."
+
+[properties.lifecycle]
+type = "object"
+description = "Created, reviewed, updated, state, owner, and completion metadata."
+
+[properties.structure]
+type = "object"
+description = "Required files/directories for directory entities, or repo/docs/data paths for projects."
+
+[properties.paths]
+type = "object"
+description = "Project path information."
+
+[properties.documentation]
+type = "object"
+description = "Human-readable documentation pointers."
+
+[properties.runtime]
+type = "object"
+description = "Runtime, language, services, and storage information for projects or services."
+
+[properties.relationships]
+type = "object"
+description = "Parent, children, dependencies, related directories, and related projects."
+
+[properties.policy]
+type = "object"
+description = "Directory and workspace policy flags."
+
+[properties.state]
+type = "object"
+description = "Stability, active development, known gaps, and technical debt."
+
+[properties.agent]
+type = "object"
+description = "Agent read-first instructions, authority, safety, and notes."
+
+[properties.notes]
+type = "object"
+additionalProperties = true

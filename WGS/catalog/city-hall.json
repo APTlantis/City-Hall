@@ -1,0 +1,296 @@
+{
+  "title": "Aptlantis City Hall",
+  "reviewedAt": "2026-10-02",
+  "source": "Reviewed canonical manifest facts, 2026-10-02; suite structure only, no adopter runtime conformance implied.",
+  "components": [
+    {
+      "id": "NeonInk",
+      "slug": "neonink",
+      "title": "NeonInk",
+      "status": "candidate-active",
+      "version": "0.2.0",
+      "summary": "Data presentation companion to Blue Slate operational applications.",
+      "description": "Expressive semantic data presentation for reports, charts, dataset profiles, diagrams and portable visual artifacts.",
+      "scope": "Data presentation, semantic color, OKLCH tokens, visualization, presentation layouts and exports.",
+      "sourceRef": "NeonInk/NeonInk.manifest.toml",
+      "evidence": [
+        {
+          "label": "Reviewed manifest facts",
+          "href": "/city-hall/components/neonink.md"
+        }
+      ],
+      "maturity": "candidate"
+    },
+    {
+      "id": "PPS",
+      "slug": "pps",
+      "title": "Project Proposal Standard",
+      "status": "active",
+      "version": "0.2.3",
+      "summary": "Captures project intent, boundaries, risks, and success criteria before work expands.",
+      "description": "Governs project proposals, design boundaries, success criteria, failure criteria, constraints, risks, roadmaps, responsibility posture, and project creation records.",
+      "scope": "Project creation, revival, pre-build clarity, proposal readiness, responsibility posture, version completion shape, and intent preservation.",
+      "sourceRef": "PPS/PPS.manifest.toml",
+      "evidence": [
+        {
+          "label": "Reviewed manifest facts",
+          "href": "/city-hall/components/pps.md"
+        }
+      ],
+      "maturity": "candidate"
+    },
+    {
+      "id": "SESM",
+      "slug": "sesm",
+      "title": "SVG Embedded Semantic Metadata",
+      "status": "active",
+      "version": "0.3.0",
+      "summary": "Embeds parseable semantic metadata in SVG assets with safe-profile review.",
+      "description": "Governs semantic metadata embedded in SVG assets, safe-profile review, privacy/conformance framing, fixtures, and supporting validation/conversion tooling.",
+      "scope": "SVG metadata structure, semantic asset records, safe-profile rules, privacy and conformance requirements, validator rules, fixture corpus, conversion support, and agent-readable visual context.",
+      "sourceRef": "SESM/SESM.manifest.toml",
+      "evidence": [
+        {
+          "label": "Reviewed manifest facts",
+          "href": "/city-hall/components/sesm.md"
+        }
+      ],
+      "maturity": "candidate"
+    },
+    {
+      "id": "SFDS",
+      "slug": "sfds",
+      "title": "Standards Framework Development Standard",
+      "status": "active",
+      "version": "2.0.0",
+      "summary": "Defines how standards are authored, versioned, validated, and adopted.",
+      "description": "Defines how Aptlantis standards are authored, structured, versioned, validated, adopted, and preserved.",
+      "scope": "Standards, frameworks, specifications, reusable governance contracts, and City Hall standard-suite structure.",
+      "sourceRef": "SFDS/SFDS.manifest.toml",
+      "evidence": [
+        {
+          "label": "Reviewed manifest facts",
+          "href": "/city-hall/components/sfds.md"
+        }
+      ],
+      "maturity": "stable"
+    },
+    {
+      "id": "SIS",
+      "slug": "sis",
+      "title": "Service and Infrastructure Standard",
+      "status": "active",
+      "version": "0.1.0",
+      "summary": "Structures local services, APIs, health checks, logs, and recovery procedures.",
+      "description": "Governs local-first services, daemons, local APIs, shared infrastructure, lifecycle commands, health checks, ports, logs, state paths, resource bounds, and recovery procedures.",
+      "scope": "Long-running local services, shared infrastructure, background daemons, local APIs, cache services, model services, schedulers, health checks, lifecycle controls, and resource contracts.",
+      "sourceRef": "SIS/SIS.manifest.toml",
+      "evidence": [
+        {
+          "label": "Reviewed manifest facts",
+          "href": "/city-hall/components/sis.md"
+        }
+      ],
+      "maturity": "candidate"
+    },
+    {
+      "id": "WDS",
+      "slug": "wds",
+      "title": "Website Development Standard",
+      "status": "active",
+      "version": "0.2.1",
+      "summary": "Sets expectations for deployable, accessible, and monitorable websites.",
+      "description": "Governs websites and web applications as documented, deployable, accessible, metadata-rich, monitorable projects.",
+      "scope": "Websites, web applications, deployment records, accessibility, metadata, route checks, rollback expectations, and monitoring.",
+      "sourceRef": "WDS/WDS.manifest.toml",
+      "evidence": [
+        {
+          "label": "Reviewed manifest facts",
+          "href": "/city-hall/components/wds.md"
+        }
+      ],
+      "maturity": "candidate"
+    },
+    {
+      "id": "WGS",
+      "slug": "wgs",
+      "title": "Workspace Governance Standard",
+      "status": "active",
+      "version": "0.2.7",
+      "summary": "Keeps workspace placement, manifests, lifecycle state, and authority legible.",
+      "description": "Governs the Aptlantis workspace structure, manifests, project registration, lifecycle visibility, services, standards hierarchy, responsibility boundaries, agent orientation, and workspace health.",
+      "scope": "Workspace roots, manifests, standards relationships, project classes, lifecycle states, shared services, metadata records, agent startup, and workspace health.",
+      "sourceRef": "WGS/WGS.manifest.toml",
+      "evidence": [
+        {
+          "label": "Reviewed manifest facts",
+          "href": "/city-hall/components/wgs.md"
+        }
+      ],
+      "maturity": "candidate"
+    },
+    {
+      "id": "AAMHS",
+      "slug": "aamhs",
+      "title": "Aptlantis Archive Multi-Hash Standard",
+      "status": "active",
+      "version": "1.0.3",
+      "summary": "Defines archive integrity records, preservation hashes, and validation.",
+      "description": "Governs archive verification, preservation hash suites, manifest formats, detached signatures, validation procedures, and integrity records.",
+      "scope": "Archival integrity, preservation hash manifests, detached signature policy, validation procedures, and archive integrity records.",
+      "sourceRef": "AAMHS/AAMHS.manifest.toml",
+      "evidence": [
+        {
+          "label": "Reviewed manifest facts",
+          "href": "/city-hall/components/aamhs.md"
+        }
+      ],
+      "maturity": "candidate"
+    },
+    {
+      "id": "AAS",
+      "slug": "aas",
+      "title": "Aptlantis Analysis Standard",
+      "status": "active",
+      "version": "0.2.1",
+      "summary": "Structures local analysis runs, metrics, evidence, and interpretation limits.",
+      "description": "Governs local evaluation pipelines, analysis manifests, run records, metric definitions, evidence, interpretation boundaries, and credibility checks.",
+      "scope": "Evaluation and analysis records, input references, tools, environments, metrics, outputs, comparisons, limitations, and interpretation notes.",
+      "sourceRef": "AAS/AAS.manifest.toml",
+      "evidence": [
+        {
+          "label": "Reviewed manifest facts",
+          "href": "/city-hall/components/aas.md"
+        }
+      ],
+      "maturity": "candidate"
+    },
+    {
+      "id": "ARHS",
+      "slug": "arhs",
+      "title": "APTlantis Release Hashing Standard",
+      "status": "active",
+      "version": "0.3.0",
+      "summary": "Records release artifact hashes, distribution, and provenance authority.",
+      "description": "Governs release hash manifests for Aptlantis release artifacts, including SHA256, BLAKE3-256, KT128, distribution channel, and signing/provenance authority.",
+      "scope": "Required release hash manifests and verification records for Aptlantis release artifacts.",
+      "sourceRef": "ARHS/ARHS.manifest.toml",
+      "evidence": [
+        {
+          "label": "Reviewed manifest facts",
+          "href": "/city-hall/components/arhs.md"
+        }
+      ],
+      "maturity": "candidate"
+    },
+    {
+      "id": "ATS",
+      "slug": "ats",
+      "title": "Agent Task Standard",
+      "status": "active",
+      "version": "0.2.1",
+      "summary": "Makes agent tasks, handoffs, validation, and replayable context explicit.",
+      "description": "Governs agent task records, lifecycle states, context capture, handoff, validation records, and replayability.",
+      "scope": "Agent workflows, task records, context capture, validation summaries, blockers, handoffs, and replayability.",
+      "sourceRef": "ATS/ATS.manifest.toml",
+      "evidence": [
+        {
+          "label": "Reviewed manifest facts",
+          "href": "/city-hall/components/ats.md"
+        }
+      ],
+      "maturity": "candidate"
+    },
+    {
+      "id": "BlueSlate",
+      "slug": "blue-slate",
+      "title": "Blue Slate Visual System",
+      "status": "candidate-active",
+      "version": "0.5.0",
+      "reviewedAt": "2026-09-27",
+      "summary": "Provides shared design tokens and interface patterns for Aptlantis surfaces.",
+      "description": "Aptlantis visual-system standard for local-first tools, archival project pages, evidence dashboards, command surfaces, and Windows desktop utilities.",
+      "scope": "Visual-system tokens, layout patterns, framework profiles, starter packs, and adoption evidence for projects that explicitly adopt Blue Slate.",
+      "sourceRef": "BlueSlate/BlueSlate.manifest.toml",
+      "evidence": [
+        {
+          "label": "Reviewed manifest facts",
+          "href": "/city-hall/components/blue-slate.md"
+        }
+      ],
+      "maturity": "candidate"
+    },
+    {
+      "id": "CTS",
+      "slug": "cts",
+      "title": "Command Tool Standard",
+      "status": "active",
+      "version": "0.2.1",
+      "summary": "Defines command contracts, output streams, exit codes, and tool safety.",
+      "description": "Governs CLI tools, command contracts, output schemas, exit codes, automation compatibility, release distribution, and release verification.",
+      "scope": "Command-line tools, automation utilities, command contracts, output streams, exit codes, destructive command safety, and CLI distribution posture.",
+      "sourceRef": "CTS/CTS.manifest.toml",
+      "evidence": [
+        {
+          "label": "Reviewed manifest facts",
+          "href": "/city-hall/components/cts.md"
+        }
+      ],
+      "maturity": "candidate"
+    },
+    {
+      "id": "DDS",
+      "slug": "dds",
+      "title": "Dataset Development Standard",
+      "status": "active",
+      "version": "0.2.1",
+      "summary": "Covers dataset provenance, licensing, validation, integrity, and release.",
+      "description": "Governs datasets, corpora, provenance, licensing, validation, splits, hashes, usage notes, sensitive-data constraints, and release readiness.",
+      "scope": "Datasets, training corpora, evaluation sets, reference archives, derived datasets, provenance, licensing, validation, splits, integrity, and usage constraints.",
+      "sourceRef": "DDS/DDS.manifest.toml",
+      "evidence": [
+        {
+          "label": "Reviewed manifest facts",
+          "href": "/city-hall/components/dds.md"
+        }
+      ],
+      "maturity": "candidate"
+    },
+    {
+      "id": "DRS",
+      "slug": "drs",
+      "title": "Desktop Application Release Standard",
+      "status": "active",
+      "version": "2.0.0",
+      "summary": "Defines desktop release artifacts, verification, and evidence records.",
+      "description": "Governs desktop application release notes, manifests, artifacts, distribution, hashes, verification, and release evidence.",
+      "scope": "Desktop application release readiness, distribution posture, and evidence.",
+      "sourceRef": "DRS/DRS.manifest.toml",
+      "evidence": [
+        {
+          "label": "Reviewed manifest facts",
+          "href": "/city-hall/components/drs.md"
+        }
+      ],
+      "maturity": "reference"
+    },
+    {
+      "id": "LDS",
+      "slug": "lds",
+      "title": "Library Development Standard",
+      "status": "candidate-active",
+      "version": "0.2.0",
+      "summary": "Guides library APIs, stability, versioning, compatibility, and consumers.",
+      "description": "Governs library crates, packages, and SDKs consumed by other code: public API surface, stability levels, versioning/breaking-change policy, extension contracts, and known-consumer tracking.",
+      "scope": "Library crates, packages, and SDKs whose primary deliverable is code other code consumes; public API stability, versioning policy, extension/trait contracts, MSRV or runtime constraints, and known consumers.",
+      "sourceRef": "LDS/LDS.manifest.toml",
+      "evidence": [
+        {
+          "label": "Reviewed manifest facts",
+          "href": "/city-hall/components/lds.md"
+        }
+      ],
+      "maturity": "candidate"
+    }
+  ]
+}

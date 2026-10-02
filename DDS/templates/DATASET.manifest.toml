@@ -1,0 +1,38 @@
+[dataset]
+id = "example-dataset"
+title = "Example Dataset"
+status = "draft"
+format = "unknown"
+location = ""
+version = "0.1.0"
+
+[governance]
+standard = "DDS"
+workspace_standard = "WGS"
+
+[provenance]
+sources = []
+created = "YYYY-MM-DD"
+collected = ""
+maintainer = "TBD"
+
+[licensing]
+license = "unknown"
+usage_limits = []
+
+[validation]
+method = ""
+status = "not-run"
+last_run = ""
+record = "Provenance-Record.md"
+
+[integrity]
+hashes = []
+
+[splits]
+method = ""
+seed = ""
+counts = {}
+
+[limitations]
+known = []

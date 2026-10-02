@@ -1,0 +1,15 @@
+# Copy into the adopter's governance record and replace descriptive values.
+[governance.visual_system]
+standard = "Blue Slate"
+standard_path = 'D:\.city_hall\BlueSlate\README.md'
+standard_version = "0.5.0"
+adoption_level = "pilot" # pilot, active, or project-profile; not the suite maturity.
+token_source = 'D:\.city_hall\BlueSlate\spec\tokens\BlueSlate.Tokens.toml'
+token_source_version = "0.5.0"
+profile = "neutral-css"
+primary_layout = "Split Console"
+secondary_layouts = ["Evidence Grid"]
+local_deviations = []
+validation_state = "planned" # observed, generated, validated, runtime-verified
+evidence_paths = []
+known_gaps = ["Record rendered contrast, focus, control states, keyboard and responsive checks."]

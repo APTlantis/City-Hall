@@ -1,0 +1,9 @@
+# Preserve canonical generated resources and dated evidence byte-for-byte.
+* -text
+*.pdf binary
+*.pptx binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.zip binary

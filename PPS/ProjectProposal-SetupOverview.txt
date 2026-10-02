@@ -1,0 +1,345 @@
+I agree, and I think this is actually the missing piece.
+Right now DRS helps answer:
+"How do I release this?"
+CTS would answer:
+"How do I release this CLI tool?"
+SFDS would answer:
+"How do I create a standard?"
+But none of them answer:
+"Should I build this at all?"
+"What is this project trying to accomplish?"
+"How do I know when the project is finished?"
+That's where a Project Proposal Standard comes in.
+What's interesting is that I think this should sit before DRS in the lifecycle.
+text
+Project Proposal Standard (PPS)
+        ↓
+Project Development
+        ↓
+DRS / CTS
+        ↓
+Release
+
+A lot of project drift happens because the proposal only exists in your head.
+Looking at things like FileCabinet, Aegis, Structra, Command Wizard, RepoPulse, NeonInk, SESM, and AAMHS, they all eventually became successful because at some point they developed a clear identity:
+• What problem they solve
+• What they don't solve
+• Who they're for
+• Why they exist
+The proposal document is where that gets frozen.
+
+───
+
+Project Proposal Standard (PPS)
+Philosophy
+A project proposal is a design boundary before a code boundary.
+The purpose is not approval.
+The purpose is clarity.
+A project can be approved and still be a bad project.
+A project with a good proposal knows what success looks like.
+
+───
+
+Core Documents
+text
+PPS/
+
+├─ README.md
+├─ Project Proposal Standard.md
+├─ ProjectProposal.manifest.schema.toml
+
+├─ templates/
+│
+├─ Project-Proposal.md
+├─ Scope-Boundary.md
+├─ Risk-Assessment.md
+├─ Success-Criteria.md
+├─ Roadmap.md
+├─ Project-Manifest.toml
+│
+├─ examples/
+│
+└─ pps.ps1
+
+
+───
+
+Project Proposal Template
+Every proposal starts with:
+text
+Project Name
+
+Project Type
+
+Desktop Application
+CLI Tool
+Library
+Framework
+Standard
+Dataset
+Infrastructure
+Service
+
+Status
+
+Concept
+Planning
+Approved
+Active
+Paused
+Archived
+
+Project Theme
+
+One sentence describing the project.
+
+
+───
+
+Problem Statement
+This is mandatory.
+text
+What specific problem exists?
+
+Who experiences it?
+
+How do they solve it today?
+
+Why is that insufficient?
+
+Example:
+FileCabinet:
+text
+Useful files become difficult to relocate,
+categorize, and understand over time.
+
+Windows Explorer stores files.
+
+FileCabinet stores context.
+
+That is a much stronger statement than:
+text
+File organizer.
+
+
+───
+
+Mission Statement
+One paragraph.
+Example:
+text
+FileCabinet is a local-first artifact catalog
+designed to preserve context around files,
+datasets, notes, and references.
+
+
+───
+
+Design Boundaries
+This should become mandatory everywhere.
+text
+FileCabinet intentionally does not:
+
+Replace Windows Explorer
+Replace Everything Search
+Perform cloud synchronization
+Act as a document editor
+
+You already do this naturally in release notes.
+I'd move it all the way to the proposal stage.
+
+───
+
+Success Criteria
+One of the most important sections.
+text
+The project is successful when:
+
+A user can catalog artifacts.
+
+A user can relocate artifacts.
+
+A user can search metadata.
+
+A user can recover context months later.
+
+Not features.
+Outcomes.
+
+───
+
+Failure Criteria
+Rarely documented.
+text
+The project has failed if:
+
+It requires cloud services.
+
+It requires AI to function.
+
+It becomes slower than manual organization.
+
+It cannot recover artifact context.
+
+This is surprisingly useful when agents start drifting.
+
+───
+
+User Personas
+Not marketing personas.
+Operational personas.
+text
+Archivist
+Researcher
+Developer
+Power User
+Operator
+
+For Aptlantis projects this is often enough.
+
+───
+
+Technical Direction
+High level.
+Not implementation.
+text
+Language:
+VB.NET
+
+Framework:
+WPF
+
+Storage:
+JSON
+
+Distribution:
+MSI
+
+
+───
+
+Constraints
+A section most proposals lack.
+Example:
+text
+Must work offline.
+
+Must not require accounts.
+
+Must support Windows 10.
+
+Must remain local-first.
+
+Must remain understandable by a single maintainer.
+
+These become design guardrails.
+
+───
+
+Risk Assessment
+Technical Risks
+text
+Data corruption
+Performance degradation
+Migration complexity
+
+Project Risks
+text
+Scope creep
+Dependency churn
+Maintenance burden
+
+
+───
+
+Roadmap
+Not features.
+Phases.
+text
+Phase 1
+Data spine
+
+Phase 2
+Core workflows
+
+Phase 3
+Verification
+
+Phase 4
+Release readiness
+
+This keeps agents focused on progression instead of random feature generation.
+
+───
+
+Project Manifest
+Machine-readable.
+toml
+[project]
+name = "FileCabinet"
+status = "active"
+type = "desktop"
+
+[proposal]
+theme = "Artifact Context Preservation"
+
+[scope]
+cloud_sync = false
+ai_required = false
+
+[success]
+criteria_count = 4
+
+[roadmap]
+current_phase = 2
+
+
+───
+
+Proposal Exit Criteria
+This might be the most useful section.
+A proposal is complete when:
+• Problem statement exists
+• Mission statement exists
+• Design boundaries exist
+• Success criteria exist
+• Failure criteria exist
+• Constraints exist
+• Risks exist
+• Roadmap exists
+Only then should coding begin.
+
+───
+
+The Ecosystem
+At that point you'd have:
+text
+PPS
+│
+├─ FileCabinet
+├─ Aegis
+├─ Structra
+├─ RepoPulse
+├─ Command Wizard
+└─ NeonInk
+
+SFDS
+│
+├─ DRS
+├─ CTS
+├─ AAMHS
+├─ SESM
+└─ Future Standards
+
+DRS
+│
+└─ Desktop Applications
+
+CTS
+│
+└─ CLI Applications
+
+And the nice thing is that agents can use PPS as the "north star" document. When a project starts drifting, the question becomes:
+Does this feature move the project closer to its success criteria?
+That's a much stronger filter than "wouldn't it be cool if..." and it's exactly the kind of structure that tends to keep long-lived projects coherent.
+

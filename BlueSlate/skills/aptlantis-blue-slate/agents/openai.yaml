@@ -1,0 +1,4 @@
+interface:
+  display_name: "Aptlantis Blue Slate"
+  short_description: "Blue Slate themes, layouts, adapters and validation"
+  default_prompt: "Use $aptlantis-blue-slate to apply the current Blue Slate standard to this project."

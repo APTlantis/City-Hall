@@ -1,0 +1,55 @@
+[manifest]
+schema = "APTlantis Entity Manifest"
+schema_version = "2.4"
+manifest_type = "directory"
+canonical_name = "DIRECTORY.manifest.toml"
+last_updated = "2026-06-10"
+maintainer = "Herb"
+
+[entity]
+id = "980-data"
+title = "980-DATA"
+kind = "directory"
+class = "data-root"
+status = "governed"
+description = "980-DATA governed root."
+tags = []
+
+[directory]
+path = "D:\\980-DATA"
+role = "980-DATA governed root."
+health = "governed"
+
+[governance]
+primary_standard = "DDS"
+additional_standards = ["WGS", "PPS"]
+requires_child_manifests = true
+allowed_child_types = ["directory", "project", "dataset"]
+
+[lifecycle]
+state = "governed"
+created = "2026-06-10"
+last_reviewed = "2026-06-10"
+maintainer = "Herb"
+
+[structure]
+required_files = ["DIRECTORY.manifest.toml"]
+recommended_files = ["README.md"]
+required_directories = []
+reserved_directories = []
+
+[relationships]
+parent = "D:\\"
+children = ["981-CRATESIO", "982-NODEJS", "983-WINGET"]
+related_directories = []
+
+[policy]
+allow_project_creation = true
+allow_agent_scaffolding = true
+requires_manual_review_for_moves = true
+
+[agent]
+read_first = ["DIRECTORY.manifest.toml", "README.md"]
+authoritative_docs = ["DIRECTORY.manifest.toml"]
+known_gaps = []
+notes = "Root manifest refreshed after categorization pass."

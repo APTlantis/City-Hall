@@ -1,0 +1,82 @@
+[manifest]
+schema = "APTlantis Entity Manifest"
+schema_version = "2.4"
+manifest_type = "project"
+canonical_name = "ProjectName.manifest.toml"
+last_updated = "YYYY-MM-DD"
+maintainer = "Herb"
+
+[entity]
+id = "example-project"
+title = "Example Project"
+kind = "project"
+class = "project"
+status = "concept"
+description = "Replace with the project mission."
+tags = []
+
+[project]
+type = "tool"
+portfolio_class = "project"
+stage = "concept"
+version = "0.0.0"
+
+[governance]
+primary_standard = "PPS"
+primary_standard_path = "D:\\.city_hall\\PPS\\README.md"
+release_standard = ""
+release_standard_path = ""
+additional_standards = ["WGS"]
+additional_standard_paths = ["D:\\.city_hall\\WGS\\README.md"]
+inherits_from = "..\\ParentName.manifest.toml"
+proposal_required = true
+
+[lifecycle]
+state = "concept"
+created = "YYYY-MM-DD"
+last_updated = "YYYY-MM-DD"
+maintainer = "Herb"
+completion_percent = 0
+
+[paths]
+root = "D:\\PORTFOLIO\\ExampleProject"
+docs = ""
+source = ""
+artifacts = ""
+data = ""
+
+[documentation]
+project_readme = "Project-README.md"
+readme = "README.md"
+proposal = ""
+roadmap = ""
+architecture = ""
+release_notes = ""
+
+[runtime]
+platform = "unknown"
+language_primary = "unknown"
+languages_used = []
+services = []
+storage = ["local-filesystem"]
+
+[relationships]
+parent = "D:\\PORTFOLIO"
+child_projects = []
+depends_on_projects = []
+used_by_projects = []
+related_projects = []
+external_dependencies = []
+
+[state]
+stability = "experimental"
+active_development = false
+known_gaps = ["Replace every placeholder before treating this manifest as authoritative."]
+technical_debt = "unknown"
+
+[agent]
+read_first = ["AGENTS.md", "ProjectName.manifest.toml", "Project-README.md"]
+authoritative_docs = ["ProjectName.manifest.toml", "Project-README.md", "AGENTS.md"]
+governing_context = "Read inherited instructions and canonical standards before broad changes."
+safe_to_modify = false
+notes = "Template only until all placeholders are replaced."

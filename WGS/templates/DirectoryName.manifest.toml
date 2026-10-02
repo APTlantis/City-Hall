@@ -1,0 +1,70 @@
+[manifest]
+schema = "APTlantis Entity Manifest"
+schema_version = "2.4"
+manifest_type = "directory"
+canonical_name = "DirectoryName.manifest.toml"
+last_updated = "YYYY-MM-DD"
+maintainer = "Herb"
+
+[entity]
+id = "directory-name"
+title = "Directory Name"
+kind = "directory"
+class = "container"
+status = "planned"
+description = "Replace with the governed directory role."
+tags = []
+
+[directory]
+path = "D:\\DirectoryName"
+role = "Replace with the governed directory role."
+portfolio_class = "container"
+health = "unreviewed"
+allows_project_groups = false
+
+[governance]
+primary_standard = "WGS"
+primary_standard_path = "D:\\.city_hall\\WGS\\README.md"
+additional_standards = []
+additional_standard_paths = []
+inherits_from = "D:\\Development.manifest.toml"
+requires_child_manifests = true
+allowed_child_types = ["project", "project-group", "container"]
+
+[lifecycle]
+state = "planned"
+created = "YYYY-MM-DD"
+last_reviewed = "YYYY-MM-DD"
+maintainer = "Herb"
+
+[structure]
+required_files = ["AGENTS.md", "DirectoryName.manifest.toml"]
+required_child_project_files = ["AGENTS.md", "[EntityName].manifest.toml", "Project-README.md"]
+children = []
+reserved_directories = []
+
+[classification]
+projects = []
+project_groups = []
+containers = []
+archives = []
+
+[relationships]
+parent = "D:\\"
+related_directories = []
+
+[policy]
+allow_project_creation = false
+allow_grouped_projects = false
+allow_agent_scaffolding = false
+requires_manual_review_for_moves = true
+
+[migration]
+archived_manifests = []
+known_gaps = ["Replace every placeholder before treating this manifest as authoritative."]
+
+[agent]
+read_first = ["AGENTS.md", "DirectoryName.manifest.toml"]
+authoritative_docs = ["DirectoryName.manifest.toml", "AGENTS.md"]
+safe_to_modify = false
+notes = "Template only until all placeholders are replaced."

@@ -1,0 +1,11 @@
+{
+  "id": "artifact-origami-garden",
+  "prompt": "A serene manga garden where original female characters fold glowing QA cards into origami birds and flowers, neon petals, cyan water reflections, soft green and magenta accents, peaceful documentation-artifact atmosphere, clean balanced website composition, no readable text.. Section: visual-language. Role: scene. original manga-inspired scene, no named characters or franchises, no text or watermarks, dramatic cinematic composition, high contrast ink-style linework, neon-lit knowledge district aesthetic. Color palette: deep indigo to midnight black backgrounds; accents electric cyan, neon magenta, amber gold; neutrals cool grey mid-tones for architectural elements. Lighting: dramatic high-contrast lighting, rim light on figures, deep shadows. Linework: clean, precise ink lines with confident stroke weight variation. Wide cinematic composition suitable for a hero banner. No text, logos, watermarks, or named characters.",
+  "model": "gpt-image-2",
+  "size": "1536x1024",
+  "quality": "high",
+  "role": "scene",
+  "section": "visual-language",
+  "source_profile": "D:\\1000QA\\tools\\manga_style_profile.json",
+  "generated_at": "2026-05-07T15:28:14.894162+00:00"
+}

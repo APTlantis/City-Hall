@@ -1,0 +1,43 @@
+# Staged template: copy to .github/workflows/city-hall-audit.yml only when requested.
+name: City Hall audit
+on:
+  pull_request:
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 12 * * 1'
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Full SESM schema engine
+        run: python -m pip install -r SESM/requirements-ingestion.txt
+      - name: Suite structure
+        run: python -B SFDS/tools/sfds_validate.py --root .
+      - name: Canonical and catalog drift
+        run: python -B WGS/tools/city_hall_audit.py --root . --catalog WGS/catalog/city-hall.json
+      - name: SESM safe-profile regression vectors
+        run: python -B -m unittest discover -s SESM/tests -p test_validate_sesm_safe.py
+      - name: Remediation regression tests
+        run: python -B -m unittest discover -s WGS/tests -p test_framework_gates.py
+  alert:
+    if: failure() && github.event_name == 'schedule'
+    needs: audit
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const title = 'City Hall scheduled audit requires review';
+            const issues = await github.paginate(github.rest.issues.listForRepo, {...context.repo, state: 'open'});
+            if (!issues.some(issue => !issue.pull_request && issue.title === title)) {
+              await github.rest.issues.create({...context.repo, title, body: `Scheduled checks failed. Inspect the [audit run](${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}). Structural checks do not establish adopter runtime conformance.`});
+            }

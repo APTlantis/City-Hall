@@ -1,0 +1,12 @@
+{
+  "sesm_version": "0.3.0",
+  "asset": {
+    "id": "example-asset",
+    "role": "icon",
+    "title": "Example Asset",
+    "tags": ["example"]
+  },
+  "provenance": {
+    "generated": false
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "executed_at": "2026-10-02T13:57:11.252511+00:00",
+  "run_performed": true,
+  "scope": "registered suite structure; not adopter or application runtime conformance",
+  "inputs": [
+    {
+      "path": "AAMHS\\AAMHS.manifest.toml",
+      "sha256": "89e7fe285851003c3a2415be9d10c6b077a291939eeefa5018ba932862a2a9a7"
+    },
+    {
+      "path": "AAS\\AAS.manifest.toml",
+      "sha256": "59a39dc566d66586f8824a48e374f77c7856e045aa8d80884cb200a6ea8fcca5"
+    },
+    {
+      "path": "ARHS\\ARHS.manifest.toml",
+      "sha256": "b85f5dd47602db25355fc7c12cb2a3243f7df939ff2963ef2276ed3b33998d1c"
+    },
+    {
+      "path": "ATS\\ATS.manifest.toml",
+      "sha256": "1853338c1b67870b7e0321273aa0cd2f56270b17a39a1003fed1b9d68a40f816"
+    },
+    {
+      "path": "BlueSlate\\BlueSlate.manifest.toml",
+      "sha256": "68df0c88981242da09b226a0431146e997c6e6682bbe6397368673c41631168b"
+    },
+    {
+      "path": "CTS\\CTS.manifest.toml",
+      "sha256": "57e86d302c91cace56c37f12109d1c17ff5268703b9ff52702534bf06b254272"
+    },
+    {
+      "path": "DDS\\DDS.manifest.toml",
+      "sha256": "35b74a285c91eea1a0cfc01659d0a289f2bc72bdd1de2a0cb0dbd304589037ec"
+    },
+    {
+      "path": "DRS\\DRS.manifest.toml",
+      "sha256": "5074b3c7e0cfbd04db1199fb20cbcbde0df322b2e191c8ed73b8b976be0b556e"
+    },
+    {
+      "path": "LDS\\LDS.manifest.toml",
+      "sha256": "ca2ecc2229ffaeeee60e60df37797f8141a3e538ef1e3900c531f27818725985"
+    },
+    {
+      "path": "NeonInk\\NeonInk.manifest.toml",
+      "sha256": "3a30a47570922907655afbac97444547b8a4151be6d562fb8c4ba04c920fa8be"
+    },
+    {
+      "path": "PPS\\PPS.manifest.toml",
+      "sha256": "9c50c91dfb0c3cdba3fadeebe6875ae3ca76a0b49914c447a316d2fed22d3a1c"
+    },
+    {
+      "path": "SESM\\SESM.manifest.toml",
+      "sha256": "3bfc16bd248f73b8b807eb8b7d57431be6bda97c9da94ee68b5f82faaa36da03"
+    },
+    {
+      "path": "SFDS\\SFDS.manifest.toml",
+      "sha256": "76d0c5ef8c2a8fc0afb454a477a7137272a15f4ee6f8d1d1db5fe9f2a61e04d4"
+    },
+    {
+      "path": "SIS\\SIS.manifest.toml",
+      "sha256": "b8d804580b350374d2710654478d323d95108cb18eddfc84b7b17e65e1535f05"
+    },
+    {
+      "path": "WDS\\WDS.manifest.toml",
+      "sha256": "076e9c6082d456e18b15914033e9d2ad1d72634df0662a79793f060863e6fb38"
+    },
+    {
+      "path": "WGS\\WGS.manifest.toml",
+      "sha256": "5cbe3231084899fcece2868f4bd5de9940151f421c1433b2e5befdb5326a8fad"
+    }
+  ],
+  "denominator": 16,
+  "passed": 16,
+  "observed_findings": [
+    {
+      "suite": "D:\\.city_hall\\AAMHS",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "suite": "D:\\.city_hall\\AAS",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "suite": "D:\\.city_hall\\ARHS",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "suite": "D:\\.city_hall\\ATS",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "suite": "D:\\.city_hall\\BlueSlate",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "suite": "D:\\.city_hall\\CTS",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "suite": "D:\\.city_hall\\DDS",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "suite": "D:\\.city_hall\\DRS",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "suite": "D:\\.city_hall\\LDS",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "suite": "D:\\.city_hall\\NeonInk",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "suite": "D:\\.city_hall\\PPS",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "suite": "D:\\.city_hall\\SESM",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "suite": "D:\\.city_hall\\SFDS",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "suite": "D:\\.city_hall\\SIS",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "suite": "D:\\.city_hall\\WDS",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "suite": "D:\\.city_hall\\WGS",
+      "errors": [],
+      "warnings": []
+    }
+  ],
+  "result": "pass"
+}

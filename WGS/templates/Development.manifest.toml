@@ -1,0 +1,63 @@
+[manifest]
+schema = "APTlantis Entity Manifest"
+schema_version = "2.4"
+manifest_type = "workspace"
+canonical_name = "Development.manifest.toml"
+last_updated = "YYYY-MM-DD"
+maintainer = "Herb"
+
+[entity]
+id = "development-drive"
+title = "Development Workspace"
+kind = "workspace"
+class = "workspace-root"
+status = "active"
+description = "Replace with the development workspace mission."
+tags = ["development", "workspace"]
+
+[workspace]
+root = "D:\\"
+primary_governance = "WGS"
+city_hall = "D:\\.city_hall"
+active_standards_library = "D:\\.city_hall"
+index = "D:\\INDEX.md"
+instructions = "D:\\AGENTS.md"
+
+[policy]
+requires_directory_manifests = true
+requires_project_manifests = true
+requires_project_readmes = true
+requires_agent_instructions = true
+canonical_directory_manifest = "[DirectoryName].manifest.toml"
+canonical_project_manifest = "[ProjectName].manifest.toml"
+preserve_legacy_manifests_with_migration_notes = true
+manual_review_required_for_moves = true
+copy_canonical_standards_into_projects = false
+
+[standards]
+wgs = "D:\\.city_hall\\WGS"
+sfds = "D:\\.city_hall\\SFDS"
+pps = "D:\\.city_hall\\PPS"
+lds = "D:\\.city_hall\\LDS"
+drs = "D:\\.city_hall\\DRS"
+cts = "D:\\.city_hall\\CTS"
+wds = "D:\\.city_hall\\WDS"
+arhs = "D:\\.city_hall\\ARHS"
+aamhs = "D:\\.city_hall\\AAMHS"
+sesm = "D:\\.city_hall\\SESM"
+blue_slate = "D:\\.city_hall\\BlueSlate"
+blanks = "D:\\.city_hall\\Blanks"
+
+[[roots]]
+id = "example-portfolio"
+path = "D:\\EXAMPLE"
+kind = "portfolio"
+role = "Replace with the governed root role."
+governing_standard = "WGS"
+manifest = "D:\\EXAMPLE\\EXAMPLE.manifest.toml"
+
+[agent]
+read_first = ["D:\\AGENTS.md", "D:\\INDEX.md", "D:\\.city_hall\\WGS\\Agent-Startup-Procedure.md"]
+authoritative_docs = ["D:\\Development.manifest.toml", "D:\\AGENTS.md", "D:\\INDEX.md", "D:\\.city_hall\\README.md"]
+known_gaps = ["Replace example root and all placeholder values before adoption."]
+notes = "Template only until all placeholders are replaced."

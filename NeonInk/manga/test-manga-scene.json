@@ -1,0 +1,11 @@
+{
+  "id": "test-manga-scene",
+  "prompt": "A Neon Ink knowledge district at dusk with angled manga panels and static artifact symbols. Section: gateway. Role: scene. original manga-inspired scene, no named characters or franchises, no text or watermarks, dramatic cinematic composition, high contrast ink-style linework, neon-lit knowledge district aesthetic. Color palette: deep indigo to midnight black backgrounds; accents electric cyan, neon magenta, amber gold; neutrals cool grey mid-tones for architectural elements. Lighting: dramatic high-contrast lighting, rim light on figures, deep shadows. Linework: clean, precise ink lines with confident stroke weight variation. Wide cinematic composition suitable for a hero banner. No text, logos, watermarks, or named characters.",
+  "model": "gpt-image-2",
+  "size": "1536x1024",
+  "quality": "high",
+  "role": "scene",
+  "section": "gateway",
+  "source_profile": "D:\\1000QA\\tools\\manga_style_profile.json",
+  "generated_at": "2026-05-07T13:57:18.132268+00:00"
+}

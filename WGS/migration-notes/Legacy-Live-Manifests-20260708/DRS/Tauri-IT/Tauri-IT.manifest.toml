@@ -1,0 +1,82 @@
+title = "APTlantis Project Manifest v2.3"
+
+[project]
+id = "tauri-it"
+title = "Tauri-IT"
+description = "Tauri IT Tools is a desktop application providing various utilities for developers and IT professionals, built using Tauri and Vue.js. It includes tools for productivity, conversion, and development tasks, and is designed for self-hosting."
+type = "ui"
+stage = "production"
+version = "0.1.0"
+tags = ["desktop", "tauri", "vuejs", "developer-tools", "productivity"]
+
+[metadata]
+created = "2026-06-01"
+last_updated = "2026-06-02"
+maintainer = "Herb"
+license = "Unspecified"
+language_primary = "Unknown"
+languages_used = []
+
+[state]
+completion_percent = 90
+stability = "stable"
+active_development = true
+technical_debt = "moderate"
+maintenance_burden = "medium"
+known_gaps = []
+
+[runtime]
+platform = "library"
+environment = "Unspecified local environment"
+
+[relationships]
+depends_on_projects = []
+used_by_projects = []
+external_dependencies = []
+related_projects = []
+
+[artifacts]
+produces = []
+consumes = []
+
+[generation]
+manifest_is_canonical = true
+generates_readme = false
+generates_writerside = false
+generates_jsonld = false
+generates_visualizations = false
+generates_embeddings = false
+generator = "aptlantis-project-manifests"
+
+[documentation]
+readme = ""
+generated_sections = false
+
+[semantic]
+domain = "internal utility"
+primary_concepts = []
+related_domains = []
+cognitive_tags = ["desktop", "tauri", "vuejs", "developer-tools", "productivity"]
+complexity = "medium"
+
+[visual]
+theme = "NeonInk-v0.1.1"
+primary_color = "#0ff0ff"
+semantic_role = "ui"
+contains_svg_assets = false
+contains_scene_art = false
+
+[distribution]
+packaged = false
+package_formats = []
+portable = true
+offline_capable = true
+requires_installation = false
+
+[structure]
+repo_path = "E:/Tauri-IT"
+
+[notes]
+needs_review = "Generated best-effort manifest. Verify inferred fields before treating optional metadata as authoritative."
+evidence = "AnalyzeProjects evaluation plus local project files"
+

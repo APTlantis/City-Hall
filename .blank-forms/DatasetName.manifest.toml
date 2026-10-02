@@ -1,0 +1,94 @@
+schema = "aptlantis.dataset.v1.2.0"
+
+[dataset]
+name = ""
+id = ""
+ecosystem = ""
+version = ""
+
+source = ""
+snapshot_date = ""
+generated_at = ""
+
+description = """
+"""
+
+format = []
+
+[source]
+registry = ""
+collection_method = ""
+registry_index = ""
+
+notes = """
+"""
+
+[[artifacts]]
+file = ""
+format = ""
+description = ""
+
+[[artifacts]]
+file = ""
+format = ""
+description = ""
+
+[[artifacts]]
+file = ""
+format = ""
+description = ""
+
+[[artifacts]]
+file = ""
+format = ""
+description = ""
+
+[integrity]
+hash_manifest = "snapshot-hashes.txt"
+signature = "snapshot-hashes.txt.asc"
+
+hash_algorithms = [
+  "sha256","sha512","sha3-256","sha3-512",
+  "blake3","xxhash64","crc32","k12"
+]
+
+verification_model = "archive-integrity"
+
+notes = """
+Archive treated as immutable snapshot. Verification ensures
+bit-level preservation integrity from publication state.
+"""
+
+[distribution]
+project = "APTlantis"
+homepage = "https://aptlantis.net"
+maintainer = "APTlantis Archive"
+
+primary_distribution = "torrent"
+
+download = []
+
+[torrent]
+enabled = false
+primary_seed = ""
+tracker_strategy = ""
+
+notes = """
+"""
+
+[build]
+pipeline = ""
+generator = ""
+generated_by = ""
+
+platform = ""
+
+notes = """
+"""
+
+[license]
+data_origin = ""
+license = ""
+notes = """
+Individual components retain original upstream licenses.
+"""

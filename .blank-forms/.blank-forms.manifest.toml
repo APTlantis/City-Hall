@@ -1,0 +1,56 @@
+[manifest]
+schema = "APTlantis Entity Manifest"
+schema_version = "2.4"
+manifest_type = "directory"
+canonical_name = ".blank-forms.manifest.toml"
+last_updated = "2026-09-23"
+maintainer = "Herb"
+
+[entity]
+id = "blank-forms"
+title = "Blank Forms"
+kind = "directory"
+class = "governance-templates"
+status = "active"
+description = "Canonical directory for commonly used copied onboarding forms and the public project README template."
+tags = ["governance", "templates", "forms"]
+
+[directory]
+path = "D:\\.city_hall\\.blank-forms"
+role = "Provide discoverable copies of current governance forms without replacing their suite sources of truth."
+portfolio_class = "reference"
+health = "governed"
+allows_project_groups = false
+
+[governance]
+primary_standard = "WGS"
+primary_standard_path = "D:\\.city_hall\\WGS\\README.md"
+additional_standards = ["SFDS", "DDS"]
+additional_standard_paths = ["D:\\.city_hall\\SFDS\\README.md", "D:\\.city_hall\\DDS\\README.md"]
+inherits_from = "D:\\.city_hall\\CITY-HALL.manifest.toml"
+requires_child_manifests = false
+allowed_child_types = ["template", "reference"]
+
+[lifecycle]
+state = "active"
+created = "2026-09-23"
+last_reviewed = "2026-09-23"
+maintainer = "Herb"
+
+[structure]
+required_files = ["AGENTS.md", ".blank-forms.manifest.toml", "README.md", "README-TEMPLATE.md"]
+children = ["DirectoryName.manifest.toml", "DatasetName.manifest.toml", "ProjectName.manifest.toml", "Project-README-TEMPLATE.md", "README-TEMPLATE.md", "StandardName.manifest.toml"]
+
+[relationships]
+parent = "D:\\.city_hall"
+related_directories = ["D:\\.city_hall\\WGS", "D:\\.city_hall\\SFDS", "D:\\.city_hall\\DDS"]
+
+[policy]
+allow_project_creation = false
+allow_agent_scaffolding = false
+requires_manual_review_for_moves = true
+
+[agent]
+read_first = ["AGENTS.md", ".blank-forms.manifest.toml", "README.md"]
+authoritative_docs = [".blank-forms.manifest.toml", "AGENTS.md", "README.md"]
+notes = "Suite-owned templates remain canonical; copies in this directory are maintained for discovery and convenience."

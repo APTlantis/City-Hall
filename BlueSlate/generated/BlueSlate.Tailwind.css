@@ -1,0 +1,10 @@
+/* Generated from BlueSlate.Tokens.toml v0.5.0. Do not edit. */
+@import "./BlueSlate.Tokens.css";
+@theme {
+  --color-bs-canvas: oklch(0.140499 0.023636 263.451);
+  --color-bs-panel: oklch(0.260455 0.037543 253.857);
+  --color-bs-foreground: oklch(0.920072 0.017258 128.671);
+  --color-bs-primary: oklch(0.813624 0.145407 217.106);
+  --color-bs-warning: oklch(0.748399 0.162037 45.458);
+  --color-bs-danger: oklch(0.695469 0.197538 15.244);
+}

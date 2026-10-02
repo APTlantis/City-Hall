@@ -1,0 +1,27 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Color x:Key="BlueSlateAbyss">#050913</Color>
+    <Color x:Key="BlueSlateDeepNavy">#0B1728</Color>
+    <Color x:Key="BlueSlatePanel">#172536</Color>
+    <Color x:Key="BlueSlatePanelRaised">#262F39</Color>
+    <Color x:Key="BlueSlateBorder">#36485A</Color>
+    <Color x:Key="BlueSlateText">#E1E7DB</Color>
+    <Color x:Key="BlueSlateTextSoft">#B9C9C5</Color>
+    <Color x:Key="BlueSlateTextMuted">#98A2A2</Color>
+    <Color x:Key="BlueSlateAction">#00D8FF</Color>
+    <Color x:Key="BlueSlateFocus">#65F2FF</Color>
+    <Color x:Key="BlueSlateWarning">#FF884D</Color>
+    <Color x:Key="BlueSlateAttention">#D9A441</Color>
+    <Color x:Key="BlueSlateTaxonomy">#9C7CFF</Color>
+    <Color x:Key="BlueSlateArchive">#6A5BFF</Color>
+    <Color x:Key="BlueSlateSuccess">#30D58C</Color>
+    <Color x:Key="BlueSlateVerified">#6FE3A4</Color>
+
+    <SolidColorBrush x:Key="BlueSlateBackgroundBrush" Color="{StaticResource BlueSlateAbyss}" />
+    <SolidColorBrush x:Key="BlueSlatePanelBrush" Color="{StaticResource BlueSlatePanel}" />
+    <SolidColorBrush x:Key="BlueSlatePanelRaisedBrush" Color="{StaticResource BlueSlatePanelRaised}" />
+    <SolidColorBrush x:Key="BlueSlateBorderBrush" Color="{StaticResource BlueSlateBorder}" />
+    <SolidColorBrush x:Key="BlueSlateTextBrush" Color="{StaticResource BlueSlateText}" />
+    <SolidColorBrush x:Key="BlueSlateTextSoftBrush" Color="{StaticResource BlueSlateTextSoft}" />
+    <SolidColorBrush x:Key="BlueSlateActionBrush" Color="{StaticResource BlueSlateAction}" />
+</ResourceDictionary>

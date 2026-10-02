@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://aptlantis.local/schemas/aamhs/hash-manifest.schema.json",
+  "title": "AAMHS Hash Manifest",
+  "type": "object",
+  "required": ["archive", "hash_suite", "files"],
+  "properties": {
+    "archive": {
+      "type": "object",
+      "required": ["id", "title", "created"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "title": { "type": "string", "minLength": 1 },
+        "created": { "type": "string", "format": "date" },
+        "maintainer": { "type": "string" },
+        "update_cadence": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+    "hash_suite": {
+      "type": "object",
+      "required": ["version", "primary", "additional"],
+      "properties": {
+        "version": {
+          "type": "string",
+          "pattern": "^aamhs\\.hash-suite\\.v[0-9]+$"
+        },
+        "primary": { "type": "string", "enum": ["sha256", "blake3", "kangarootwelve"] },
+        "additional": {
+          "type": "array",
+          "items": { "type": "string", "enum": ["sha256", "blake3", "kangarootwelve"] }
+        },
+        "allowed_algorithms": {
+          "type": "array",
+          "items": { "type": "string", "enum": ["sha256", "blake3", "kangarootwelve"] }
+        },
+        "generated_at": { "type": "string" },
+        "tool": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+    "files": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["path", "size_bytes", "sha256"],
+        "properties": {
+          "path": { "type": "string", "minLength": 1 },
+          "size_bytes": { "type": "integer", "minimum": 0 },
+          "sha256": { "type": "string", "pattern": "^[A-Fa-f0-9]{64}$" },
+          "blake3": { "type": "string" },
+          "kangarootwelve": { "type": "string" }
+        },
+        "additionalProperties": true
+      }
+    },
+    "signatures": {
+      "type": "object",
+      "properties": {
+        "detached_signatures_used": { "type": "boolean" },
+        "policy": { "type": "string" },
+        "files": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["path"],
+            "properties": {
+              "path": { "type": "string" },
+              "tool": { "type": "string" },
+              "identity": { "type": "string" },
+              "verification": { "type": "string" }
+            },
+            "additionalProperties": true
+          }
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}

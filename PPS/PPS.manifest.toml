@@ -1,0 +1,56 @@
+[standard]
+id = "pps"
+title = "Project Proposal Standard"
+abbreviation = "PPS"
+status = "active"
+maturity = "candidate"
+version = "0.2.3"
+description = "Governs project proposals, design boundaries, success criteria, failure criteria, constraints, risks, roadmaps, responsibility posture, and project creation records."
+
+[governance]
+meta_standard = "SFDS"
+workspace_standard = "WGS"
+scope = "Project creation, revival, pre-build clarity, proposal readiness, responsibility posture, version completion shape, and intent preservation."
+non_goals = ["Release packaging", "workspace root governance", "command output formats"]
+
+[artifacts]
+specification = "Project Proposal Standard.md"
+schema = "ProjectProposal.manifest.schema.toml"
+templates = "templates"
+examples = "examples"
+adoption_guide = "Adoption-Guide.md"
+validation_checklist = "Validation-Checklist.md"
+changelog = "CHANGELOG.md"
+validators = ["tools/pps_new.py", "tools/pps_validate.py"]
+governance_notes = [
+  "WGS-Lifecycle-Mapping.md",
+  "CI-Usage.md",
+  "Proposal-Metadata-JSONL.md",
+  "Delivery-Standard-Mapping.md"
+]
+reference_examples = [
+  "examples/PPS-Suite-Map.md",
+  "examples/Example-CLI-Project-Proposal.md",
+  "examples/Example-Desktop-Project-Proposal.md",
+  "examples/Example-Website-Project-Proposal.md",
+  "examples/Example-Dataset-Project-Proposal.md",
+  "examples/Example-Standard-Project-Proposal.md",
+  "examples/Example-Proposal.manifest.toml",
+  "examples/Proposal-To-Delivery-Handoff.md",
+  "examples/proposal-snapshots/Manifest-Audit-2026-07-30-sketch.md",
+  "examples/proposal-snapshots/Manifest-Audit-2026-07-30-ready.md"
+]
+
+[adopter_artifacts]
+schemas = ["ProjectProposal.manifest.schema.toml"]
+manifest_templates = ["templates/PROJECT.manifest.toml"]
+document_templates = ["templates/Project-Proposal.md", "templates/PROJECT-READMAP.toml"]
+
+[lifecycle]
+created = "2026-06-10"
+last_updated = "2026-08-23"
+maintainer = "Herb"
+
+[agent]
+read_first = ["README.md", "Project Proposal Standard.md", "PPS.md"]
+notes = "Use PPS before starting, reviving, expanding, or rescoping projects. PPS is the north star; WGS places the project; delivery standards govern execution."

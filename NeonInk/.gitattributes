@@ -1,0 +1,4 @@
+generated/* text eol=lf
+spec/references/boards/*.svg text eol=lf
+*.py text eol=lf
+*.toml text eol=lf

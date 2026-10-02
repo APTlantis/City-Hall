@@ -1,0 +1,189 @@
+# MiniVault.manifest.toml
+# Desktop Application Release Standard — Project Manifest
+# Example: completed, filled-in manifest for a real project
+
+# ─────────────────────────────────────────────────────────────────────────────
+# PROJECT
+# ─────────────────────────────────────────────────────────────────────────────
+
+[project]
+id          = "minivault"
+title       = "MiniVault"
+description = "A simple local-first secret vault for Windows desktop."
+type        = "ui"
+stage       = "prototype"
+version     = "0.1.0"
+tags        = ["vault", "encryption", "local-first", "desktop"]
+
+# ─────────────────────────────────────────────────────────────────────────────
+# METADATA
+# ─────────────────────────────────────────────────────────────────────────────
+
+[metadata]
+created          = "2026-05-01"
+last_updated     = "2026-06-04"
+maintainer       = "H. Schumann"
+license          = "Proprietary"
+language_primary = "C#"
+languages_used   = ["C#", "XAML"]
+
+# ─────────────────────────────────────────────────────────────────────────────
+# STATE
+# ─────────────────────────────────────────────────────────────────────────────
+
+[state]
+completion_percent  = 35
+stability           = "experimental"
+active_development  = true
+technical_debt      = "low"
+maintenance_burden  = "low"
+known_gaps          = [
+  "No ARM64 build validated",
+  "No third-party security audit performed",
+  "Key material may persist in memory after vault lock until GC collects",
+  "No in-app backup or export feature"
+]
+
+# ─────────────────────────────────────────────────────────────────────────────
+# RUNTIME
+# ─────────────────────────────────────────────────────────────────────────────
+
+[runtime]
+platform    = "desktop"
+environment = "Windows 10 22H2+ / Windows 11, x64"
+services    = []
+storage     = ["local-filesystem"]
+
+# ─────────────────────────────────────────────────────────────────────────────
+# CAPABILITIES
+# ─────────────────────────────────────────────────────────────────────────────
+
+[capabilities]
+offline    = true
+encryption = true
+telemetry  = false
+autofill   = false
+sync       = false
+backup     = false
+
+# ─────────────────────────────────────────────────────────────────────────────
+# RELEASE
+# ─────────────────────────────────────────────────────────────────────────────
+
+[release]
+status  = "published"
+version = "0.1.0"
+name    = "MiniVault v0.1.0 — Initial Trust Boundary Release"
+date    = "2026-06-04"
+
+[release.installer]
+path            = "artifacts/installer/MiniVault-0.1.0.0-win-x64.msi"
+runtime         = "win-x64"
+package_version = "0.1.0.0"
+size_bytes      = 18350080
+sha256          = "A3F7C9E1B2D4F68A0C3E5B7D9F1A3C5E7B9D1F3A5C7E9B1D3F5A7C9E1B2D4F6"
+signing         = "self-signed CN=MiniVault"
+
+[release.verified]
+date            = "2026-06-04"
+tests           = "xunit passed 47 tests"
+installer_build = "Build-Installer.ps1 completed on 2026-06-04"
+install_check   = "installed, launched with title 'MiniVault', uninstalled successfully on 2026-06-04"
+data_safety     = "%APPDATA%\\MiniVault not deleted by uninstall on 2026-06-04"
+upgrade_check   = "not applicable — first release"
+
+# ─────────────────────────────────────────────────────────────────────────────
+# DOCUMENTATION
+# ─────────────────────────────────────────────────────────────────────────────
+
+[documentation]
+readme             = "README.md"
+release_notes      = "docs/MiniVault v0.1.0.md"
+release_checklist  = "docs/MiniVault - Release Checklist.md"
+trust_model        = "docs/MiniVault - Trust and Security Model.md"
+threat_model       = ""
+dependency_provenance = ""
+build_guide        = ""
+integrity_matrix   = ""
+generated_sections = false
+
+# ─────────────────────────────────────────────────────────────────────────────
+# RELATIONSHIPS
+# ─────────────────────────────────────────────────────────────────────────────
+
+[relationships]
+depends_on_projects   = []
+used_by_projects      = []
+external_dependencies = [
+  "Microsoft.Extensions.DependencyInjection 9.0.0",
+  "CommunityToolkit.Mvvm 8.3.2",
+  "WiX Toolset 5.0.1"
+]
+related_projects = []
+
+# ─────────────────────────────────────────────────────────────────────────────
+# ARTIFACTS
+# ─────────────────────────────────────────────────────────────────────────────
+
+[artifacts]
+produces = ["MiniVault-0.1.0.0-win-x64.msi"]
+consumes = []
+
+# ─────────────────────────────────────────────────────────────────────────────
+# DISTRIBUTION
+# ─────────────────────────────────────────────────────────────────────────────
+
+[distribution]
+packaged              = true
+package_formats       = ["msi"]
+portable              = false
+offline_capable       = true
+requires_installation = true
+
+# ─────────────────────────────────────────────────────────────────────────────
+# STRUCTURE
+# ─────────────────────────────────────────────────────────────────────────────
+
+[structure]
+repo_path = "E:\\Projects\\MiniVault"
+docs_path = "docs/"
+data_path = "%APPDATA%\\MiniVault"
+
+# ─────────────────────────────────────────────────────────────────────────────
+# AUTOMATION
+# ─────────────────────────────────────────────────────────────────────────────
+
+[automation]
+build  = "dotnet build -c Release"
+deploy = ".\\scripts\\Build-Installer.ps1 -Version 0.1.0.0"
+tasks  = ["restore", "build", "test", "publish", "installer", "hash"]
+
+# ─────────────────────────────────────────────────────────────────────────────
+# OBSERVABILITY
+# ─────────────────────────────────────────────────────────────────────────────
+
+[observability]
+logs          = false
+metrics       = false
+health_checks = false
+event_stream  = false
+telemetry     = false
+
+# ─────────────────────────────────────────────────────────────────────────────
+# SEMANTIC
+# ─────────────────────────────────────────────────────────────────────────────
+
+[semantic]
+domain           = "security"
+primary_concepts = ["vault", "encryption", "local-first", "passphrase"]
+related_domains  = ["credential-management", "data-protection"]
+cognitive_tags   = ["aes-gcm", "pbkdf2", "wpf", "mvvm"]
+complexity       = "moderate"
+
+# ─────────────────────────────────────────────────────────────────────────────
+# NOTES
+# ─────────────────────────────────────────────────────────────────────────────
+
+[notes]
+security_review_status = "not performed — this release does not claim production readiness"
+next_version_theme     = "Vault Export and Backup"

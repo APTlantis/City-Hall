@@ -1,0 +1,46 @@
+/* Blue Slate 0.3.0 Bootstrap 5.3 profile. Single dark theme. */
+/* Bootstrap compatibility variables below translate canonical Blue Slate roles. */
+:root {
+  color-scheme: dark;
+  --bs-blue: #4c9fff; --bs-indigo: #6a5bff; --bs-purple: #9c7cff; --bs-pink: #ed72b6;
+  --bs-red: #ff5c74; --bs-orange: #ff884d; --bs-yellow: #d9a441; --bs-green: #30d58c;
+  --bs-teal: #21c6b8; --bs-cyan: #00d8ff;
+  --bs-black: #050913; --bs-white: #e7ece3; --bs-gray: #6b7f8d; --bs-gray-dark: #22384b;
+  --bs-gray-100: #e7ece3; --bs-gray-200: #cbd6d1; --bs-gray-300: #b2c0c3; --bs-gray-400: #96a7b0;
+  --bs-gray-500: #7d909c; --bs-gray-600: #637887; --bs-gray-700: #496174; --bs-gray-800: #22384b;
+  --bs-gray-900: #0b1728;
+  --bs-primary: #00d8ff; --bs-secondary: #637887; --bs-success: #30d58c; --bs-info: #9c7cff;
+  --bs-warning: #ff884d; --bs-danger: #ff5c74; --bs-light: #cbd6d1; --bs-dark: #0b1728;
+  --bs-primary-rgb: 0,216,255; --bs-secondary-rgb: 99,120,135; --bs-success-rgb: 48,213,140;
+  --bs-info-rgb: 156,124,255; --bs-warning-rgb: 255,136,77; --bs-danger-rgb: 255,92,116;
+  --bs-light-rgb: 203,214,209; --bs-dark-rgb: 11,23,40; --bs-white-rgb: 231,236,227; --bs-black-rgb: 5,9,19;
+  --bs-primary-text-emphasis: #65f2ff; --bs-secondary-text-emphasis: #b2c0c3; --bs-success-text-emphasis: #6fe3a4;
+  --bs-info-text-emphasis: #c0adff; --bs-warning-text-emphasis: #ffb184; --bs-danger-text-emphasis: #ff98a8;
+  --bs-light-text-emphasis: #e7ece3; --bs-dark-text-emphasis: #b2c0c3;
+  --bs-primary-bg-subtle: #073442; --bs-secondary-bg-subtle: #1c2c3a; --bs-success-bg-subtle: #0d3328;
+  --bs-info-bg-subtle: #251f4a; --bs-warning-bg-subtle: #3a2419; --bs-danger-bg-subtle: #3a1720;
+  --bs-light-bg-subtle: #22384b; --bs-dark-bg-subtle: #08111e;
+  --bs-primary-border-subtle: #08788d; --bs-secondary-border-subtle: #496174; --bs-success-border-subtle: #1d7d58;
+  --bs-info-border-subtle: #6651aa; --bs-warning-border-subtle: #9a5735; --bs-danger-border-subtle: #9d3548;
+  --bs-light-border-subtle: #637887; --bs-dark-border-subtle: #22384b;
+  --bs-font-sans-serif: "Aptos", "Segoe UI Variable Text", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --bs-font-monospace: "Cascadia Code", "Cascadia Mono", "JetBrains Mono", SFMono-Regular, Consolas, monospace;
+  --bs-gradient: linear-gradient(180deg, rgb(231 236 227 / .08), rgb(231 236 227 / 0));
+  --bs-body-font-family: var(--bs-font-sans-serif); --bs-body-font-size: 1rem; --bs-body-font-weight: 400; --bs-body-line-height: 1.5;
+  --bs-body-color: #e7ece3; --bs-body-color-rgb: 231,236,227; --bs-body-bg: #050913; --bs-body-bg-rgb: 5,9,19;
+  --bs-emphasis-color: #fff; --bs-emphasis-color-rgb: 255,255,255; --bs-heading-color: #e7ece3;
+  --bs-secondary-color: rgb(203 214 209 / .78); --bs-secondary-color-rgb: 203,214,209; --bs-secondary-bg: #14263a; --bs-secondary-bg-rgb: 20,38,58;
+  --bs-tertiary-color: rgb(178 192 195 / .68); --bs-tertiary-color-rgb: 178,192,195; --bs-tertiary-bg: #0b1728; --bs-tertiary-bg-rgb: 11,23,40;
+  --bs-link-color: #65f2ff; --bs-link-color-rgb: 101,242,255; --bs-link-decoration: underline;
+  --bs-link-hover-color: #b3faff; --bs-link-hover-color-rgb: 179,250,255; --bs-code-color: #ed72b6;
+  --bs-highlight-color: #e7ece3; --bs-highlight-bg: #4a3518;
+  --bs-border-width: 1px; --bs-border-style: solid; --bs-border-color: #3c5365; --bs-border-color-translucent: rgb(150 167 176 / .28);
+  --bs-border-radius: .625rem; --bs-border-radius-sm: .375rem; --bs-border-radius-lg: .875rem; --bs-border-radius-xl: 1.25rem;
+  --bs-border-radius-xxl: 1.5rem; --bs-border-radius-2xl: var(--bs-border-radius-xxl); --bs-border-radius-pill: 50rem;
+  --bs-box-shadow: 0 .5rem 1.5rem rgb(0 0 0 / .30), inset 0 1px 0 rgb(231 236 227 / .05);
+  --bs-box-shadow-sm: 0 .125rem .5rem rgb(0 0 0 / .22); --bs-box-shadow-lg: 0 1.25rem 4.375rem rgb(0 0 0 / .38), inset 0 1px 0 rgb(231 236 227 / .07);
+  --bs-box-shadow-inset: inset 0 1px 2px rgb(0 0 0 / .30); --bs-focus-ring-width: .25rem;
+  --bs-focus-ring-opacity: .30; --bs-focus-ring-color: rgb(101 242 255 / .30);
+  --bs-form-valid-color: #6fe3a4; --bs-form-valid-border-color: #30d58c;
+  --bs-form-invalid-color: #ff98a8; --bs-form-invalid-border-color: #ff5c74;
+}

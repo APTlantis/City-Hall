@@ -1,0 +1,100 @@
+# QB-Winget Project Manifest
+# Version: 1.0
+# Last Updated: 2026-05-12
+
+[project]
+id = "qb-winget"
+title = "QB-Winget"
+type = "tool"
+stage = "active"
+version = "1.0.0"
+description = "QB64-based GUI wrapper and management tool for Windows Package Manager (Winget). Provides a retro-styled interface for discovering, installing, and managing Windows packages through Winget."
+tags = ["qb64", "winget", "package-manager", "gui", "windows"]
+family = "infrastructure"
+canonical_manifest = true
+
+[metadata]
+created = "2026-02-28"
+last_updated = "2026-05-12"
+last_reviewed = "2026-05-12"
+maintainer = "Herb"
+license = "MIT"
+language_primary = "BASIC"
+languages_used = ["QB64", "BASIC", "Markdown"]
+
+[state]
+completion_percent = 75
+stability = "mostly-stable"
+active_development = true
+technical_debt = "moderate"
+maintenance_burden = "medium"
+
+[runtime]
+platform = "desktop"
+environment = "Windows (QB64 compiled binary)"
+services = ["Winget"]
+storage = ["Local registry"]
+
+[capabilities]
+package_discovery = true
+package_installation = true
+package_management = true
+gui_interface = true
+winget_integration = true
+
+[relationships]
+depends_on_projects = []
+used_by_projects = []
+supersedes = []
+superseded_by = []
+external_dependencies = ["QB64", "Winget"]
+related_projects = []
+
+[artifacts]
+produces = ["qb64-executable", "install-scripts"]
+consumes = ["winget-package-data"]
+
+[generation]
+manifest_is_canonical = true
+generates_readme = true
+generates_jsonld = true
+
+[documentation]
+readme = "README.md"
+architecture_doc = "WinGettingQB64-Architecture.md"
+generated_sections = true
+
+[semantic]
+domain = "package-management"
+primary_concepts = ["winget-wrapper", "gui-tools", "package-discovery"]
+related_domains = ["Windows Admin", "Package Management"]
+cognitive_tags = ["qb64-retro", "winget-integration"]
+complexity = "medium"
+
+[visual]
+theme = "NeonInk-v0.1.1"
+primary_color = "#0066ff"
+semantic_role = "tool"
+contains_svg_assets = false
+
+[distribution]
+packaged = true
+package_formats = ["exe"]
+portable = true
+offline_capable = false
+requires_installation = true
+
+[links]
+homepage = "https://aptlantis.net"
+
+[structure]
+repo_path = "E:/QB/QB-Winget"
+
+[automation]
+build = "qb64 QB64.bas"
+tasks = ["compile", "test", "package"]
+
+[notes]
+purpose = "QB64-based GUI for Windows Package Manager"
+approach = "Retro-styled BASIC interface wrapping modern Winget functionality"
+unique = "Combines classic QB64 aesthetic with modern Windows package management"

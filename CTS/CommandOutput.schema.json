@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://aptlantis.local/schemas/cts/command-output.schema.json",
+  "title": "CTS Command Output Envelope",
+  "type": "object",
+  "required": ["status", "tool", "version"],
+  "properties": {
+    "status": {
+      "type": "string",
+      "enum": ["ok", "warning", "error"]
+    },
+    "tool": {
+      "type": "string",
+      "minLength": 1
+    },
+    "version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "data": {
+      "description": "Command-specific result payload. Prefer an object with stable field names for non-trivial outputs; use null for error cases with no result payload.",
+      "oneOf": [
+        { "type": "object" },
+        { "type": "array" },
+        { "type": "string" },
+        { "type": "number" },
+        { "type": "boolean" },
+        { "type": "null" }
+      ]
+    },
+    "warnings": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "errors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["code", "message"],
+        "properties": {
+          "code": { "type": "string", "minLength": 1 },
+          "category": {
+            "type": "string",
+            "enum": ["usage", "input", "validation", "permission", "conflict", "runtime", "dependency", "unknown"]
+          },
+          "message": { "type": "string", "minLength": 1 },
+          "path": { "type": "string" },
+          "details": {}
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

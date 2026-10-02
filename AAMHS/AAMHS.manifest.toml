@@ -1,0 +1,49 @@
+[standard]
+id = "aamhs"
+title = "Aptlantis Archive Multi-Hash Standard"
+abbreviation = "AAMHS"
+status = "active"
+maturity = "candidate"
+version = "1.0.3"
+description = "Governs archive verification, preservation hash suites, manifest formats, detached signatures, validation procedures, and integrity records."
+
+[governance]
+meta_standard = "SFDS"
+workspace_standard = "WGS"
+scope = "Archival integrity, preservation hash manifests, detached signature policy, validation procedures, and archive integrity records."
+non_goals = ["UI design", "project proposal creation", "workspace root placement", "release distribution channels", "platform package signing"]
+
+[artifacts]
+specification = "Aptlantis Archive Multi-Hash Standard.md"
+schema = "HashManifest.schema.toml"
+templates = "templates"
+examples = "examples"
+adoption_guide = "Adoption-Guide.md"
+validation_checklist = "Validation-Checklist.md"
+changelog = "CHANGELOG.md"
+validators = ["tools/aamhs_validate.py", "tools/aamhs_signature_check.py"]
+governance_notes = [
+  "references/APTlantis Release Hashing Standard.md",
+  "CI-Usage.md"
+]
+reference_examples = [
+  "examples/AAMHS-Suite-Map.md",
+  "examples/Example-Archive-Integrity-Record.md",
+  "examples/Example-Hash-Manifest.toml",
+  "examples/Signed-Archive-Integrity-Record.md"
+]
+
+[adopter_artifacts]
+schemas = ["HashManifest.schema.toml", "HashManifest.schema.json"]
+manifest_templates = ["templates/Hash-Manifest.toml"]
+document_templates = ["templates/Archive-Integrity-Record.md"]
+
+[lifecycle]
+created = "2026-06-10"
+last_updated = "2026-08-20"
+maintainer = "Herb"
+update_cadence = "Review when archive hash policy, signature practice, or supported hash algorithms change."
+
+[agent]
+read_first = ["README.md", "Aptlantis Archive Multi-Hash Standard.md", "AAMHS.manifest.toml"]
+notes = "Normalize existing AAMHS material without moving source references. Use ARHS for release hash manifests and AAMHS for richer archive preservation integrity records. ArchiveHasher and manifest-signer.exe are archive-preservation tools; they do not replace Store, Authenticode, or package-ecosystem signing/provenance."

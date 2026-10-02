@@ -1,0 +1,25 @@
+# Blank teaching template. Pending stages block release readiness.
+version = "REPLACE"
+artifact_sha256 = "REPLACE"
+
+[stages.build-package]
+status = "pending"
+date = "YYYY-MM-DD"
+log = ""
+[stages.install-upgrade]
+status = "pending"
+date = "YYYY-MM-DD"
+log = ""
+[stages.runtime]
+status = "pending"
+date = "YYYY-MM-DD"
+log = ""
+[stages.migration]
+status = "pending"
+date = "YYYY-MM-DD"
+log = ""
+# A not-applicable migration also needs reason, reviewer, and a dated review log.
+[stages.integrity]
+status = "pending"
+date = "YYYY-MM-DD"
+log = ""

@@ -1,0 +1,391 @@
+{
+  "version": "0.2.0",
+  "palette_count": 59,
+  "checks": [
+    {
+      "foreground": "text",
+      "background": "canvas",
+      "ratio": 16.1114,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "secondary",
+      "background": "canvas",
+      "ratio": 13.4352,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "muted",
+      "background": "canvas",
+      "ratio": 7.7797,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "info",
+      "background": "canvas",
+      "ratio": 11.0378,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "process",
+      "background": "canvas",
+      "ratio": 7.3298,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "featured",
+      "background": "canvas",
+      "ratio": 7.5316,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "success",
+      "background": "canvas",
+      "ratio": 10.3761,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "warning",
+      "background": "canvas",
+      "ratio": 13.0254,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "danger",
+      "background": "canvas",
+      "ratio": 7.4115,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "build",
+      "background": "canvas",
+      "ratio": 7.1163,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "experimental",
+      "background": "canvas",
+      "ratio": 6.6872,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "focus",
+      "background": "canvas",
+      "ratio": 11.0378,
+      "minimum": 3.0
+    },
+    {
+      "foreground": "border",
+      "background": "canvas",
+      "ratio": 4.1916,
+      "minimum": 3.0
+    },
+    {
+      "foreground": "chart-axis",
+      "background": "canvas",
+      "ratio": 7.7797,
+      "minimum": 3.0
+    },
+    {
+      "foreground": "text",
+      "background": "surface",
+      "ratio": 15.4551,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "secondary",
+      "background": "surface",
+      "ratio": 12.888,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "muted",
+      "background": "surface",
+      "ratio": 7.4628,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "info",
+      "background": "surface",
+      "ratio": 10.5882,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "process",
+      "background": "surface",
+      "ratio": 7.0312,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "featured",
+      "background": "surface",
+      "ratio": 7.2248,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "success",
+      "background": "surface",
+      "ratio": 9.9535,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "warning",
+      "background": "surface",
+      "ratio": 12.4948,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "danger",
+      "background": "surface",
+      "ratio": 7.1096,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "build",
+      "background": "surface",
+      "ratio": 6.8264,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "experimental",
+      "background": "surface",
+      "ratio": 6.4148,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "focus",
+      "background": "surface",
+      "ratio": 10.5882,
+      "minimum": 3.0
+    },
+    {
+      "foreground": "border",
+      "background": "surface",
+      "ratio": 4.0209,
+      "minimum": 3.0
+    },
+    {
+      "foreground": "chart-axis",
+      "background": "surface",
+      "ratio": 7.4628,
+      "minimum": 3.0
+    },
+    {
+      "foreground": "text",
+      "background": "panel",
+      "ratio": 14.3283,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "secondary",
+      "background": "panel",
+      "ratio": 11.9483,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "muted",
+      "background": "panel",
+      "ratio": 6.9187,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "info",
+      "background": "panel",
+      "ratio": 9.8163,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "process",
+      "background": "panel",
+      "ratio": 6.5186,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "featured",
+      "background": "panel",
+      "ratio": 6.698,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "success",
+      "background": "panel",
+      "ratio": 9.2278,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "warning",
+      "background": "panel",
+      "ratio": 11.5838,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "danger",
+      "background": "panel",
+      "ratio": 6.5912,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "build",
+      "background": "panel",
+      "ratio": 6.3287,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "experimental",
+      "background": "panel",
+      "ratio": 5.9471,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "focus",
+      "background": "panel",
+      "ratio": 9.8163,
+      "minimum": 3.0
+    },
+    {
+      "foreground": "border",
+      "background": "panel",
+      "ratio": 3.7277,
+      "minimum": 3.0
+    },
+    {
+      "foreground": "chart-axis",
+      "background": "panel",
+      "ratio": 6.9187,
+      "minimum": 3.0
+    },
+    {
+      "foreground": "text",
+      "background": "raised",
+      "ratio": 13.1636,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "secondary",
+      "background": "raised",
+      "ratio": 10.9771,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "muted",
+      "background": "raised",
+      "ratio": 6.3563,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "info",
+      "background": "raised",
+      "ratio": 9.0183,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "process",
+      "background": "raised",
+      "ratio": 5.9887,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "featured",
+      "background": "raised",
+      "ratio": 6.1536,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "success",
+      "background": "raised",
+      "ratio": 8.4777,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "warning",
+      "background": "raised",
+      "ratio": 10.6422,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "danger",
+      "background": "raised",
+      "ratio": 6.0555,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "build",
+      "background": "raised",
+      "ratio": 5.8143,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "experimental",
+      "background": "raised",
+      "ratio": 5.4637,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "focus",
+      "background": "raised",
+      "ratio": 9.0183,
+      "minimum": 3.0
+    },
+    {
+      "foreground": "border",
+      "background": "raised",
+      "ratio": 3.4247,
+      "minimum": 3.0
+    },
+    {
+      "foreground": "chart-axis",
+      "background": "raised",
+      "ratio": 6.3563,
+      "minimum": 3.0
+    },
+    {
+      "foreground": "on-accent",
+      "background": "info",
+      "ratio": 11.0378,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "on-accent",
+      "background": "process",
+      "ratio": 7.3298,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "on-accent",
+      "background": "featured",
+      "ratio": 7.5316,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "on-accent",
+      "background": "success",
+      "ratio": 10.3761,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "on-accent",
+      "background": "warning",
+      "ratio": 13.0254,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "on-accent",
+      "background": "danger",
+      "ratio": 7.4115,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "on-accent",
+      "background": "build",
+      "ratio": 7.1163,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "on-accent",
+      "background": "experimental",
+      "ratio": 6.6872,
+      "minimum": 4.5
+    }
+  ],
+  "limits": "Opaque declared pairs only; not a rendered WCAG conformance claim."
+}

@@ -1,0 +1,320 @@
+I think if you're going to do this, don't stop at a single CTS document.
+One of the strongest things about DRS is that it's not just a spec. It's a document ecosystem. The standard, templates, manifest schema, checklist, examples, and verification process all reinforce each other. 
+I'd structure CTS the same way.
+Command Tool Standard (CTS)
+Purpose
+A release framework for local-first command-line tools, automation utilities, validators, generators, scanners, converters, and service tooling.
+Defines:
+• what a CLI release is
+• how commands are documented
+• how output is validated
+• how exit codes are governed
+• how automation compatibility is maintained
+• how breaking changes are communicated
+
+───
+
+Repository Layout
+text
+CTS/
+
+├─ README.md
+├─ Command Tool Standard.md
+├─ CommandTool.manifest.schema.toml
+│
+├─ templates/
+│  ├─ Tool.manifest.toml
+│  ├─ Release-Note.md
+│  ├─ Command-Reference.md
+│  ├─ Exit-Code-Reference.md
+│  ├─ Automation-Compatibility.md
+│  ├─ Output-Schema.md
+│  ├─ Breaking-Change-Notice.md
+│  └─ Release-Checklist.md
+│
+├─ examples/
+│  └─ RepoPulseCli/
+│
+├─ docs/
+│
+└─ tools/
+   └─ cts.ps1
+
+
+───
+
+Core Documents
+Tool Manifest
+Machine-readable source of truth.
+Tracks:
+toml
+[tool]
+name = "RepoPulse"
+version = "1.2.0"
+
+[commands]
+count = 14
+
+[release]
+status = "published"
+
+[compatibility]
+json_schema = "2.1"
+minimum_supported = "1.0"
+
+[verification]
+tests = 284
+
+Equivalent to DRS manifest.
+
+───
+
+Release Note
+Same philosophy as DRS.
+Must answer:
+• What changed?
+• Why?
+• Is automation affected?
+• Are outputs changed?
+• Are scripts affected?
+
+───
+
+Command Reference
+Required.
+Every command:
+text
+repopulse scan
+
+Description:
+Scans configured repositories.
+
+Arguments:
+  --path
+  --json
+  --quiet
+
+Exit Codes:
+  0 Success
+  1 Failure
+
+This becomes the canonical command documentation.
+
+───
+
+Exit Code Reference
+One place.
+Not scattered across docs.
+text
+0 Success
+1 General Failure
+2 Invalid Argument
+3 Validation Failure
+4 Missing Dependency
+5 Permission Error
+6 Network Failure
+
+One of the biggest sources of CLI chaos is undocumented exit codes.
+
+───
+
+Output Schema
+Defines:
+Human Output
+text
+Repo Name: Debian
+Status: Healthy
+
+JSON Output
+json
+{
+  "repository": "debian",
+  "status": "healthy"
+}
+
+Including:
+• field definitions
+• data types
+• required fields
+• deprecated fields
+
+───
+
+Automation Compatibility
+This is the CLI equivalent of DRS's trust/security model.
+Documents:
+Stable Commands
+text
+scan
+verify
+export
+
+Experimental Commands
+text
+benchmark
+research
+
+Deprecated Commands
+text
+inventory
+
+With removal timelines.
+
+───
+
+Additional Documents
+Pipeline Compatibility Matrix
+Very useful for Aptlantis tools.
+text
+jq
+PowerShell
+bash
+Python
+Rust
+GitHub Actions
+GitLab CI
+Azure Pipelines
+
+Document whether outputs are tested.
+
+───
+
+Configuration Contract
+Required whenever configuration files exist.
+Defines:
+text
+JSON
+TOML
+YAML
+INI
+
+Schema.
+Migration policy.
+Compatibility guarantees.
+
+───
+
+Output Stability Contract
+This is huge.
+Example:
+text
+Human output:
+Not stable
+
+JSON output:
+Stable
+
+CSV output:
+Stable
+
+Many tools accidentally break automation because nobody knows what output is considered stable.
+
+───
+
+Release Checklist
+Build
+• [ ] Clean build succeeds
+• [ ] Dependencies restore
+• [ ] Version matches manifest
+Commands
+• [ ] Every command executes
+• [ ] Help text verified
+• [ ] Examples verified
+Output
+• [ ] JSON validates
+• [ ] CSV validates
+• [ ] Human output reviewed
+Automation
+• [ ] PowerShell examples work
+• [ ] Pipeline examples work
+• [ ] Exit codes verified
+Documentation
+• [ ] Command reference updated
+• [ ] Exit code reference updated
+• [ ] Release note written
+
+───
+
+Conformance Levels
+Minimal
+Required:
+• README
+• Manifest
+• Release Note
+• Command Reference
+Good for:
+text
+Hasher
+Converter
+Small utility
+
+
+───
+
+Standard
+Adds:
+• Exit Code Reference
+• Output Schema
+• Release Checklist
+Good for:
+text
+RepoPulse
+APT-DL
+Validators
+
+
+───
+
+Automation Grade
+Adds:
+• Pipeline Compatibility Matrix
+• Configuration Contract
+• Output Stability Contract
+Good for:
+text
+CI tools
+Build systems
+Infrastructure tooling
+
+
+───
+
+Distribution Grade
+Adds:
+• Reproducibility Guide
+• Dependency Provenance
+• Security Review
+• Threat Model
+Good for:
+text
+Public package managers
+Repository tooling
+Security tools
+
+
+───
+
+Example Ecosystem
+At that point your standards family starts looking like:
+text
+SFDS
+│
+├─ DRS
+│  ├─ FileCabinet
+│  ├─ Aegis
+│  ├─ Structra
+│  └─ Command Wizard GUI
+│
+├─ CTS
+│  ├─ RepoPulse
+│  ├─ APT-DL
+│  ├─ FileCabinet.Cli
+│  ├─ Validators
+│  ├─ Hashers
+│  └─ Archive Tools
+│
+├─ AAMHS
+├─ SESM
+└─ NeonInk
+
+And then SFDS becomes the meta-standard that governs how DRS, CTS, AAMHS, SESM, NeonInk, and future Aptlantis standards are authored, versioned, validated, and maintained. That gives you a surprisingly complete governance model for nearly everything you build.

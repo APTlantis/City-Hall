@@ -1,0 +1,49 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="Aptlantis.BlueSlate.Colors.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+
+    <SolidColorBrush x:Key="Atl.Brush.Background" Color="{StaticResource Atl.Color.Abyss}" />
+    <SolidColorBrush x:Key="Atl.Brush.BackgroundSoft" Color="{StaticResource Atl.Color.DeepNavy}" />
+    <SolidColorBrush x:Key="Atl.Brush.Panel" Color="{StaticResource Atl.Color.Navy}" />
+    <SolidColorBrush x:Key="Atl.Brush.PanelRaised" Color="{StaticResource Atl.Color.Slate}" />
+    <SolidColorBrush x:Key="Atl.Brush.Border" Color="{StaticResource Atl.Color.Dusk}" />
+    <SolidColorBrush x:Key="Atl.Brush.Text" Color="{StaticResource Atl.Color.OffWhite}" />
+    <SolidColorBrush x:Key="Atl.Brush.TextSoft" Color="{StaticResource Atl.Color.SeaFoam}" />
+    <SolidColorBrush x:Key="Atl.Brush.TextMuted" Color="{StaticResource Atl.Color.PaleMist}" />
+    <SolidColorBrush x:Key="Atl.Brush.Action" Color="{StaticResource Atl.Color.Cyan}" />
+    <SolidColorBrush x:Key="Atl.Brush.Focus" Color="{StaticResource Atl.Color.CyanSoft}" />
+    <SolidColorBrush x:Key="Atl.Brush.Warning" Color="{StaticResource Atl.Color.Amber}" />
+    <SolidColorBrush x:Key="Atl.Brush.Attention" Color="{StaticResource Atl.Color.Brass}" />
+    <SolidColorBrush x:Key="Atl.Brush.Taxonomy" Color="{StaticResource Atl.Color.Violet}" />
+    <SolidColorBrush x:Key="Atl.Brush.Archive" Color="{StaticResource Atl.Color.Indigo}" />
+    <SolidColorBrush x:Key="Atl.Brush.Success" Color="{StaticResource Atl.Color.Success}" />
+    <SolidColorBrush x:Key="Atl.Brush.Verified" Color="{StaticResource Atl.Color.Verified}" />
+
+    <DrawingBrush x:Key="Atl.Brush.GridBackground"
+                  TileMode="Tile"
+                  Viewport="0,0,32,32"
+                  ViewportUnits="Absolute">
+        <DrawingBrush.Drawing>
+            <DrawingGroup>
+                <GeometryDrawing Brush="{StaticResource Atl.Brush.Background}">
+                    <GeometryDrawing.Geometry>
+                        <RectangleGeometry Rect="0,0,32,32" />
+                    </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+                <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="#2636485A" Thickness="1" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                        <GeometryGroup>
+                            <LineGeometry StartPoint="0,0" EndPoint="32,0" />
+                            <LineGeometry StartPoint="0,0" EndPoint="0,32" />
+                        </GeometryGroup>
+                    </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingBrush.Drawing>
+    </DrawingBrush>
+</ResourceDictionary>

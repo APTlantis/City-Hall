@@ -1,0 +1,11 @@
+{
+  "id": "chibi-artifact-squad",
+  "prompt": "A cute chibi manga squad of original female artifact keepers holding tiny glowing QA cards, exaggerated expressions, simple clean shapes, cyan and violet props, sticker-like composition, playful documentation mascot energy, no text.. Section: what-neon-ink-is. Role: character. original manga-inspired scene, no named characters or franchises, no text or watermarks, dramatic cinematic composition, high contrast ink-style linework, neon-lit knowledge district aesthetic. Color palette: deep indigo to midnight black backgrounds; accents electric cyan, neon magenta, amber gold; neutrals cool grey mid-tones for architectural elements. Lighting: dramatic high-contrast lighting, rim light on figures, deep shadows. Linework: clean, precise ink lines with confident stroke weight variation. Wide cinematic composition suitable for a hero banner. No text, logos, watermarks, or named characters.",
+  "model": "gpt-image-2",
+  "size": "1536x1024",
+  "quality": "high",
+  "role": "character",
+  "section": "what-neon-ink-is",
+  "source_profile": "D:\\1000QA\\tools\\manga_style_profile.json",
+  "generated_at": "2026-05-07T14:15:05.986122+00:00"
+}

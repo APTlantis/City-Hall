@@ -1,0 +1,100 @@
+# FlathubRefs Project Manifest
+# Version: 1.0
+# Last Updated: 2026-05-12
+
+[project]
+id = "flathubrefs"
+title = "FlathubRefs"
+type = "tool"
+stage = "production"
+version = "1.0.0"
+description = "Flatpak ref list generator and .flatpakref downloader from the Flathub AppStream catalog. Generates Flatpak reference lists for deployment and package management."
+tags = ["flatpak", "flathub", "appstream", "linux", "package-management", "python"]
+family = "infrastructure"
+canonical_manifest = true
+
+[metadata]
+created = "2026-04-09"
+last_updated = "2026-05-12"
+last_reviewed = "2026-05-12"
+maintainer = "Herb"
+license = "MIT"
+language_primary = "Python"
+languages_used = ["Python"]
+
+[state]
+completion_percent = 95
+stability = "stable"
+active_development = false
+technical_debt = "low"
+maintenance_burden = "low"
+
+[runtime]
+platform = "cli"
+environment = "Python 3.9+, Linux"
+services = ["Flathub"]
+storage = ["File system"]
+
+[capabilities]
+ref_generation = true
+catalog_querying = true
+batch_download = true
+appstream_parsing = true
+
+[relationships]
+depends_on_projects = []
+used_by_projects = []
+supersedes = []
+superseded_by = []
+external_dependencies = ["Python 3.9+", "Flathub API"]
+related_projects = []
+
+[artifacts]
+produces = ["ref-lists", "flatpakref-files"]
+consumes = ["appstream-catalog"]
+
+[generation]
+manifest_is_canonical = true
+generates_readme = true
+generates_jsonld = true
+generates_visualizations = true
+
+[documentation]
+readme = "README.md"
+generated_sections = true
+
+[semantic]
+domain = "package-management"
+primary_concepts = ["flatpak-refs", "appstream", "linux-packages"]
+related_domains = ["Linux", "Package Management"]
+cognitive_tags = ["flatpak-tooling", "package-discovery"]
+complexity = "low"
+
+[visual]
+theme = "NeonInk-v0.1.1"
+primary_color = "#4eb3d3"
+semantic_role = "tool"
+contains_svg_assets = false
+
+[distribution]
+packaged = true
+package_formats = ["pip", "wheel"]
+portable = true
+offline_capable = false
+requires_installation = false
+
+[links]
+homepage = "https://aptlantis.net"
+
+[structure]
+repo_path = "E:/FlathubRefs"
+docs_path = "E:/FlathubRefs/docs"
+
+[automation]
+build = "pip install -r requirements.txt"
+tasks = ["generate-refs", "download", "validate"]
+
+[notes]
+purpose = "Generate and manage Flatpak references from Flathub AppStream catalog"
+platform = "Linux Flatpak ecosystem"
+use_case = "Desktop application distribution and discovery"

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Example icon">
+  <title>Example icon</title>
+  <metadata id="sesm"><![CDATA[
+{
+  "sesm_version": "0.3.0",
+  "asset": {
+    "id": "basic-safe",
+    "role": "icon",
+    "title": "Basic Safe SESM Icon"
+  },
+  "llm": {
+    "summary": "A simple safe-profile SESM fixture.",
+    "interpretation_hints": [
+      "Interpret this as a minimal icon fixture."
+    ]
+  }
+}
+]]></metadata>
+  <circle cx="50" cy="50" r="40" fill="#22D3EE"/>
+</svg>

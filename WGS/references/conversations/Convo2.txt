@@ -1,0 +1,763 @@
+ChatGPT Plus
+• 
+README.md
+File
+Desktop Application Release Standard.md
+File
+AAMHSv2.0.md
+File
+README - Neon Ink.md
+File
+SESM-v0.2.md
+File
+I've got a standard for desktop application development. But I want to do the same for Standards-Frameworks 
+
+Projects.txt
+Document
+Now that i can set brian, my project into everything is a standard reframework, or one dictates how it progresses. I'll also take the time to set everything up at the different levels to accommodate working efficiently with agents because I do a lot of that and making sure that everything stays structured, according to the documents that dictate how they're supposed to get structured reference and all that stuff. Etc etc. I only separated everything and a specific project directory.And that's all that's ever going to go in.There is like project.
+
+Aegis.manifest.toml
+File
+FileCabinet.manifest.toml
+File
+project.manifest.toml
+File
+Here's a few.
+
+This would fit well as a workspace governance or roadmap document. Here's a draft you could drop directly into docs/ under the future WGS repository.
+Aptlantis Standards Ecosystem Status
+Overview
+The Aptlantis development environment is evolving from a collection of repositories into a governed project ecosystem. The goal is not simply to standardize releases, but to standardize the entire lifecycle of projects, standards, datasets, websites, tooling, and workspace operations.
+Several standards already exist and are actively influencing development workflows. Others are planned and represent the next phase of workspace maturity.
+This document records the current state of the standards ecosystem and the intended direction of future development.
+
+───
+
+Current Standards Landscape
+Existing Standards
+DRS — Desktop Release Standard
+Status: Active
+DRS defines the release model for Windows desktop applications.
+It governs:
+• release notes
+• project manifests
+• release checklists
+• artifact naming
+• installer verification
+• documentation requirements
+• release blockers
+• release verification records
+Projects currently using DRS include:
+• FileCabinet
+• Aegis
+• Structra
+• Command Wizard
+• Aptlantis Console
+• Chrome Archival Plugin
+• QB
+• WSL distributions
+DRS has demonstrated significant value by improving release quality, project clarity, documentation consistency, and long-term maintainability.
+
+───
+
+AAMHS — Aptlantis Archive Multi-Hash Standard
+Status: Active
+AAMHS defines long-term archive verification and integrity validation.
+It governs:
+• hash suites
+• manifest formats
+• detached signatures
+• validation procedures
+• archival integrity records
+AAMHS provides the integrity layer for Aptlantis archival systems and related tooling.
+
+───
+
+NeonInk
+Status: Active
+NeonInk defines the semantic design language used across the Aptlantis ecosystem.
+It governs:
+• semantic color systems
+• visual intent
+• theme behavior
+• UI language
+• design consistency
+NeonInk serves as the visual foundation for applications, websites, dashboards, and future generated assets.
+
+───
+
+AADR
+Status: Active / Evolving
+AADR represents one of the ecosystem's emerging standards and participates in the broader framework architecture.
+As the ecosystem matures, AADR is expected to move toward full SFDS compliance alongside other standards.
+
+───
+
+Standards Under Development
+SFDS — Standards Framework Development Standard
+Status: In Planning
+SFDS defines how standards themselves are created.
+Its purpose is to ensure standards are:
+• understandable
+• versioned
+• implementable
+• verifiable
+• maintainable
+SFDS serves as the meta-standard governing standards.
+Future standards should be authored according to SFDS requirements.
+
+───
+
+Planned Standards
+PPS — Project Proposal Standard
+Status: Not Started
+PPS governs project creation.
+Purpose:
+Before a project is built, it should have:
+• a mission
+• a problem statement
+• design boundaries
+• success criteria
+• failure criteria
+• constraints
+• roadmap
+PPS exists to prevent project drift and improve long-term project recoverability.
+Key Outcome
+A paused project should be understandable years later.
+
+───
+
+CTS — Command Tool Standard
+Status: Not Started
+CTS governs CLI tools and automation utilities.
+Purpose:
+Standardize:
+• command documentation
+• exit codes
+• output schemas
+• automation compatibility
+• pipeline integration
+• release verification
+Projects expected to adopt CTS include:
+• ArchiveHasher
+• AnalyzeProjects
+• ScriptWriters
+• LangThemeGenerator
+• CloneCratesio
+• ClipboardFilter
+• Llama tooling
+Key Outcome
+CLI projects become predictable, scriptable, and maintainable.
+
+───
+
+WGS — Workspace Governance Standard
+Status: Not Started
+WGS governs the workspace itself.
+Unlike DRS or CTS, WGS does not govern individual projects.
+Instead, it governs:
+• workspace structure
+• project registration
+• project states
+• manifest conventions
+• agent integration
+• workspace services
+• project relationships
+WGS is expected to become the central coordinating standard for the ecosystem.
+Key Outcome
+The workspace becomes self-describing and self-organizing.
+
+───
+
+WDS — Website Development Standard
+Status: Not Started
+WDS governs websites and web applications.
+Purpose:
+Standardize:
+• deployment records
+• site manifests
+• accessibility requirements
+• SEO requirements
+• structured metadata
+• static asset organization
+• release documentation
+• monitoring and uptime expectations
+Expected adopters:
+• aptlantis.net
+• aptlantis.studio
+• future Aptlantis web properties
+Key Outcome
+Websites become governed projects rather than collections of pages.
+
+───
+
+Future Standards
+Additional standards may emerge as the ecosystem expands.
+Potential areas include:
+DDS
+Dataset Development Standard
+Governs:
+• datasets
+• training corpora
+• metadata
+• provenance
+• licensing
+• validation
+
+───
+
+ATS
+Agent Task Standard
+Governs:
+• agent workflows
+• task recording
+• agent lifecycle
+• evaluation procedures
+• handoff mechanisms
+
+───
+
+AWS
+Aptlantis Workspace Specification
+Potential future formalization of WGS for broader reuse.
+
+───
+
+Long-Term Vision
+The standards ecosystem ultimately forms a layered architecture.
+WGS │ ├─ PPS ├─ SFDS │ ├─ DRS ├─ CTS ├─ WDS ├─ DDS │ ├─ AAMHS ├─ AADR ├─ SESM ├─ NeonInk │ └─ Projects
+
+In this model:
+• PPS governs project creation
+• SFDS governs standards creation
+• DRS governs desktop releases
+• CTS governs CLI releases
+• WDS governs websites
+• WGS governs the workspace itself
+Together these standards create a development environment focused on:
+• clarity
+• repeatability
+• maintainability
+• recoverability
+• documentation
+• agent collaboration
+• long-term preservation
+The objective is not bureaucracy.
+The objective is reducing ambiguity.
+Every standard exists to reduce decisions, preserve context, and allow projects to remain understandable long after their original development cycle has ended.
+What strikes me most is that you're no longer just documenting software. You're documenting how software comes into existence, evolves, and is preserved. That's a much larger scope than DRS originally started with, and it's why WGS feels like the natural next step.
+
+Can you write up a full README/ overview for the WGS Workspace Governance Standard
+
+This feels like the kind of README that sits at the root of the WGS repository and explains why it exists before people ever read the full specification.
+Workspace Governance Standard (WGS)
+
+A governance framework for managing collections of projects as a coherent ecosystem rather than a collection of unrelated repositories.
+WGS defines how projects are organized, documented, registered, tracked, related, evaluated, and maintained across an entire workspace.
+It exists to answer a simple question:
+How should a workspace behave when it contains dozens or hundreds of projects?
+
+───
+
+Why WGS Exists
+Most development methodologies focus on individual projects.
+WGS focuses on the environment those projects live within.
+As a workspace grows, new challenges emerge:
+• Projects become difficult to locate.
+• Documentation becomes inconsistent.
+• Standards drift.
+• Agent workflows become unreliable.
+• Project relationships become unclear.
+• Paused projects become difficult to recover.
+• Priorities become harder to evaluate.
+WGS provides structure for solving these problems.
+
+───
+
+The Workspace in One Sentence
+Projects create artifacts. Standards govern projects. WGS governs the workspace.
+
+───
+
+What WGS Covers
+
+Area
+Purpose
+
+Workspace Structure
+Standardized folder organization
+
+Project Registration
+Centralized project inventory
+
+Project States
+Lifecycle tracking
+
+Project Classification
+Project taxonomy and categories
+
+Standards Governance
+Which standards apply where
+
+Agent Integration
+Agent onboarding and operation
+
+Workspace Services
+Shared tooling and infrastructure
+
+Project Relationships
+Dependency and ecosystem mapping
+
+Workspace Evaluation
+Health, readiness, and status tracking
+
+Historical Preservation
+Long-term project recoverability
+
+
+
+───
+
+Core Principles
+The Workspace Is a System
+A workspace is not a folder.
+A workspace is a collection of interconnected projects, standards, tools, datasets, documentation, and processes.
+WGS treats the workspace as a first-class artifact.
+
+───
+
+Projects Must Be Discoverable
+Every project should be identifiable without reading source code.
+A project should explain:
+• what it is
+• why it exists
+• what standards govern it
+• what state it is in
+• what it depends on
+through metadata and documentation.
+
+───
+
+Context Must Survive Time
+Projects often outlive active development cycles.
+A project should remain understandable:
+• after six months
+• after a year
+• after multiple releases
+• after changes in tooling
+• after changes in maintainers
+Documentation and metadata are considered preservation tools.
+
+───
+
+Standards Reduce Decisions
+WGS exists to reduce ambiguity.
+A project should not require repeated decisions regarding:
+• structure
+• documentation
+• lifecycle
+• organization
+• governance
+These concerns should already be defined.
+
+───
+
+Agent Compatibility Is Required
+Projects should be understandable by both humans and agents.
+Workspace structure should enable:
+• automated analysis
+• automated reporting
+• automated validation
+• automated documentation generation
+without requiring project-specific logic.
+
+───
+
+Workspace Architecture
+WGS organizes workspaces into three layers.
+Workspace │ ├── Standards │ ├── Projects │ ├── Shared Services │ └── Metadata
+
+
+───
+
+Standards Layer
+Standards define behavior.
+Examples:
+• PPS
+• SFDS
+• DRS
+• CTS
+• WDS
+• AAMHS
+• SESM
+• NeonInk
+Standards govern projects.
+
+───
+
+Projects Layer
+Projects produce artifacts.
+Examples:
+• Desktop Applications
+• CLI Tools
+• Websites
+• Datasets
+• Libraries
+• Frameworks
+Projects are governed by standards.
+
+───
+
+Shared Services Layer
+Shared services support the workspace.
+Examples:
+.agents .data .docs .evals .sonar .start
+
+These services are workspace-level resources rather than project resources.
+
+───
+
+Metadata Layer
+Metadata describes the workspace.
+Examples:
+• workspace manifests
+• project manifests
+• relationship maps
+• project registries
+• health reports
+Metadata enables automation and discoverability.
+
+───
+
+Project States
+Every project must exist in exactly one state.
+
+State
+Meaning
+
+Concept
+Initial idea
+
+Planning
+Proposal and design work
+
+Active
+Under active development
+
+Feature Complete
+Core functionality complete
+
+Release Prep
+Preparing for release
+
+Released
+Publicly available
+
+Maintenance
+Sustained support
+
+Paused
+Intentionally inactive
+
+Archived
+Preserved but inactive
+
+Superseded
+Replaced by another project
+
+
+Project state enables reporting and prioritization.
+
+───
+
+Project Types
+WGS classifies projects.
+Examples:
+
+Type
+Examples
+
+Desktop
+FileCabinet, Aegis
+
+CLI
+ArchiveHasher, AnalyzeProjects
+
+Website
+aptlantis.net
+
+Dataset
+LinuxGenealogy
+
+Framework
+NeonInk
+
+Standard
+DRS, AAMHS
+
+Training
+TinyLlama-HolyC
+
+Asset
+Logos, themes, icons
+
+
+Project type determines expected governance.
+
+───
+
+Governing Standards
+Projects should declare their governing standards.
+Examples:
+
+Project Type
+Standard
+
+Desktop Application
+DRS
+
+CLI Tool
+CTS
+
+Website
+WDS
+
+Standard
+SFDS
+
+New Project
+PPS
+
+
+This allows automated validation and reporting.
+
+───
+
+Workspace Manifest
+Every WGS workspace maintains a central manifest.
+The workspace manifest serves as:
+• inventory
+• registry
+• metadata source
+• reporting source
+Example:
+[workspace] name = "APTlantis" [[project]] id = "filecabinet" type = "desktop" status = "active" standard = "DRS" [[project]] id = "aegis" type = "desktop" status = "release-prep" standard = "DRS"
+
+The workspace manifest is the source of truth for workspace-level tooling.
+
+───
+
+Agent Lifecycle
+Agents should enter projects through a predictable process.
+Recommended workflow:
+Read Workspace Manifest ↓ Read Project Manifest ↓ Read PROJECT.md ↓ Read Governing Standard ↓ Read Roadmap ↓ Begin Work
+
+This ensures agents understand project context before making recommendations or modifications.
+
+───
+
+Workspace Health
+WGS encourages workspace-level reporting.
+Metrics may include:
+• total projects
+• active projects
+• release-ready projects
+• documentation coverage
+• standards coverage
+• manifest coverage
+• validation status
+Workspace health provides operational visibility.
+
+───
+
+Relationship Mapping
+Projects rarely exist in isolation.
+WGS encourages documenting:
+• dependencies
+• integrations
+• governance relationships
+• shared standards
+• shared infrastructure
+This enables ecosystem-level understanding.
+Example:
+FileCabinet ├── Uses NeonInk ├── Governed by DRS └── Related to Structra ArchiveHasher ├── Implements AAMHS └── Governed by CTS
+
+
+───
+
+Long-Term Vision
+WGS is intended to support:
+• individual projects
+• multi-project ecosystems
+• agent-assisted development
+• long-term maintenance
+• historical preservation
+The ultimate goal is a workspace that remains understandable, maintainable, and recoverable regardless of scale.
+
+───
+
+Relationship to Other Standards
+WGS │ ├── PPS ├── SFDS │ ├── DRS ├── CTS ├── WDS │ ├── AAMHS ├── SESM ├── NeonInk │ └── Projects
+
+WGS governs the environment.
+Other standards govern the things inside that environment.
+
+───
+
+Philosophy
+WGS is not about bureaucracy.
+WGS is about reducing ambiguity.
+The more projects a workspace contains, the more valuable clarity becomes.
+A workspace should not depend on memory.
+A workspace should describe itself.
+I actually think WGS has the potential to become the centerpiece of the entire ecosystem. DRS governs releases. CTS governs CLI tools. PPS governs project creation. SFDS governs standards. WGS is the thing that ties all of them together into a coherent operating model.
+
+ProjectDirCurrent.txt
+Document
+This is how I set up my project drive and which framework covers a project. 
+
+Looking at this layout, I think you've already crossed from "a folder of projects" into "a governed workspace." 
+What's interesting is that your standards are starting to divide naturally into layers.
+Layer 1 — Workspace Governance
+This is WGS territory.
+E:\ ├─ .agents ├─ .data ├─ .evals ├─ .sonar └─ project.manifest.toml
+
+These aren't projects.
+They're workspace infrastructure. 
+WGS governs:
+• Workspace structure
+• Project registration
+• Shared services
+• Agent behavior
+• Workspace metadata
+• Project taxonomy
+
+───
+
+Layer 2 — Standards & Frameworks
+E:\Frameworks-Standards ├─ AADR ├─ AAMHS ├─ CTS ├─ DRS ├─ NeonInk ├─ PPS ├─ SESM ├─ SFDS ├─ WDS └─ WGS
+
+This is actually beautiful because it creates a dedicated "governance zone" separate from implementation projects. 
+These projects define how other projects behave.
+I would eventually think of them as:
+Foundation Layer
+
+
+───
+
+Layer 3 — Project Classes
+The workspace already has clear classes.
+Desktop Applications
+Governed by DRS.
+Aegis FileCabinet Structra CommandWizard AptlantisConsole ChromeArchivalPlugin WSL Tauri-IT
+
+These all share:
+• Releases
+• Installers
+• Documentation
+• Verification
+• Manifests
+
+───
+
+CLI Ecosystem
+Governed by CTS.
+AnalyzeProjects ArchiveHasher CloneCratesio EpicVideos FH-RefToolkit Llama ScriptWriters WinTrim
+
+This category is actually larger than your desktop ecosystem.
+
+───
+
+Dataset Projects
+LinuxGenealogy PythonDocs DatasetPipelines
+
+These are interesting because they're really governed by two things:
+Dataset Standard (future DDS) + WDS
+
+Which suggests another future standard.
+
+───
+
+Websites
+aptlantis aptlantis_net aptlantis_studio webserver
+
+Governed by WDS.
+
+───
+
+The Thing I Notice
+You don't actually have "miscellaneous projects."
+Everything is finding a home.
+That's important.
+A lot of development environments become:
+ProjectA ProjectB RandomTool TestThing NewThing FinalThing
+
+and eventually nobody knows what belongs where.
+Your taxonomy already prevents that.
+
+───
+
+Future Automation Gets Easier
+Because of this structure, a future:
+AnalyzeProjects
+
+can answer questions like:
+Release Readiness
+Show all DRS projects
+
+Output:
+Aegis FileCabinet Structra
+
+
+───
+
+Documentation Coverage
+Show projects missing manifests
+
+
+───
+
+Standard Compliance
+Show projects missing required CTS docs
+
+
+───
+
+Workspace Health
+Desktop Apps: 7 CLI Tools: 15 Standards: 10 Datasets: 4 Websites: 4
+
+
+───
+
+The Hidden Benefit
+The biggest benefit isn't organization.
+It's predictability.
+When you open:
+E:\FileCabinet
+
+you already know:
+PPS DRS Manifest Release Notes Checklist
+
+should exist.
+When you open:
+E:\ArchiveHasher
+
+you already know:
+PPS CTS Command Reference Exit Codes Output Schema
+
+should exist.
+No thinking.
+No remembering.
+
+───
+
+What I Would Add Next
+Honestly, I think you're one file away from making the whole thing self-describing.
+Something like:
+E:\WORKSPACE.md
+
+Containing:
+# Aptlantis Workspace ## Purpose Collection of governed software projects, standards, datasets, websites, and tooling. ## Standards WGS PPS SFDS DRS CTS WDS ## Project Classes Desktop CLI Dataset Website Framework Standard ## Agent Startup Procedure 1. Read WORKSPACE.md 2. Read project.manifest.toml 3. Read project PROJECT.md 4. Read governing standard
+
+At that point, a human or agent could land in E:\ and understand the entire ecosystem within a few minutes.
+That's the moment when the workspace becomes a platform instead of just a drive full of repositories.

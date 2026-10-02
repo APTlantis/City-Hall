@@ -1,0 +1,53 @@
+[standard]
+id = "neonink"
+title = "NeonInk Data Presentation System"
+abbreviation = "NeonInk"
+status = "candidate-active"
+maturity = "candidate"
+version = "0.2.0"
+description = "Expressive semantic data presentation for reports, charts, dataset profiles, diagrams and portable visual artifacts."
+
+[governance]
+meta_standard = "SFDS"
+workspace_standard = "WGS"
+scope = "Data presentation, semantic color, OKLCH tokens, visualization, presentation layouts and exports."
+non_goals = ["Replacing Blue Slate as the operational application theme", "Application packaging", "Data quality certification", "Workspace root policy"]
+
+[artifacts]
+specification = "spec/NeonInk.DesignSystem.md"
+templates = "templates"
+examples = "examples"
+adoption_guide = "Adoption-Guide.md"
+validation_checklist = "Validation-Checklist.md"
+changelog = "CHANGELOG.md"
+validators = ["tools/compile_neonink.py", "tools/test_compiler.py", "tools/render_references.py"]
+governance_notes = ["Governance-Index.md", "Migration-0.2.md", "reports/Review-2026-09-27.md"]
+reference_examples = ["examples/NeonInk-Suite-Map.md", "examples/presentation.html", "spec/references/Reference-Catalog.md"]
+
+[adopter_artifacts]
+schemas = []
+manifest_templates = []
+document_templates = ["templates/NeonInk-Adoption-Record.md"]
+legacy_project_manifests = ["references/legacy-project-manifests/NeonInk.project.manifest.toml"]
+
+[lifecycle]
+created = "2026-06-10"
+last_updated = "2026-09-27"
+maintainer = "Herb"
+
+[agent]
+read_first = ["AGENTS.md", "README.md", "spec/NeonInk.DesignSystem.md", "Migration-0.2.md"]
+skill = "skills/aptlantis-neonink/SKILL.md"
+notes = "Current spec supersedes Docs for new work. Manga is deprecated. Candidate maturity requires real adopter evidence."
+
+[tokens]
+source = "spec/tokens/NeonInk.Tokens.toml"
+generated = "generated"
+schema = "aptlantis.neonink.tokens/1"
+
+[preservation]
+historical_documents = "Docs"
+historical_website_assets = "assets"
+deprecated_manga = "manga"
+pre_revision_entrypoints = "references/history/2026-09-27-pre-v0.2"
+legacy_descriptive_metadata = "schema.jsonld"

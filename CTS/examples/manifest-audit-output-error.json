@@ -1,0 +1,18 @@
+{
+  "status": "error",
+  "tool": "manifest-audit",
+  "version": "0.1.0",
+  "data": {
+    "root": "D:/010-CITY-HALL",
+    "manifests_checked": 14,
+    "valid": false
+  },
+  "warnings": [],
+  "errors": [
+    {
+      "code": "missing-artifact",
+      "message": "Declared validation checklist is missing.",
+      "path": "WDS/Validation-Checklist.md"
+    }
+  ]
+}

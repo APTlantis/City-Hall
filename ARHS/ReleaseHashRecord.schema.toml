@@ -1,0 +1,16 @@
+title = "ARHS Release Hash Manifest Schema"
+type = "object"
+required = ["release", "hash"]
+
+[properties.release]
+required = ["name", "version", "artifact", "path", "size_bytes"]
+
+[properties.release.optional]
+fields = ["distribution", "signing"]
+
+[properties.hash]
+type = "array"
+required_algorithms = ["SHA256", "BLAKE3-256", "KT128"]
+
+[properties.hash.items]
+required = ["algorithm", "value"]

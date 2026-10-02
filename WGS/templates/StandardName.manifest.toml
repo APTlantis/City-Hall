@@ -1,0 +1,47 @@
+[standard]
+id = "example-standard"
+title = "Example Standard"
+abbreviation = "EXS"
+status = "draft"
+maturity = "concept"
+version = "0.1.0"
+description = "Short description of what this standard governs."
+
+[governance]
+meta_standard = "SFDS"
+workspace_standard = "WGS"
+scope = "Describe the boundary of the standard."
+non_goals = []
+
+[artifacts]
+specification = "[Standard Name].md"
+schema = ""
+templates = "templates"
+examples = "examples"
+validators = []
+governance_notes = []
+reference_examples = []
+adoption_guide = "Adoption-Guide.md"
+validation_checklist = "Validation-Checklist.md"
+changelog = "CHANGELOG.md"
+
+[conformance]
+levels = ["minimal", "standard", "reference"]
+validation_required = false
+reference_implementation = ""
+
+[adoption]
+target_project_classes = []
+known_adopters = []
+blocked_by = []
+
+[lifecycle]
+created = "YYYY-MM-DD"
+last_updated = "YYYY-MM-DD"
+maintainer = "TBD"
+
+[agent]
+read_first = ["README.md", "[Standard Name].md", "StandardName.manifest.toml"]
+authoritative_docs = ["[Standard Name].md"]
+known_gaps = []
+notes = "Replace placeholder values before treating this as authoritative. README explains the standard role; the primary specification defines the rules."

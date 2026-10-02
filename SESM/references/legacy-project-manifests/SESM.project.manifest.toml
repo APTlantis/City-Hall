@@ -1,0 +1,61 @@
+[project]
+id = "sesm"
+title = "SVG Embedded Semantic Metadata (SESM)"
+description = "A standard and tooling for embedding structured metadata directly inside SVG assets, supporting provenance, styling, crawler hints, and LLM context."
+type = "tool"
+stage = "active"
+version = "0.2.0"
+tags = ["svg", "metadata", "sesm", "provenance", "python"]
+
+[metadata]
+created = "2025-08-20"
+last_updated = "2026-05-27"
+maintainer = "Herb"
+license = "MIT"
+language_primary = "Python"
+languages_used = ["Python", "Markdown", "JSON"]
+
+[runtime]
+platform = "cli"
+environment = "Python 3.x"
+
+[state]
+completion_percent = 100
+stability = "stable"
+active_development = false
+technical_debt = "low"
+maintenance_burden = "low"
+
+[artifacts]
+produces = ["svg"]
+consumes = ["png", "jpg", "jpeg", "webp", "bmp", "gif", "tif", "tiff"]
+
+[[scripts]]
+name = "Embed-SESM.py"
+language = "Python"
+role = "generator"
+status = "complete"
+version = 2
+
+[[scripts]]
+name = "Convert-to-SVG.py"
+language = "Python"
+role = "tool"
+status = "complete"
+version = 1
+
+[documentation]
+readme = "README-SESM.md"
+
+[schemas]
+uses = ["svg_asset.schema.json"]
+
+[visual]
+theme = "neon-ink"
+primary_color = "#F97316"
+contains_svg_assets = true
+
+[links]
+repository = "https://github.com/APTlantis/SESM"
+[structure]
+repo_path = "E:/SESM"

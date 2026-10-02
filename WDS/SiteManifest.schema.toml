@@ -1,0 +1,52 @@
+title = "WDS Site Manifest Schema"
+type = "object"
+required = ["site", "governance", "deployment"]
+
+[properties.site]
+required = ["id", "title", "status"]
+
+[properties.governance]
+required = ["standard", "workspace_standard"]
+
+[properties.deployment]
+required = ["environment", "rollback"]
+
+[properties.deployment.properties.environment]
+enum = ["local", "preview", "production", "archived", "internal"]
+
+[properties.site.properties.status]
+enum = ["draft", "preview", "published", "maintained", "archived"]
+
+[properties.accessibility]
+required = ["target", "checks"]
+
+[properties.metadata]
+required = ["title", "description", "canonical"]
+
+[properties.monitoring]
+required = []
+
+[properties.monitoring.properties.uptime_check]
+type = "string"
+
+[properties.monitoring.properties.synthetic_routes]
+type = "array"
+
+[properties.monitoring.properties.synthetic_routes.items]
+type = "string"
+
+[properties.monitoring.properties.accessibility_review_cadence]
+type = "string"
+
+[properties.monitoring.properties.incident_runbook]
+type = "string"
+
+[examples.local]
+site_status = "draft"
+deployment_environment = "local"
+rollback = "Delete local output and rebuild from source."
+
+[examples.production]
+site_status = "published"
+deployment_environment = "production"
+rollback = "Redeploy the previous signed build artifact or restore the previous static snapshot."

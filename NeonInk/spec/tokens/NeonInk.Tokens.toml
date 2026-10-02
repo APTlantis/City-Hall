@@ -1,0 +1,396 @@
+[meta]
+schema = "aptlantis.neonink.tokens/1"
+version = "0.2.0"
+mode = "dark"
+name = "NeonInk"
+
+[palette.background-void]
+hex = "#050816"
+oklch = [0.139545, 0.031658, 270.281090]
+role = "Preserved v0.1.1 background / void"
+
+[palette.background-base]
+hex = "#0B0F1A"
+oklch = [0.170195, 0.023997, 268.475328]
+role = "Preserved v0.1.1 background / base"
+
+[palette.background-panel]
+hex = "#111827"
+oklch = [0.210084, 0.031763, 264.664526]
+role = "Preserved v0.1.1 background / panel"
+
+[palette.background-raised]
+hex = "#162033"
+oklch = [0.244077, 0.039290, 262.589726]
+role = "Preserved v0.1.1 background / raised"
+
+[palette.background-soft]
+hex = "#0F172A"
+oklch = [0.207682, 0.039824, 265.754874]
+role = "Preserved v0.1.1 background / soft"
+
+[palette.text-primary]
+hex = "#E5E7EB"
+oklch = [0.927582, 0.005814, 264.531291]
+role = "Preserved v0.1.1 text / primary"
+
+[palette.text-secondary]
+hex = "#CBD5E1"
+oklch = [0.868981, 0.019848, 252.894302]
+role = "Preserved v0.1.1 text / secondary"
+
+[palette.text-muted]
+hex = "#94A3B8"
+oklch = [0.710672, 0.035114, 256.787816]
+role = "Preserved v0.1.1 text / muted"
+
+[palette.text-faint]
+hex = "#64748B"
+oklch = [0.554391, 0.040717, 257.416613]
+role = "Preserved v0.1.1 text / faint"
+
+[palette.text-inverse]
+hex = "#050816"
+oklch = [0.139545, 0.031658, 270.281090]
+role = "Preserved v0.1.1 text / inverse"
+
+[palette.semantic-info]
+hex = "#22D3EE"
+oklch = [0.797116, 0.133888, 211.530189]
+role = "Preserved v0.1.1 semantic / info"
+
+[palette.semantic-structure]
+hex = "#06B6D4"
+oklch = [0.714837, 0.125737, 215.220903]
+role = "Preserved v0.1.1 semantic / structure"
+
+[palette.semantic-navigation]
+hex = "#38BDF8"
+oklch = [0.753513, 0.138989, 232.661480]
+role = "Preserved v0.1.1 semantic / navigation"
+
+[palette.semantic-reference]
+hex = "#7DD3FC"
+oklch = [0.827586, 0.101277, 230.317893]
+role = "Preserved v0.1.1 semantic / reference"
+
+[palette.semantic-orientation]
+hex = "#67E8F9"
+oklch = [0.865073, 0.115347, 207.077790]
+role = "Preserved v0.1.1 semantic / orientation"
+
+[palette.semantic-success]
+hex = "#34D399"
+oklch = [0.772944, 0.153490, 163.223075]
+role = "Preserved v0.1.1 semantic / success"
+
+[palette.semantic-verified]
+hex = "#22C55E"
+oklch = [0.722746, 0.192007, 149.579330]
+role = "Preserved v0.1.1 semantic / verified"
+
+[palette.semantic-stable]
+hex = "#86EFAC"
+oklch = [0.871163, 0.136267, 154.449129]
+role = "Preserved v0.1.1 semantic / stable"
+
+[palette.semantic-reproducible]
+hex = "#2DD4BF"
+oklch = [0.784520, 0.132529, 181.911977]
+role = "Preserved v0.1.1 semantic / reproducible"
+
+[palette.semantic-available]
+hex = "#A7F3D0"
+oklch = [0.904941, 0.089488, 164.150083]
+role = "Preserved v0.1.1 semantic / available"
+
+[palette.semantic-important]
+hex = "#FACC15"
+oklch = [0.860559, 0.173115, 91.935651]
+role = "Preserved v0.1.1 semantic / important"
+
+[palette.semantic-note]
+hex = "#FDE047"
+oklch = [0.905243, 0.165683, 98.110831]
+role = "Preserved v0.1.1 semantic / note"
+
+[palette.semantic-caution]
+hex = "#FBBF24"
+oklch = [0.836861, 0.164422, 84.428628]
+role = "Preserved v0.1.1 semantic / caution"
+
+[palette.semantic-decision]
+hex = "#F59E0B"
+oklch = [0.768590, 0.164659, 70.080390]
+role = "Preserved v0.1.1 semantic / decision"
+
+[palette.semantic-memory-anchor]
+hex = "#FEF08A"
+oklch = [0.945102, 0.124303, 101.539857]
+role = "Preserved v0.1.1 semantic / memory_anchor"
+
+[palette.semantic-critical]
+hex = "#F43F5E"
+oklch = [0.645032, 0.215403, 16.439300]
+role = "Preserved v0.1.1 semantic / critical"
+
+[palette.semantic-error]
+hex = "#EF4444"
+oklch = [0.636834, 0.207849, 25.331328]
+role = "Preserved v0.1.1 semantic / error"
+
+[palette.semantic-blocked]
+hex = "#FB7185"
+oklch = [0.719186, 0.168984, 13.427993]
+role = "Preserved v0.1.1 semantic / blocked"
+
+[palette.semantic-constraint]
+hex = "#E11D48"
+oklch = [0.585838, 0.222042, 17.584628]
+role = "Preserved v0.1.1 semantic / constraint"
+
+[palette.semantic-deprecated]
+hex = "#BE123C"
+oklch = [0.514256, 0.197806, 16.934994]
+role = "Preserved v0.1.1 semantic / deprecated"
+
+[palette.semantic-process]
+hex = "#A78BFA"
+oklch = [0.708969, 0.159168, 293.541199]
+role = "Preserved v0.1.1 semantic / process"
+
+[palette.semantic-pipeline]
+hex = "#C084FC"
+oklch = [0.721685, 0.176688, 305.503759]
+role = "Preserved v0.1.1 semantic / pipeline"
+
+[palette.semantic-transform]
+hex = "#D8B4FE"
+oklch = [0.826759, 0.108229, 306.382700]
+role = "Preserved v0.1.1 semantic / transform"
+
+[palette.semantic-automation]
+hex = "#8B5CF6"
+oklch = [0.605631, 0.218915, 292.717225]
+role = "Preserved v0.1.1 semantic / automation"
+
+[palette.semantic-code-heat]
+hex = "#F97316"
+oklch = [0.704871, 0.186721, 47.604421]
+role = "Preserved v0.1.1 semantic / code_heat"
+
+[palette.semantic-build]
+hex = "#FB923C"
+oklch = [0.757640, 0.159037, 55.934415]
+role = "Preserved v0.1.1 semantic / build"
+
+[palette.semantic-operation]
+hex = "#FDBA74"
+oklch = [0.836575, 0.116540, 66.289555]
+role = "Preserved v0.1.1 semantic / operation"
+
+[palette.semantic-artifact-output]
+hex = "#EA580C"
+oklch = [0.646072, 0.194327, 41.115779]
+role = "Preserved v0.1.1 semantic / artifact_output"
+
+[palette.semantic-featured]
+hex = "#F472B6"
+oklch = [0.725266, 0.175227, 349.760748]
+role = "Preserved v0.1.1 semantic / featured"
+
+[palette.semantic-creative]
+hex = "#EC4899"
+oklch = [0.655920, 0.211773, 354.308441]
+role = "Preserved v0.1.1 semantic / creative"
+
+[palette.semantic-discovery]
+hex = "#E879F9"
+oklch = [0.747720, 0.206972, 322.160432]
+role = "Preserved v0.1.1 semantic / discovery"
+
+[palette.semantic-spotlight]
+hex = "#F0ABFC"
+oklch = [0.833033, 0.132193, 321.433738]
+role = "Preserved v0.1.1 semantic / spotlight"
+
+[palette.semantic-experimental]
+hex = "#818CF8"
+oklch = [0.680113, 0.158303, 276.934902]
+role = "Preserved v0.1.1 semantic / experimental"
+
+[palette.semantic-research]
+hex = "#6366F1"
+oklch = [0.585404, 0.204055, 277.117292]
+role = "Preserved v0.1.1 semantic / research"
+
+[palette.semantic-prototype]
+hex = "#A5B4FC"
+oklch = [0.785298, 0.104135, 274.713430]
+role = "Preserved v0.1.1 semantic / prototype"
+
+[palette.semantic-canonical]
+hex = "#E5E7EB"
+oklch = [0.927582, 0.005814, 264.531291]
+role = "Preserved v0.1.1 semantic / canonical"
+
+[palette.semantic-archive]
+hex = "#94A3B8"
+oklch = [0.710672, 0.035114, 256.787816]
+role = "Preserved v0.1.1 semantic / archive"
+
+[palette.semantic-muted]
+hex = "#64748B"
+oklch = [0.554391, 0.040717, 257.416613]
+role = "Preserved v0.1.1 semantic / muted"
+
+[palette.semantic-unknown]
+hex = "#CBD5E1"
+oklch = [0.868981, 0.019848, 252.894302]
+role = "Preserved v0.1.1 semantic / unknown"
+
+[palette.seq-1]
+hex = "#164E63"
+oklch = [0.398206, 0.066410, 227.391845]
+role = "New ordered cyan data scale; low to high"
+
+[palette.seq-2]
+hex = "#0E7490"
+oklch = [0.519759, 0.093565, 223.127977]
+role = "New ordered cyan data scale; low to high"
+
+[palette.seq-3]
+hex = "#0891B2"
+oklch = [0.608911, 0.110939, 221.723108]
+role = "New ordered cyan data scale; low to high"
+
+[palette.seq-4]
+hex = "#22D3EE"
+oklch = [0.797116, 0.133888, 211.530189]
+role = "New ordered cyan data scale; low to high"
+
+[palette.seq-5]
+hex = "#A5F3FC"
+oklch = [0.916664, 0.077194, 205.041363]
+role = "New ordered cyan data scale; low to high"
+
+[palette.div-1]
+hex = "#A78BFA"
+oklch = [0.708969, 0.159168, 293.541199]
+role = "New diverging scale; negative to neutral to positive; sign is not quality"
+
+[palette.div-2]
+hex = "#C4B5FD"
+oklch = [0.811162, 0.101287, 293.571186]
+role = "New diverging scale; negative to neutral to positive; sign is not quality"
+
+[palette.div-3]
+hex = "#E5E7EB"
+oklch = [0.927582, 0.005814, 264.531291]
+role = "New diverging scale; negative to neutral to positive; sign is not quality"
+
+[palette.div-4]
+hex = "#67E8F9"
+oklch = [0.865073, 0.115347, 207.077790]
+role = "New diverging scale; negative to neutral to positive; sign is not quality"
+
+[palette.div-5]
+hex = "#22D3EE"
+oklch = [0.797116, 0.133888, 211.530189]
+role = "New diverging scale; negative to neutral to positive; sign is not quality"
+
+[semantic]
+canvas = "background-void"
+surface = "background-base"
+panel = "background-panel"
+raised = "background-raised"
+text = "text-primary"
+secondary = "text-secondary"
+muted = "text-muted"
+border = "text-faint"
+on-accent = "text-inverse"
+info = "semantic-info"
+process = "semantic-process"
+featured = "semantic-featured"
+success = "semantic-success"
+warning = "semantic-important"
+danger = "semantic-blocked"
+build = "semantic-code-heat"
+experimental = "semantic-experimental"
+focus = "semantic-info"
+chart-axis = "text-muted"
+chart-grid = "background-raised"
+chart-missing = "text-muted"
+
+[scales]
+categorical = ["semantic-info", "semantic-process", "semantic-featured", "semantic-code-heat", "semantic-experimental"]
+sequential-cyan = ["seq-1", "seq-2", "seq-3", "seq-4", "seq-5"]
+diverging = ["div-1", "div-2", "div-3", "div-4", "div-5"]
+
+[contrast]
+pairs = [
+  "text|canvas|4.5",
+  "secondary|canvas|4.5",
+  "muted|canvas|4.5",
+  "info|canvas|4.5",
+  "process|canvas|4.5",
+  "featured|canvas|4.5",
+  "success|canvas|4.5",
+  "warning|canvas|4.5",
+  "danger|canvas|4.5",
+  "build|canvas|4.5",
+  "experimental|canvas|4.5",
+  "focus|canvas|3",
+  "border|canvas|3",
+  "chart-axis|canvas|3",
+  "text|surface|4.5",
+  "secondary|surface|4.5",
+  "muted|surface|4.5",
+  "info|surface|4.5",
+  "process|surface|4.5",
+  "featured|surface|4.5",
+  "success|surface|4.5",
+  "warning|surface|4.5",
+  "danger|surface|4.5",
+  "build|surface|4.5",
+  "experimental|surface|4.5",
+  "focus|surface|3",
+  "border|surface|3",
+  "chart-axis|surface|3",
+  "text|panel|4.5",
+  "secondary|panel|4.5",
+  "muted|panel|4.5",
+  "info|panel|4.5",
+  "process|panel|4.5",
+  "featured|panel|4.5",
+  "success|panel|4.5",
+  "warning|panel|4.5",
+  "danger|panel|4.5",
+  "build|panel|4.5",
+  "experimental|panel|4.5",
+  "focus|panel|3",
+  "border|panel|3",
+  "chart-axis|panel|3",
+  "text|raised|4.5",
+  "secondary|raised|4.5",
+  "muted|raised|4.5",
+  "info|raised|4.5",
+  "process|raised|4.5",
+  "featured|raised|4.5",
+  "success|raised|4.5",
+  "warning|raised|4.5",
+  "danger|raised|4.5",
+  "build|raised|4.5",
+  "experimental|raised|4.5",
+  "focus|raised|3",
+  "border|raised|3",
+  "chart-axis|raised|3",
+  "on-accent|info|4.5",
+  "on-accent|process|4.5",
+  "on-accent|featured|4.5",
+  "on-accent|success|4.5",
+  "on-accent|warning|4.5",
+  "on-accent|danger|4.5",
+  "on-accent|build|4.5",
+  "on-accent|experimental|4.5",
+]

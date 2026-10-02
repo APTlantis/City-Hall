@@ -1,0 +1,14 @@
+test_catalog_drift_is_not_a_pass (test_framework_gates.Gates.test_catalog_drift_is_not_a_pass) ... ok
+test_complete_stage_record_and_mutated_artifact (test_framework_gates.Gates.test_complete_stage_record_and_mutated_artifact) ... ok
+test_deployment_checks_http_and_html (test_framework_gates.Gates.test_deployment_checks_http_and_html) ... ok
+test_evaluation_requires_nonzero_denominator (test_framework_gates.Gates.test_evaluation_requires_nonzero_denominator) ... ok
+test_ingestion_fails_closed_without_schema_engine (test_framework_gates.Gates.test_ingestion_fails_closed_without_schema_engine) ... ok
+test_ingestion_rejects_unsafe_vectors_before_metadata_output (test_framework_gates.Gates.test_ingestion_rejects_unsafe_vectors_before_metadata_output) ... ok
+test_missing_promotion_and_teaching_adopters_block (test_framework_gates.Gates.test_missing_promotion_and_teaching_adopters_block) ... ok
+test_pending_and_missing_stage_records_block (test_framework_gates.Gates.test_pending_and_missing_stage_records_block) ... ok
+test_powershell_check_release_blocks_pending (test_framework_gates.Gates.test_powershell_check_release_blocks_pending) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 2.454s
+
+OK

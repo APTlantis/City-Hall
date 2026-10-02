@@ -1,0 +1,25 @@
+/* Generated from BlueSlate.Tokens.toml v0.5.0. Do not edit. */
+:root {
+  --b3-theme-primary: oklch(0.813624 0.145407 217.106);
+  --b3-theme-secondary: oklch(0.746046 0.125970 185.650);
+  --b3-theme-background: oklch(0.203331 0.038347 257.213);
+  --b3-theme-surface: oklch(0.301038 0.022052 251.263);
+  --b3-theme-error: oklch(0.695469 0.197538 15.244);
+  --b3-theme-success: oklch(0.774431 0.168049 158.327);
+  --b3-theme-on-primary: oklch(0.140499 0.023636 263.451);
+  --b3-theme-on-background: oklch(0.920072 0.017258 128.671);
+  --b3-theme-on-surface: oklch(0.704224 0.011405 196.898);
+  --b3-border-color: oklch(0.481638 0.022774 241.125);
+  --b3-toolbar-color: oklch(0.822514 0.018297 179.220);
+  --b3-toolbar-hover: oklch(0.889353 0.121810 203.665);
+  --b3-menu-background: oklch(0.203331 0.038347 257.213);
+  --b3-font-color: oklch(0.920072 0.017258 128.671);
+  --b3-list-hover: oklch(0.889353 0.121810 203.665);
+  --b3-protyle-inline-link-color: oklch(0.889353 0.121810 203.665);
+  --b3-protyle-code-background: oklch(0.140499 0.023636 263.451);
+  --b3-callout-note: oklch(0.676716 0.187069 291.882);
+  --b3-callout-tip: oklch(0.774431 0.168049 158.327);
+  --b3-callout-caution: oklch(0.695469 0.197538 15.244);
+  --b3-callout-important: oklch(0.676716 0.187069 291.882);
+  --b3-callout-warning: oklch(0.748399 0.162037 45.458);
+}

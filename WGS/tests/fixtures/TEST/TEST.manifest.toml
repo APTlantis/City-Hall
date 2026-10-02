@@ -1,0 +1,80 @@
+[manifest]
+schema = "APTlantis Entity Manifest"
+schema_version = "2.4"
+manifest_type = "directory"
+canonical_name = "TEST.manifest.toml"
+last_updated = "2026-07-08"
+maintainer = "Herb"
+
+[entity]
+id = "test"
+title = "Scaffold Test Portfolio"
+kind = "directory"
+class = "container"
+status = "active"
+description = "Fixture-only parent for scaffold validation."
+tags = [
+    "fixture",
+]
+
+[directory]
+path = "D:\\.city_hall\\WGS\\tests\\fixtures\\TEST"
+role = "Exercise scaffold registration and entity auditing."
+portfolio_class = "container"
+health = "test-fixture"
+allows_project_groups = true
+
+[governance]
+primary_standard = "WGS"
+primary_standard_path = "D:\\.city_hall\\WGS\\README.md"
+additional_standards = []
+additional_standard_paths = []
+inherits_from = "D:\\.city_hall\\WGS\\WGS.manifest.toml"
+requires_child_manifests = true
+allowed_child_types = [
+    "project",
+]
+
+[lifecycle]
+state = "active"
+created = "2026-07-08"
+last_reviewed = "2026-07-08"
+maintainer = "Herb"
+
+[structure]
+required_files = [
+    "AGENTS.md",
+    "TEST.manifest.toml",
+]
+children = [
+    "ExampleProject",
+]
+reserved_directories = []
+
+[classification]
+projects = [
+    "ExampleProject",
+]
+project_groups = []
+containers = []
+archives = []
+
+[relationships]
+parent = "D:\\.city_hall\\WGS\\tests\\fixtures"
+
+[policy]
+allow_project_creation = true
+allow_agent_scaffolding = true
+requires_manual_review_for_moves = true
+
+[agent]
+read_first = [
+    "AGENTS.md",
+    "TEST.manifest.toml",
+]
+authoritative_docs = [
+    "TEST.manifest.toml",
+    "AGENTS.md",
+]
+safe_to_modify = true
+notes = "Fixture only."

@@ -1,0 +1,100 @@
+# CommandWizard Project Manifest
+# Version: 1.0
+# Last Updated: 2026-05-12
+
+[project]
+id = "command-wizard"
+title = "CommandWizard"
+type = "ui"
+stage = "production"
+version = "1.0.0"
+description = "Schema-driven WinUI desktop tool for constructing CLI commands through a guided wizard interface."
+tags = ["ui", "wizard", "cli-builder", "winui", "desktop"]
+family = "development-tools"
+canonical_manifest = true
+
+[metadata]
+created = "2026-04-09"
+last_updated = "2026-05-12"
+last_reviewed = "2026-05-12"
+maintainer = "Herb"
+license = "MIT"
+language_primary = "C#"
+languages_used = ["C#", "XAML"]
+
+[state]
+completion_percent = 100
+stability = "stable"
+active_development = false
+technical_debt = "low"
+maintenance_burden = "low"
+
+[runtime]
+platform = "desktop"
+environment = "Windows 10+ (.NET 10, WinUI 3)"
+services = []
+storage = ["Local app settings"]
+
+[capabilities]
+schema_driven = true
+wizard_interface = true
+command_generation = true
+history_tracking = true
+tool_schemas = true
+
+[relationships]
+depends_on_projects = []
+used_by_projects = []
+supersedes = []
+superseded_by = []
+external_dependencies = ["WinAppSDK", ".NET 10", "WinUI 3", "Tomlyn (TOML parser)"]
+related_projects = []
+
+[artifacts]
+produces = ["generated-commands", "command-history", "tool-schemas"]
+consumes = ["toml-schemas", "help-text-output"]
+
+[generation]
+manifest_is_canonical = true
+generates_readme = true
+generates_jsonld = true
+generates_visualizations = true
+
+[documentation]
+readme = "README.md"
+generated_sections = true
+
+[semantic]
+domain = "developer-tools"
+primary_concepts = ["cli-builder", "command-generation", "schema-driven", "wizard-ui"]
+related_domains = ["DevOps", "Scripting", "Automation"]
+cognitive_tags = ["command-construction", "ui-wizard", "schema-validation"]
+complexity = "medium"
+
+[visual]
+theme = "NeonInk-v0.1.1"
+primary_color = "#00ff00"
+semantic_role = "tool"
+contains_svg_assets = false
+
+[distribution]
+packaged = true
+package_formats = ["exe", "msi"]
+portable = false
+offline_capable = true
+requires_installation = true
+
+[links]
+homepage = "https://aptlantis.net"
+
+[structure]
+repo_path = "E:/CommandWizard"
+docs_path = "E:/CommandWizard/docs"
+
+[automation]
+build = "dotnet build"
+tasks = ["build", "test", "package"]
+
+[notes]
+platform = "WinUI 3 desktop application"
+target_users = "Power users, DevOps engineers, system administrators"

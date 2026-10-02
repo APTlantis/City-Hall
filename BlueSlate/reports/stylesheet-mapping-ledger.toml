@@ -1,0 +1,4598 @@
+# Generated evidence inventory. It does not alter input stylesheets.
+[inventory]
+source_root = "C:/Users/Administrator/Desktop/BlueSlate/css-sheets"
+generated_at = "2026-09-27T09:34:41.4563204Z"
+
+[source."BlueSlate.v1tokens.oklch"]
+path = "C:/Users/Administrator/Desktop/BlueSlate/css-sheets/BlueSlate.v1tokens.oklch.css"
+variables = 93
+color_literals = 32
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-abyss"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-action"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-action-soft"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-amber"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-aqua-teal"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-archive"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-arctic-cyan"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-attention"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-bg"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-bg-soft"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-blue-grey"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-border"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-border-soft"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-border-strong"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-border-translucent"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-brass"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-canvas"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-canvas-recessed"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-code-accent"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-content-disabled"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-content-emphasis"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-content-primary"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-content-secondary"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-content-tertiary"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-cool-grey"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-danger"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-deep-navy"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-disabled-surface"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-dusk"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-electric-cyan"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-focus"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-focus-ring-color"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-focus-ring-opacity"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-focus-ring-width"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-font-display"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-font-mono"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-font-sans"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-indigo"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-input-surface"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-intent-danger"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-intent-dark"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-intent-info"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-intent-light"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-intent-primary"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-intent-secondary"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-intent-success"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-intent-warning"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-link"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-link-hover"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-mist-blue"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-mist-grey"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-navy"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-ocean-blue"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-off-white"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-overlay"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-pale-mist"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-panel"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-panel-blue"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-panel-raised"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-pink"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-popover"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-radius-lg"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-radius-md"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-radius-sm"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-radius-xl"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-sea-foam"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-shadow-panel"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-shadow-signal"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-slate"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-space-0"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-space-1"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-space-2"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-space-3"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-space-4"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-space-5"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-steel"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-steel-blue"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-success"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-success-state"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-table-surface"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-taxonomy"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-teal"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-text"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-text-muted"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-text-soft"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-validation-invalid"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-validation-invalid-border"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-validation-valid"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-validation-valid-border"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-verified"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-verified-state"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-violet"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "variable"
+value = "--bs-warning"
+status = "compatibility-candidate"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0 0 0 / 0.32)"
+status = "unresolved"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.14 0.024 263.451)"
+status = "unresolved"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.203 0.038 257.213)"
+status = "unresolved"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.26 0.038 253.857)"
+status = "unresolved"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.296 0.052 252.826)"
+status = "unresolved"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.301 0.022 251.263)"
+status = "unresolved"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.336 0.038 253.387)"
+status = "unresolved"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.376 0.006 134.902)"
+status = "unresolved"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.394 0.038 248.824)"
+status = "unresolved"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.482 0.023 241.125)"
+status = "unresolved"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.558 0.034 239.306)"
+status = "unresolved"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.583 0.233 280.448)"
+status = "unresolved"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.584 0.022 234.134)"
+status = "unresolved"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.616 0.026 232.128)"
+status = "unresolved"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.677 0.187 291.882)"
+status = "unresolved"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.695 0.198 15.244)"
+status = "unresolved"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.704 0.011 196.898)"
+status = "unresolved"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.716 0.169 347.887)"
+status = "unresolved"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.746 0.126 185.65)"
+status = "unresolved"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.748 0.162 45.458)"
+status = "unresolved"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.751 0.13 79.849)"
+status = "unresolved"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.774 0.168 158.327)"
+status = "unresolved"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.781 0.124 185.745)"
+status = "unresolved"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.814 0.145 217.106 / 0.22)"
+status = "unresolved"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.814 0.145 217.106)"
+status = "unresolved"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.823 0.018 179.22)"
+status = "unresolved"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.832 0.14 157.579)"
+status = "unresolved"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.889 0.122 203.665 / 0.3)"
+status = "unresolved"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.889 0.122 203.665)"
+status = "unresolved"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.92 0.017 128.671 / 0.07)"
+status = "unresolved"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.92 0.017 128.671)"
+status = "unresolved"
+[[source."BlueSlate.v1tokens.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.94 0.07 201.536)"
+status = "unresolved"
+
+[source."bootstrap_root"]
+path = "C:/Users/Administrator/Desktop/BlueSlate/css-sheets/bootstrap_root.css"
+variables = 117
+color_literals = 43
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-black"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-black-rgb"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-blue"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-body-bg"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-body-bg-rgb"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-body-color"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-body-color-rgb"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-body-font-family"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-body-font-size"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-body-font-weight"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-body-line-height"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-border-color"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-border-color-translucent"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-border-radius"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-border-radius-2xl"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-border-radius-lg"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-border-radius-pill"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-border-radius-sm"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-border-radius-xl"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-border-radius-xxl"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-border-style"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-border-width"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-box-shadow"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-box-shadow-inset"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-box-shadow-lg"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-box-shadow-sm"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-code-color"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-cyan"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-danger"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-danger-bg-subtle"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-danger-border-subtle"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-danger-rgb"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-danger-text-emphasis"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-dark"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-dark-bg-subtle"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-dark-border-subtle"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-dark-rgb"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-dark-text-emphasis"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-emphasis-color"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-emphasis-color-rgb"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-focus-ring-color"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-focus-ring-opacity"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-focus-ring-width"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-font-monospace"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-font-sans-serif"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-form-invalid-border-color"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-form-invalid-color"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-form-valid-border-color"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-form-valid-color"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-gradient"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-gray"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-gray-100"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-gray-200"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-gray-300"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-gray-400"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-gray-500"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-gray-600"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-gray-700"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-gray-800"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-gray-900"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-gray-dark"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-green"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-heading-color"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-highlight-bg"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-highlight-color"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-indigo"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-info"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-info-bg-subtle"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-info-border-subtle"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-info-rgb"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-info-text-emphasis"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-light"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-light-bg-subtle"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-light-border-subtle"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-light-rgb"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-light-text-emphasis"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-link-color"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-link-color-rgb"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-link-decoration"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-link-hover-color"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-link-hover-color-rgb"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-orange"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-pink"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-primary"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-primary-bg-subtle"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-primary-border-subtle"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-primary-rgb"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-primary-text-emphasis"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-purple"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-red"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-secondary"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-secondary-bg"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-secondary-bg-rgb"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-secondary-bg-subtle"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-secondary-border-subtle"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-secondary-color"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-secondary-color-rgb"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-secondary-rgb"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-secondary-text-emphasis"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-success"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-success-bg-subtle"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-success-border-subtle"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-success-rgb"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-success-text-emphasis"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-teal"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-tertiary-bg"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-tertiary-bg-rgb"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-tertiary-color"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-tertiary-color-rgb"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-warning"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-warning-bg-subtle"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-warning-border-subtle"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-warning-rgb"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-warning-text-emphasis"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-white"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-white-rgb"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "variable"
+value = "--bs-yellow"
+status = "compatibility-candidate"
+[[source."bootstrap_root".entry]]
+kind = "color-literal"
+value = "#00d8ff"
+status = "unresolved"
+[[source."bootstrap_root".entry]]
+kind = "color-literal"
+value = "#050913"
+status = "unresolved"
+[[source."bootstrap_root".entry]]
+kind = "color-literal"
+value = "#073442"
+status = "unresolved"
+[[source."bootstrap_root".entry]]
+kind = "color-literal"
+value = "#08111e"
+status = "unresolved"
+[[source."bootstrap_root".entry]]
+kind = "color-literal"
+value = "#08788d"
+status = "unresolved"
+[[source."bootstrap_root".entry]]
+kind = "color-literal"
+value = "#0b1728"
+status = "unresolved"
+[[source."bootstrap_root".entry]]
+kind = "color-literal"
+value = "#0d3328"
+status = "unresolved"
+[[source."bootstrap_root".entry]]
+kind = "color-literal"
+value = "#14263a"
+status = "unresolved"
+[[source."bootstrap_root".entry]]
+kind = "color-literal"
+value = "#1c2c3a"
+status = "unresolved"
+[[source."bootstrap_root".entry]]
+kind = "color-literal"
+value = "#1d7d58"
+status = "unresolved"
+[[source."bootstrap_root".entry]]
+kind = "color-literal"
+value = "#21c6b8"
+status = "unresolved"
+[[source."bootstrap_root".entry]]
+kind = "color-literal"
+value = "#22384b"
+status = "unresolved"
+[[source."bootstrap_root".entry]]
+kind = "color-literal"
+value = "#251f4a"
+status = "unresolved"
+[[source."bootstrap_root".entry]]
+kind = "color-literal"
+value = "#30d58c"
+status = "unresolved"
+[[source."bootstrap_root".entry]]
+kind = "color-literal"
+value = "#3a1720"
+status = "unresolved"
+[[source."bootstrap_root".entry]]
+kind = "color-literal"
+value = "#3a2419"
+status = "unresolved"
+[[source."bootstrap_root".entry]]
+kind = "color-literal"
+value = "#3c5365"
+status = "unresolved"
+[[source."bootstrap_root".entry]]
+kind = "color-literal"
+value = "#496174"
+status = "unresolved"
+[[source."bootstrap_root".entry]]
+kind = "color-literal"
+value = "#4a3518"
+status = "unresolved"
+[[source."bootstrap_root".entry]]
+kind = "color-literal"
+value = "#4c9fff"
+status = "unresolved"
+[[source."bootstrap_root".entry]]
+kind = "color-literal"
+value = "#637887"
+status = "unresolved"
+[[source."bootstrap_root".entry]]
+kind = "color-literal"
+value = "#65f2ff"
+status = "unresolved"
+[[source."bootstrap_root".entry]]
+kind = "color-literal"
+value = "#6651aa"
+status = "unresolved"
+[[source."bootstrap_root".entry]]
+kind = "color-literal"
+value = "#6a5bff"
+status = "unresolved"
+[[source."bootstrap_root".entry]]
+kind = "color-literal"
+value = "#6b7f8d"
+status = "unresolved"
+[[source."bootstrap_root".entry]]
+kind = "color-literal"
+value = "#6fe3a4"
+status = "unresolved"
+[[source."bootstrap_root".entry]]
+kind = "color-literal"
+value = "#7d909c"
+status = "unresolved"
+[[source."bootstrap_root".entry]]
+kind = "color-literal"
+value = "#96a7b0"
+status = "unresolved"
+[[source."bootstrap_root".entry]]
+kind = "color-literal"
+value = "#9a5735"
+status = "unresolved"
+[[source."bootstrap_root".entry]]
+kind = "color-literal"
+value = "#9c7cff"
+status = "unresolved"
+[[source."bootstrap_root".entry]]
+kind = "color-literal"
+value = "#9d3548"
+status = "unresolved"
+[[source."bootstrap_root".entry]]
+kind = "color-literal"
+value = "#b2c0c3"
+status = "unresolved"
+[[source."bootstrap_root".entry]]
+kind = "color-literal"
+value = "#b3faff"
+status = "unresolved"
+[[source."bootstrap_root".entry]]
+kind = "color-literal"
+value = "#c0adff"
+status = "unresolved"
+[[source."bootstrap_root".entry]]
+kind = "color-literal"
+value = "#cbd6d1"
+status = "unresolved"
+[[source."bootstrap_root".entry]]
+kind = "color-literal"
+value = "#d9a441"
+status = "unresolved"
+[[source."bootstrap_root".entry]]
+kind = "color-literal"
+value = "#e7ece3"
+status = "unresolved"
+[[source."bootstrap_root".entry]]
+kind = "color-literal"
+value = "#ed72b6"
+status = "unresolved"
+[[source."bootstrap_root".entry]]
+kind = "color-literal"
+value = "#ff5c74"
+status = "unresolved"
+[[source."bootstrap_root".entry]]
+kind = "color-literal"
+value = "#ff884d"
+status = "unresolved"
+[[source."bootstrap_root".entry]]
+kind = "color-literal"
+value = "#ff98a8"
+status = "unresolved"
+[[source."bootstrap_root".entry]]
+kind = "color-literal"
+value = "#ffb184"
+status = "unresolved"
+[[source."bootstrap_root".entry]]
+kind = "color-literal"
+value = "#ffffff"
+status = "unresolved"
+
+[source."bootstrap.oklch"]
+path = "C:/Users/Administrator/Desktop/BlueSlate/css-sheets/bootstrap.oklch.css"
+variables = 117
+color_literals = 54
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-black"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-black-rgb"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-blue"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-body-bg"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-body-bg-rgb"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-body-color"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-body-color-rgb"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-body-font-family"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-body-font-size"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-body-font-weight"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-body-line-height"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-border-color"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-border-color-translucent"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-border-radius"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-border-radius-2xl"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-border-radius-lg"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-border-radius-pill"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-border-radius-sm"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-border-radius-xl"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-border-radius-xxl"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-border-style"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-border-width"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-box-shadow"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-box-shadow-inset"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-box-shadow-lg"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-box-shadow-sm"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-code-color"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-cyan"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-danger"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-danger-bg-subtle"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-danger-border-subtle"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-danger-rgb"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-danger-text-emphasis"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-dark"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-dark-bg-subtle"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-dark-border-subtle"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-dark-rgb"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-dark-text-emphasis"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-emphasis-color"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-emphasis-color-rgb"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-focus-ring-color"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-focus-ring-opacity"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-focus-ring-width"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-font-monospace"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-font-sans-serif"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-form-invalid-border-color"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-form-invalid-color"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-form-valid-border-color"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-form-valid-color"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-gradient"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-gray"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-gray-100"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-gray-200"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-gray-300"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-gray-400"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-gray-500"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-gray-600"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-gray-700"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-gray-800"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-gray-900"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-gray-dark"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-green"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-heading-color"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-highlight-bg"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-highlight-color"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-indigo"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-info"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-info-bg-subtle"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-info-border-subtle"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-info-rgb"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-info-text-emphasis"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-light"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-light-bg-subtle"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-light-border-subtle"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-light-rgb"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-light-text-emphasis"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-link-color"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-link-color-rgb"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-link-decoration"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-link-hover-color"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-link-hover-color-rgb"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-orange"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-pink"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-primary"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-primary-bg-subtle"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-primary-border-subtle"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-primary-rgb"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-primary-text-emphasis"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-purple"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-red"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-secondary"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-secondary-bg"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-secondary-bg-rgb"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-secondary-bg-subtle"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-secondary-border-subtle"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-secondary-color"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-secondary-color-rgb"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-secondary-rgb"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-secondary-text-emphasis"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-success"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-success-bg-subtle"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-success-border-subtle"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-success-rgb"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-success-text-emphasis"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-teal"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-tertiary-bg"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-tertiary-bg-rgb"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-tertiary-color"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-tertiary-color-rgb"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-warning"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-warning-bg-subtle"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-warning-border-subtle"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-warning-rgb"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-warning-text-emphasis"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-white"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-white-rgb"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "variable"
+value = "--bs-yellow"
+status = "compatibility-candidate"
+[[source."bootstrap.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0 0 0 / 0.22)"
+status = "unresolved"
+[[source."bootstrap.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0 0 0 / 0.3)"
+status = "unresolved"
+[[source."bootstrap.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0 0 0 / 0.38)"
+status = "unresolved"
+[[source."bootstrap.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.14 0.024 263.451)"
+status = "unresolved"
+[[source."bootstrap.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.176 0.03 257.273)"
+status = "unresolved"
+[[source."bootstrap.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.203 0.038 257.213)"
+status = "unresolved"
+[[source."bootstrap.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.26 0.056 5.582)"
+status = "unresolved"
+[[source."bootstrap.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.264 0.045 252.166)"
+status = "unresolved"
+[[source."bootstrap.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.272 0.077 286.488)"
+status = "unresolved"
+[[source."bootstrap.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.285 0.039 47.267)"
+status = "unresolved"
+[[source."bootstrap.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.286 0.034 245.739)"
+status = "unresolved"
+[[source."bootstrap.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.291 0.047 170.468)"
+status = "unresolved"
+[[source."bootstrap.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.303 0.052 224.006)"
+status = "unresolved"
+[[source."bootstrap.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.331 0.044 245.697)"
+status = "unresolved"
+[[source."bootstrap.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.346 0.053 73.363)"
+status = "unresolved"
+[[source."bootstrap.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.431 0.041 242.42)"
+status = "unresolved"
+[[source."bootstrap.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.481 0.042 242.581)"
+status = "unresolved"
+[[source."bootstrap.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.484 0.138 13.075)"
+status = "unresolved"
+[[source."bootstrap.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.5 0.137 291.521)"
+status = "unresolved"
+[[source."bootstrap.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.526 0.105 162.259)"
+status = "unresolved"
+[[source."bootstrap.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.528 0.092 215.913)"
+status = "unresolved"
+[[source."bootstrap.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.528 0.101 46.598)"
+status = "unresolved"
+[[source."bootstrap.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.561 0.034 239.298)"
+status = "unresolved"
+[[source."bootstrap.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.583 0.233 280.448)"
+status = "unresolved"
+[[source."bootstrap.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.585 0.032 238.633)"
+status = "unresolved"
+[[source."bootstrap.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.642 0.028 235.628)"
+status = "unresolved"
+[[source."bootstrap.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.677 0.187 291.882)"
+status = "unresolved"
+[[source."bootstrap.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.695 0.198 15.244)"
+status = "unresolved"
+[[source."bootstrap.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.696 0.163 253.923)"
+status = "unresolved"
+[[source."bootstrap.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.716 0.169 347.887)"
+status = "unresolved"
+[[source."bootstrap.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.718 0.023 230.693 / 0.28)"
+status = "unresolved"
+[[source."bootstrap.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.718 0.023 230.693)"
+status = "unresolved"
+[[source."bootstrap.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.746 0.126 185.65)"
+status = "unresolved"
+[[source."bootstrap.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.748 0.162 45.458)"
+status = "unresolved"
+[[source."bootstrap.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.751 0.13 79.849)"
+status = "unresolved"
+[[source."bootstrap.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.774 0.168 158.327)"
+status = "unresolved"
+[[source."bootstrap.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.791 0.124 10.294)"
+status = "unresolved"
+[[source."bootstrap.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.794 0.116 294.243)"
+status = "unresolved"
+[[source."bootstrap.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.798 0.016 212.01 / 0.68)"
+status = "unresolved"
+[[source."bootstrap.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.798 0.016 212.01)"
+status = "unresolved"
+[[source."bootstrap.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.814 0.145 217.106)"
+status = "unresolved"
+[[source."bootstrap.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.825 0.109 50.681)"
+status = "unresolved"
+[[source."bootstrap.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.832 0.14 157.579)"
+status = "unresolved"
+[[source."bootstrap.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.866 0.014 167.123 / 0.78)"
+status = "unresolved"
+[[source."bootstrap.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.866 0.014 167.123)"
+status = "unresolved"
+[[source."bootstrap.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.889 0.122 203.665 / 0.3)"
+status = "unresolved"
+[[source."bootstrap.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.889 0.122 203.665)"
+status = "unresolved"
+[[source."bootstrap.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.937 0.013 130.783 / 0.05)"
+status = "unresolved"
+[[source."bootstrap.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.937 0.013 130.783 / 0.07)"
+status = "unresolved"
+[[source."bootstrap.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.937 0.013 130.783 / 0.08)"
+status = "unresolved"
+[[source."bootstrap.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.937 0.013 130.783 / 0)"
+status = "unresolved"
+[[source."bootstrap.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.937 0.013 130.783)"
+status = "unresolved"
+[[source."bootstrap.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.94 0.07 201.536)"
+status = "unresolved"
+[[source."bootstrap.oklch".entry]]
+kind = "color-literal"
+value = "oklch(1 0 0)"
+status = "unresolved"
+
+[source."chat-archive.oklch"]
+path = "C:/Users/Administrator/Desktop/BlueSlate/css-sheets/chat-archive.oklch.css"
+variables = 130
+color_literals = 36
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--accent"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--accent-2"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--archive"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--assistant"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--attention"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bg"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--border-action"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--border-action-soft"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--border-action-strong"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--border-disabled"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--border-warning-soft"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-abyss"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-action"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-action-soft"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-amber"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-aqua-teal"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-archive"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-arctic-cyan"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-attention"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-bg"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-bg-soft"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-blue-grey"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-border"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-border-soft"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-border-strong"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-border-translucent"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-brass"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-canvas"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-canvas-recessed"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-code-accent"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-content-disabled"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-content-emphasis"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-content-primary"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-content-secondary"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-content-tertiary"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-cool-grey"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-danger"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-deep-navy"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-disabled-surface"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-dusk"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-electric-cyan"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-focus"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-focus-ring-color"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-focus-ring-opacity"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-focus-ring-width"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-font-display"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-font-mono"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-font-sans"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-indigo"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-input-surface"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-intent-danger"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-intent-dark"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-intent-info"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-intent-light"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-intent-primary"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-intent-secondary"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-intent-success"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-intent-warning"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-link"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-link-hover"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-mist-blue"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-mist-grey"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-navy"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-ocean-blue"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-off-white"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-overlay"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-pale-mist"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-panel"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-panel-blue"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-panel-raised"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-pink"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-popover"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-radius-lg"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-radius-md"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-radius-sm"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-radius-xl"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-radius-xxl"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-sea-foam"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-shadow-panel"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-shadow-signal"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-slate"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-space-1"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-space-2"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-space-3"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-space-4"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-space-5"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-steel"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-steel-blue"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-success"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-success-state"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-table-surface"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-taxonomy"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-teal"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-text"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-text-muted"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-text-soft"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-validation-invalid"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-validation-invalid-border"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-validation-valid"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-validation-valid-border"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-verified"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-verified-state"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-violet"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--bs-warning"
+status = "compatibility-candidate"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--code"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--danger"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--line"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--line-soft"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--muted"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--overlay-border"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--panel"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--panel-2"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--rail"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--rail-2"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--scroll-thumb"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--scroll-thumb-hover"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--soft"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--success"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--surface-code-head"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--surface-control"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--surface-disabled"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--surface-hidden"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--surface-low"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--surface-selected"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--taxonomy"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--text"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--user"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--verified"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--warning"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "variable"
+value = "--warning-bg"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0 0 0 / 0.32)"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0 0 0 / 0.45)"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0 0 0 / 0.6)"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0 0 0 / 0.68)"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0 0 0 / 0.86)"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.14 0.024 263.451)"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.203 0.038 257.213)"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.26 0.038 253.857)"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.296 0.052 252.826)"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.301 0.022 251.263)"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.336 0.038 253.387)"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.376 0.006 134.902)"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.394 0.038 248.824)"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.482 0.023 241.125)"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.558 0.034 239.306)"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.583 0.233 280.448)"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.584 0.022 234.134)"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.616 0.026 232.128)"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.677 0.187 291.882)"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.695 0.198 15.244)"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.704 0.011 196.898)"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.716 0.169 347.887)"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.746 0.126 185.65)"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.748 0.162 45.458)"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.751 0.13 79.849)"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.774 0.168 158.327)"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.781 0.124 185.745)"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.814 0.145 217.106 / 0.22)"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.814 0.145 217.106)"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.823 0.018 179.22)"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.832 0.14 157.579)"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.889 0.122 203.665 / 0.3)"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.889 0.122 203.665)"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.92 0.017 128.671 / 0.07)"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.92 0.017 128.671)"
+status = "unresolved"
+[[source."chat-archive.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.94 0.07 201.536)"
+status = "unresolved"
+
+[source."siyuan.oklch"]
+path = "C:/Users/Administrator/Desktop/BlueSlate/css-sheets/siyuan.oklch.css"
+variables = 217
+color_literals = 162
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--active"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--apt-abyss"
+status = "local-profile-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--apt-archive"
+status = "local-profile-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--apt-blue"
+status = "local-profile-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--apt-border"
+status = "local-profile-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--apt-border-subtle"
+status = "local-profile-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--apt-chassis"
+status = "local-profile-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--apt-code"
+status = "local-profile-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--apt-control"
+status = "local-profile-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--apt-cyan"
+status = "local-profile-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--apt-cyan-bright"
+status = "local-profile-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--apt-deep"
+status = "local-profile-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--apt-editor"
+status = "local-profile-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--apt-focus"
+status = "local-profile-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--apt-frost"
+status = "local-profile-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--apt-green"
+status = "local-profile-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--apt-hover"
+status = "local-profile-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--apt-indigo"
+status = "local-profile-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--apt-navy"
+status = "local-profile-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--apt-orange"
+status = "local-profile-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--apt-panel"
+status = "local-profile-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--apt-panel-raised"
+status = "local-profile-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--apt-pink"
+status = "local-profile-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--apt-popover"
+status = "local-profile-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--apt-purple"
+status = "local-profile-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--apt-red"
+status = "local-profile-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--apt-ridge"
+status = "local-profile-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--apt-selected"
+status = "local-profile-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--apt-silver"
+status = "local-profile-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--apt-slate"
+status = "local-profile-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--apt-table"
+status = "local-profile-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--apt-teal"
+status = "local-profile-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--apt-text"
+status = "local-profile-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--apt-text-muted"
+status = "local-profile-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--apt-text-soft"
+status = "local-profile-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--apt-void"
+status = "local-profile-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--apt-yellow"
+status = "local-profile-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-av-gallery-shadow"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-background-transition"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-body-background"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-body-background-hl"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-body-background-hl-opacity"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-border-color"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-border-radius"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-border-radius-b"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-border-radius-s"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-bq-background"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-button-active-shadow"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-button-shadow"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-callout-caution"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-callout-important"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-callout-note"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-callout-tip"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-callout-warning"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-card-error-background"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-card-error-color"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-card-info-background"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-card-info-color"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-card-success-background"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-card-success-color"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-card-warning-background"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-card-warning-color"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-color-transition"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-dialog-shadow"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-dock-shadow-color"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-embed-background"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-empty-color"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-font-background1"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-font-background10"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-font-background11"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-font-background12"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-font-background13"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-font-background2"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-font-background3"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-font-background4"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-font-background5"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-font-background6"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-font-background7"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-font-background8"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-font-background9"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-font-color"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-font-color1"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-font-color10"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-font-color11"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-font-color12"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-font-color13"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-font-color2"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-font-color3"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-font-color4"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-font-color5"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-font-color6"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-font-color7"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-font-color8"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-font-color9"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-font-family"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-font-family-code"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-font-family-default"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-font-family-emoji"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-font-family-emoji-reset"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-font-family-graph"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-font-family-kbd"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-font-family-math"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-font-family-protyle"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-font-size"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-graph-asset-line"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-graph-asset-point"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-graph-bq-point"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-graph-callout-point"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-graph-code-point"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-graph-doc-point"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-graph-heading-point"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-graph-hl-line"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-graph-hl-point"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-graph-line"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-graph-list-point"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-graph-listitem-point"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-graph-math-point"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-graph-olist-point"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-graph-p-point"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-graph-ref-line"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-graph-super-point"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-graph-table-point"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-graph-tag-line"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-graph-tag-point"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-graph-tag-tag-line"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-graph-todo-point"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-highlight-background"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-highlight-color"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-highlight-current-background"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-layout-space"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-layout-space-margin"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-list-hover"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-list-icon-hover"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-mask-background"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-menu-background"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-menu-icon-color"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-parent-background"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-pdf-background1-dark"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-pdf-background1-light"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-pdf-background2-dark"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-pdf-background2-light"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-pdf-background3-dark"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-pdf-background3-light"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-pdf-background4-dark"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-pdf-background4-light"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-pdf-background5-dark"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-pdf-background5-light"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-pdf-background6-dark"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-pdf-background6-light"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-pdf-background7-dark"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-pdf-background7-light"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-pdf-dark"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-pdf-offset"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-pdf-selection"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-pdf-selection-dark"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-point-shadow"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-protyle-code-background"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-protyle-inline-blockref-color"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-protyle-inline-em-color"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-protyle-inline-fileref-color"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-protyle-inline-link-color"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-protyle-inline-mark-background"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-protyle-inline-mark-color"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-protyle-inline-s-color"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-protyle-inline-strong-color"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-protyle-inline-tag-color"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-protyle-inline-u-color"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-scroll-color"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-select-background"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-switch-background"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-switch-border"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-switch-checked"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-switch-checked-background"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-switch-checked-hover"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-switch-checked-hover2"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-switch-hover"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-table-even-background"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-theme-background"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-theme-background-light"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-theme-error"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-theme-on-background"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-theme-on-error"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-theme-on-primary"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-theme-on-secondary"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-theme-on-surface"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-theme-on-surface-light"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-theme-on-surface-lighter"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-theme-primary"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-theme-primary-light"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-theme-primary-lighter"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-theme-primary-lightest"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-theme-secondary"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-theme-success"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-theme-surface"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-theme-surface-light"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-theme-surface-lighter"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-toolbar-color"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-toolbar-hover"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-toolbar-left-mac"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-tooltips-background"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-tooltips-color"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-tooltips-second-color"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-tooltips-shadow"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-transition"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--b3-width-transition"
+status = "compatibility-candidate"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--background"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--cancel"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--current"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--disabled"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--focus"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--header"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--outline"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--primary"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--remove"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--sidebar-width"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--text"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "variable"
+value = "--warning"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0 0 0 / 0.26)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0 0 0 / 0.34)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0 0 0 / 0.36)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0 0 0 / 0.42)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0 0 0 / 0.58)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.113 0.019 254.293 / 0.7)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.113 0.019 254.293)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.14 0.024 263.451 / 0.48)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.14 0.024 263.451 / 0.72)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.14 0.024 263.451 / 0.96)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.14 0.024 263.451)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.171 0.029 255.264)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.176 0.03 257.273)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.199 0.036 257.698)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.203 0.038 257.213)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.24 0.043 253.662)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.26 0.038 253.857 / 0.52)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.26 0.038 253.857 / 0.72)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.26 0.038 253.857)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.264 0.045 252.166 / 0.94)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.264 0.045 252.166)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.265 0.06 7.284)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.269 0.077 287.532)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.285 0.039 47.267)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.296 0.052 252.826 / 0.18)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.296 0.052 252.826 / 0.62)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.296 0.052 252.826 / 0.76)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.296 0.052 252.826 / 0.84)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.296 0.052 252.826 / 0.92)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.296 0.052 252.826)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.301 0.022 251.263)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.306 0.048 168.839)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.346 0.053 73.363)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.394 0.038 248.824 / 0.48)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.394 0.038 248.824 / 0.52)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.394 0.038 248.824 / 0.54)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.394 0.038 248.824 / 0.58)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.394 0.038 248.824 / 0.62)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.394 0.038 248.824 / 0.64)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.394 0.038 248.824 / 0.68)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.394 0.038 248.824 / 0.7)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.394 0.038 248.824 / 0.72)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.394 0.038 248.824 / 0.74)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.394 0.038 248.824 / 0.76)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.394 0.038 248.824 / 0.82)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.394 0.038 248.824)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.43 0.113 7.948)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.431 0.041 242.42 / 0.78)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.431 0.041 242.42)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.441 0.078 65.166)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.448 0.129 292.158)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.449 0.079 219.292)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.474 0.118 253.723)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.479 0.099 160.388)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.48 0.147 14.947)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.488 0.129 9.869)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.489 0.088 220.879)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.495 0.135 347.393)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.51 0.114 45.837)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.512 0.087 81.293)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.534 0.087 186.646)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.544 0.098 221.316)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.549 0.107 122.707)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.561 0.034 239.298)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.579 0.107 223.246)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.581 0.162 13.37)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.583 0.233 280.448)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.596 0.024 230.833)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.608 0.181 15.282)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.62 0.029 228.207)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.62 0.112 220.482)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.62 0.178 319.518)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.677 0.187 291.882 / 0.15)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.677 0.187 291.882)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.694 0.15 158.644)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.695 0.198 15.244 / 0.13)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.695 0.198 15.244 / 0.15)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.695 0.198 15.244 / 0.16)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.695 0.198 15.244)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.696 0.163 253.923 / 0.07)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.696 0.163 253.923 / 0.15)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.696 0.163 253.923)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.704 0.011 196.898 / 0.32)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.704 0.011 196.898)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.716 0.169 347.887 / 0.105)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.716 0.169 347.887 / 0.11)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.716 0.169 347.887 / 0.15)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.716 0.169 347.887 / 0.18)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.716 0.169 347.887)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.716 0.194 307.975)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.718 0.023 230.693 / 0.28)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.746 0.126 185.65 / 0.14)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.746 0.126 185.65)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.748 0.162 45.458 / 0.16)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.748 0.162 45.458)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.751 0.13 79.849 / 0.16)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.751 0.13 79.849 / 0.26)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.751 0.13 79.849)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.759 0.109 252.144)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.762 0.124 253.978)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.773 0.021 229.134)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.774 0.168 158.327 / 0.12)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.774 0.168 158.327 / 0.14)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.774 0.168 158.327)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.777 0.125 292.65)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.786 0.118 346.209)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.791 0.124 10.294)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.794 0.116 294.243 / 0.42)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.794 0.116 294.243)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.803 0.112 345.224)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.804 0.115 186.713)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.814 0.145 217.106 / 0.035)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.814 0.145 217.106 / 0.065)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.814 0.145 217.106 / 0.075)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.814 0.145 217.106 / 0.09)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.814 0.145 217.106 / 0.11)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.814 0.145 217.106 / 0.12)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.814 0.145 217.106 / 0.14)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.814 0.145 217.106 / 0.15)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.814 0.145 217.106 / 0.18)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.814 0.145 217.106 / 0.2)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.814 0.145 217.106 / 0.28)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.814 0.145 217.106 / 0.34)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.814 0.145 217.106 / 0.42)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.814 0.145 217.106 / 0.52)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.814 0.145 217.106 / 0.62)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.814 0.145 217.106)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.823 0.018 179.22 / 0.035)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.823 0.018 179.22 / 0.045)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.823 0.018 179.22 / 0.11)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.823 0.018 179.22 / 0.12)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.823 0.018 179.22 / 0.28)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.823 0.018 179.22 / 0.48)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.823 0.018 179.22 / 0.72)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.823 0.018 179.22 / 0.78)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.823 0.018 179.22)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.825 0.109 50.681)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.832 0.14 157.579)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.832 0.157 122.552)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.845 0.087 9.265)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.862 0.113 160.504)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.864 0.073 292.58)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.877 0.032 203.953)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.878 0.085 164.024)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.889 0.122 203.665 / 0.1)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.889 0.122 203.665 / 0.11)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.889 0.122 203.665 / 0.16)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.889 0.122 203.665 / 0.42)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.889 0.122 203.665 / 0.48)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.889 0.122 203.665)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.891 0.065 52.397)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.903 0.017 178.237)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.92 0.017 128.671 / 0.022)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.92 0.017 128.671 / 0.035)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.92 0.017 128.671 / 0.055)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.92 0.017 128.671 / 0.07)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.92 0.017 128.671 / 0.08)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.92 0.017 128.671 / 0.1)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.92 0.017 128.671)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.921 0.076 207.301)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.937 0.067 204.178)"
+status = "unresolved"
+[[source."siyuan.oklch".entry]]
+kind = "color-literal"
+value = "oklch(1 0 0)"
+status = "unresolved"
+
+[source."website.oklch"]
+path = "C:/Users/Administrator/Desktop/BlueSlate/css-sheets/website.oklch.css"
+variables = 49
+color_literals = 91
+[[source."website.oklch".entry]]
+kind = "variable"
+value = "--accent"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "variable"
+value = "--accent-foreground"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "variable"
+value = "--atl-abyss"
+status = "local-profile-candidate"
+[[source."website.oklch".entry]]
+kind = "variable"
+value = "--atl-archive"
+status = "local-profile-candidate"
+[[source."website.oklch".entry]]
+kind = "variable"
+value = "--atl-bluegray"
+status = "local-profile-candidate"
+[[source."website.oklch".entry]]
+kind = "variable"
+value = "--atl-border-soft"
+status = "local-profile-candidate"
+[[source."website.oklch".entry]]
+kind = "variable"
+value = "--atl-danger"
+status = "local-profile-candidate"
+[[source."website.oklch".entry]]
+kind = "variable"
+value = "--atl-deep"
+status = "local-profile-candidate"
+[[source."website.oklch".entry]]
+kind = "variable"
+value = "--atl-frost"
+status = "local-profile-candidate"
+[[source."website.oklch".entry]]
+kind = "variable"
+value = "--atl-iron"
+status = "local-profile-candidate"
+[[source."website.oklch".entry]]
+kind = "variable"
+value = "--atl-mist"
+status = "local-profile-candidate"
+[[source."website.oklch".entry]]
+kind = "variable"
+value = "--atl-navy"
+status = "local-profile-candidate"
+[[source."website.oklch".entry]]
+kind = "variable"
+value = "--atl-ridge"
+status = "local-profile-candidate"
+[[source."website.oklch".entry]]
+kind = "variable"
+value = "--atl-shadow-glow"
+status = "local-profile-candidate"
+[[source."website.oklch".entry]]
+kind = "variable"
+value = "--atl-shadow-panel"
+status = "local-profile-candidate"
+[[source."website.oklch".entry]]
+kind = "variable"
+value = "--atl-silver"
+status = "local-profile-candidate"
+[[source."website.oklch".entry]]
+kind = "variable"
+value = "--atl-slate"
+status = "local-profile-candidate"
+[[source."website.oklch".entry]]
+kind = "variable"
+value = "--atl-smoke"
+status = "local-profile-candidate"
+[[source."website.oklch".entry]]
+kind = "variable"
+value = "--atl-steel"
+status = "local-profile-candidate"
+[[source."website.oklch".entry]]
+kind = "variable"
+value = "--atl-stone"
+status = "local-profile-candidate"
+[[source."website.oklch".entry]]
+kind = "variable"
+value = "--atl-success"
+status = "local-profile-candidate"
+[[source."website.oklch".entry]]
+kind = "variable"
+value = "--atl-void"
+status = "local-profile-candidate"
+[[source."website.oklch".entry]]
+kind = "variable"
+value = "--atl-warning"
+status = "local-profile-candidate"
+[[source."website.oklch".entry]]
+kind = "variable"
+value = "--background"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "variable"
+value = "--border"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "variable"
+value = "--card"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "variable"
+value = "--card-foreground"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "variable"
+value = "--color-background"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "variable"
+value = "--color-background-secondary"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "variable"
+value = "--color-border"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "variable"
+value = "--color-primary"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "variable"
+value = "--color-primary-hover"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "variable"
+value = "--color-text"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "variable"
+value = "--color-text-secondary"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "variable"
+value = "--destructive"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "variable"
+value = "--destructive-foreground"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "variable"
+value = "--dossier-hero-image"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "variable"
+value = "--foreground"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "variable"
+value = "--input"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "variable"
+value = "--muted"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "variable"
+value = "--muted-foreground"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "variable"
+value = "--popover"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "variable"
+value = "--popover-foreground"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "variable"
+value = "--primary"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "variable"
+value = "--primary-foreground"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "variable"
+value = "--radius"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "variable"
+value = "--ring"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "variable"
+value = "--secondary"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "variable"
+value = "--secondary-foreground"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0 0 0 / 0.18)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0 0 0 / 0.32)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.065 0.045 264.052)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.092 0.064 264.052)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.121 0.084 264.052)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.14 0.024 263.451 / 0.16)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.14 0.024 263.451 / 0.88)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.14 0.024 263.451)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.169 0.028 250.607)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.175 0.031 254.874 / 0.28)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.175 0.031 254.874 / 0.82)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.175 0.032 252.52)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.18 0.031 255.201 / 0.28)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.18 0.031 255.201 / 0.9)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.18 0.031 255.201 / 0.96)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.2 0.037 249.959)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.203 0.038 257.213 / 0.74)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.203 0.038 257.213)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.225 0.038 249.867 / 0.88)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.235 0.034 252.744 / 0.92)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.26 0.038 253.857 / 0.88)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.26 0.038 253.857)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.296 0.052 252.826 / 0.58)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.296 0.052 252.826 / 0.76)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.296 0.052 252.826)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.301 0.022 251.263)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.323 0.224 264.052)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.336 0.038 253.387)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.376 0.006 134.902)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.393 0.272 264.052)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.394 0.038 248.824 / 0.58)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.394 0.038 248.824 / 0.62)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.394 0.038 248.824 / 0.7)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.394 0.038 248.824)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.399 0.039 243.36 / 0.86)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.445 0.308 264.052)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.482 0.023 241.125 / 0.45)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.482 0.023 241.125)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.489 0.24 281.289)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.53 0.23 335.272)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.545 0.226 337.138)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.557 0.22 350.252)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.558 0.034 239.306 / 0.18)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.558 0.034 239.306)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.585 0.055 242.569 / 0.4)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.585 0.182 22.06)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.595 0.179 20.512)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.602 0.008 145.48)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.61 0.166 32.253)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.616 0.026 232.128 / 0.11)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.616 0.026 232.128 / 0.24)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.616 0.026 232.128 / 0.38)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.616 0.026 232.128 / 0.55)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.616 0.026 232.128 / 0.74)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.616 0.026 232.128)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.618 0.165 151.212)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.649 0.15 52.157)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.704 0.011 196.898)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.717 0.086 19.384)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.723 0.152 73.003)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.73 0.07 231.529 / 0.026)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.73 0.07 231.529 / 0.035)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.764 0.061 162.821 / 0.18)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.764 0.061 162.821 / 0.65)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.764 0.061 162.821)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.776 0.128 204.53 / 0.12)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.777 0.166 163.938)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.798 0.067 224.988 / 0.07)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.823 0.018 179.22 / 0.12)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.823 0.018 179.22 / 0.18)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.823 0.018 179.22 / 0.64)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.823 0.018 179.22 / 0.72)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.823 0.018 179.22)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.825 0.079 93.128)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.893 0.052 159.933)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.92 0.017 128.671 / 0.01)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.92 0.017 128.671 / 0.012)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.92 0.017 128.671 / 0.015)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.92 0.017 128.671 / 0.018)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.92 0.017 128.671 / 0.025)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.92 0.017 128.671 / 0.026)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.92 0.017 128.671 / 0.032)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.92 0.017 128.671 / 0.035)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.92 0.017 128.671 / 0.04)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.92 0.017 128.671 / 0.055)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.92 0.017 128.671 / 0.06)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.92 0.017 128.671 / 0.07)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.92 0.017 128.671 / 0.09)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.92 0.017 128.671 / 0.13)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.92 0.017 128.671)"
+status = "unresolved"
+[[source."website.oklch".entry]]
+kind = "color-literal"
+value = "oklch(0.948 0.013 179.462 / 0.06)"
+status = "unresolved"

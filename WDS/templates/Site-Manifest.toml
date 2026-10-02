@@ -1,0 +1,34 @@
+[site]
+id = "example-site"
+title = "Example Site"
+domain = "example.local"
+status = "draft"
+
+[governance]
+standard = "WDS"
+workspace_standard = "WGS"
+
+[build]
+framework = ""
+command = ""
+output = "dist"
+
+[deployment]
+target = ""
+record = "Deployment-Record.md"
+environment = "preview" # local | preview | production | archived | internal
+rollback = "Redeploy previous static snapshot or restore prior host deployment."
+
+[quality]
+accessibility_required = true
+seo_required = true
+monitoring_required = false
+
+[routes]
+required = ["/"]
+
+[metadata]
+title = "Example Site"
+description = "Short description of the site purpose and audience."
+canonical = ""
+structured_data = false

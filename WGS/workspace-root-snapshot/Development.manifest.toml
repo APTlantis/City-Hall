@@ -1,0 +1,157 @@
+[manifest]
+schema = "APTlantis Entity Manifest"
+schema_version = "2.4"
+manifest_type = "workspace"
+canonical_name = "Development.manifest.toml"
+last_updated = "2026-08-20"
+maintainer = "Herb"
+
+[entity]
+id = "development-drive"
+title = "D Drive Development Workspace"
+kind = "workspace"
+class = "workspace-root"
+status = "active"
+description = "Local development drive containing governed portfolios, shared infrastructure, references, active standards, release evidence, and preservation records."
+tags = ["development", "workspace", "aptlantis", "governance"]
+
+[workspace]
+root = "D:\\"
+primary_governance = "WGS"
+active_standards_library = "D:\\.library\\aptlantis_core"
+standards_workshop = "D:\\.city_hall"
+index = "D:\\INDEX.md"
+instructions = "D:\\AGENTS.md"
+
+[policy]
+requires_directory_manifests = true
+requires_project_manifests = true
+requires_project_readmes = true
+requires_agent_instructions = true
+canonical_directory_manifest = "[DirectoryName].manifest.toml"
+canonical_project_manifest = "[ProjectName].manifest.toml"
+preserve_legacy_manifests_with_migration_notes = true
+manual_review_required_for_moves = true
+copy_canonical_standards_into_projects = false
+
+[standards]
+wgs = "D:\\.library\\aptlantis_core\\WGS"
+sfds = "D:\\.library\\aptlantis_core\\SFDS"
+pps = "D:\\.library\\aptlantis_core\\PPS"
+lds = "D:\\.library\\aptlantis_core\\LDS"
+cts = "D:\\.library\\aptlantis_core\\CTS"
+drs = "D:\\.library\\aptlantis_core\\DRS"
+wds = "D:\\.library\\aptlantis_core\\WDS"
+arhs = "D:\\.library\\aptlantis_core\\ARHS"
+aamhs = "D:\\.library\\aptlantis_core\\AAMHS"
+sesm = "D:\\.library\\aptlantis_core\\SESM"
+blue_slate = "D:\\.library\\aptlantis_core\\BlueSlate"
+blanks = "D:\\.library\\aptlantis_core\\Blanks"
+
+[workshop]
+city_hall = "D:\\.city_hall"
+role = "Standards incubation, sandboxing, promotion review, historical lineage, and preserved planning references."
+promotion_rule = "City Hall-only material is non-governing until deliberately promoted into D:\\.library\\aptlantis_core or explicitly adopted by a governing standard."
+
+[[roots]]
+id = "city-hall"
+path = "D:\\.city_hall"
+kind = "standards-workshop"
+role = "Standards incubation, experiments, historical evidence, archive, review, and promotion workflow."
+governing_standard = "WGS"
+manifest = "D:\\.city_hall\\CITY-HALL.manifest.toml"
+
+[[roots]]
+id = "library"
+path = "D:\\.library"
+kind = "reference-library"
+role = "Canonical active standards, adopted governance overview records, documentation, references, clones, and media."
+governing_standard = "WGS"
+manifest = "D:\\.library\\.library.manifest.toml"
+
+[[roots]]
+id = "dpw"
+path = "D:\\.dpw"
+kind = "shared-infrastructure"
+role = "Shared development runtimes, caches, tools, and infrastructure."
+governing_standard = "WGS"
+manifest = "D:\\.dpw\\.dpw.manifest.toml"
+
+[[roots]]
+id = "pnpm-store"
+path = "D:\\.pnpm-store"
+kind = "shared-cache"
+role = "Root-level PNPM content-addressed package store."
+governing_standard = "WGS"
+manifest = "D:\\.pnpm-store\\.pnpm-store.manifest.toml"
+
+[[roots]]
+id = "data"
+path = "D:\\.data"
+kind = "portfolio"
+role = "Shared datasets, source snapshots, and dataset-producing projects."
+governing_standard = "WGS"
+manifest = "D:\\.data\\.data.manifest.toml"
+
+[[roots]]
+id = "zoning"
+path = "D:\\.zoning"
+kind = "intake-incubation"
+role = "General intake and incubation area for candidate projects, project groups, source imports, and standards ideas."
+governing_standard = "WGS"
+manifest = "D:\\.zoning\\.zoning.manifest.toml"
+
+[[roots]]
+id = "cts"
+path = "D:\\CTS"
+kind = "portfolio"
+role = "Command tools, automation, APIs, converters, and data-processing utilities."
+governing_standard = "CTS"
+manifest = "D:\\CTS\\CTS.manifest.toml"
+
+[[roots]]
+id = "drs"
+path = "D:\\DRS"
+kind = "portfolio"
+role = "Desktop applications, application tools, and related project groups."
+governing_standard = "DRS"
+manifest = "D:\\DRS\\DRS.manifest.toml"
+
+[[roots]]
+id = "lds"
+path = "D:\\LDS"
+kind = "portfolio"
+role = "Library crates, packages, SDKs, and code-consumed modules governed by LDS."
+governing_standard = "LDS"
+manifest = "D:\\LDS\\LDS.manifest.toml"
+
+[[roots]]
+id = "wds"
+path = "D:\\WDS"
+kind = "portfolio"
+role = "Websites and web applications governed by WDS."
+governing_standard = "WDS"
+manifest = "D:\\WDS\\WDS.manifest.toml"
+
+[agent]
+read_first = [
+    "D:\\AGENTS.md",
+    "D:\\Development.manifest.toml",
+    "D:\\INDEX.md",
+    "D:\\.library\\aptlantis_core\\README.md",
+    "D:\\.library\\aptlantis_core\\WORKSHOP-MAP.md",
+    "D:\\.library\\aptlantis_core\\WGS\\Agent-Startup-Procedure.md",
+]
+authoritative_docs = [
+    "D:\\Development.manifest.toml",
+    "D:\\AGENTS.md",
+    "D:\\INDEX.md",
+    "D:\\.library\\aptlantis_core\\README.md",
+]
+known_gaps = [
+    "Project build, test, artifact, deployment, release, and lifecycle posture remains explicitly unverified until reviewed per project.",
+    "Older root maps mention absent or renamed roots such as D:\\BASIC, D:\\DATA, and D:\\.sonar; they are not registered here because they were not physically present during the 2026-08-20 restoration pass.",
+    "Some child manifests may still retain historical inherits_from wording from the period when the root manifest was absent.",
+    "The 2026-08-22 WGS workspace_inventory.py rerun parsed this root manifest after .zoning registration and .dpw reconciliation; remaining child-list drift persists in CTS, DRS, LDS, and WDS portfolio manifests.",
+]
+notes = "Restored during the 2026-08-20 standards cleanup from current physical roots and live entity manifests. Active standards and adopted overview records resolve to D:\\.library\\aptlantis_core; City Hall is the workshop/sandbox/promotion path."
